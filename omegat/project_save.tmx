@@ -3006,6 +3006,26 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;h1&gt;Login&lt;/h1&gt;
+&lt;form&gt;
+  &lt;input type="text" placeholder="Email"&gt;
+  &lt;input type="password"&gt;
+  &lt;input type="submit"&gt;
+&lt;/form&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170307Z" creationid="nacyot" creationdate="20140427T170307Z">
+        <seg>&lt;h1&gt;Login&lt;/h1&gt;
+&lt;form&gt;
+  &lt;input type="text" placeholder="Email"&gt;
+  &lt;input type="password"&gt;
+  &lt;input type="submit"&gt;
+&lt;/form&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>&lt;h1&gt;Middleman を使ったブログ&lt;/h1&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T024634Z" creationid="hsin" creationdate="20131116T024634Z">
@@ -5239,6 +5259,24 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>[Haml]: http://haml-lang.com/
+[Slim]: http://slim-lang.com/
+[Markdown]: http://daringfireball.net/projects/markdown/
+[these guides are written in Markdown]: https://raw.github.com/middleman/middleman-guides/master/source/guides/basics-of-templates.html.markdown
+[Frontmatter]: /jp/basics/frontmatter/
+[Padrino partial helper]: http://www.padrinorb.com/api/classes/Padrino/Helpers/RenderHelpers.html</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170627Z" creationid="nacyot" creationdate="20140427T170627Z">
+        <seg>[Haml]: http://haml-lang.com/
+[Slim]: http://slim-lang.com/
+[Markdown]: http://daringfireball.net/projects/markdown/
+[these guides are written in Markdown]: https://raw.github.com/middleman/middleman-guides/master/source/guides/basics-of-templates.html.markdown
+[Frontmatter]: /jp/basics/frontmatter/
+[Padrino partial helper]: http://www.padrinorb.com/api/classes/Padrino/Helpers/RenderHelpers.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>[Rack::GoogleAnalytics]: https://github.com/ambethia/rack-google_analytics
 [Rack::Tidy]: https://github.com/rbialek/rack-tidy
 [Rack::Validate]: https://gist.github.com/235715
@@ -5930,6 +5968,32 @@ middleman server
     <tu>
       <tuv lang="JA">
         <seg>``` html
+    &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;管理エリア&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;%= yield %&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170303Z" creationid="nacyot" creationdate="20140427T170303Z">
+        <seg>``` html
+    &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;관리 영역&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;%= yield %&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
 ---
 layout: "custom"
 my_list:</seg>
@@ -6316,6 +6380,26 @@ title: Middleman 블로그 글 쓰기
     <tu>
       <tuv lang="JA">
         <seg>``` html
+&lt;% wrap_layout :layout do %&gt;
+  &lt;article&gt;
+    &lt;%= yield %&gt;
+  &lt;/article&gt;
+&lt;% end %&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170321Z" creationid="nacyot" creationdate="20140427T170321Z">
+        <seg>``` html
+&lt;% wrap_layout :layout do %&gt;
+  &lt;article&gt;
+    &lt;%= yield %&gt;
+  &lt;/article&gt;
+&lt;% end %&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
 &lt;%= link_to 'About', '/about.html' %&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T053802Z" creationid="hsin" creationdate="20131116T053802Z">
@@ -6408,6 +6492,22 @@ title: Middleman 블로그 글 쓰기
     <tu>
       <tuv lang="JA">
         <seg>``` html
+&lt;footer&gt;
+  Copyright 2011
+&lt;/footer&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170351Z" creationid="nacyot" creationdate="20140427T170351Z">
+        <seg>``` html
+&lt;footer&gt;
+  Copyright 2011
+&lt;/footer&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
 &lt;form action="https://www.paypal.com/cgi-bin/webscr" method="post"&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005853Z" creationid="hsin" creationdate="20131116T005853Z">
@@ -6449,6 +6549,28 @@ title: Middleman 블로그 글 쓰기
         <seg>``` html
 &lt;h1&gt;Login&lt;/h1&gt;
 &lt;form&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;h1&gt;Login&lt;/h1&gt;
+&lt;form&gt;
+  &lt;input type="text" placeholder="Email"&gt;
+  &lt;input type="password"&gt;
+  &lt;input type="submit"&gt;
+&lt;/form&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170305Z" creationid="nacyot" creationdate="20140427T170305Z">
+        <seg>``` html
+&lt;h1&gt;Login&lt;/h1&gt;
+&lt;form&gt;
+  &lt;input type="text" placeholder="Email"&gt;
+  &lt;input type="password"&gt;
+  &lt;input type="submit"&gt;
+&lt;/form&gt;
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -6609,6 +6731,30 @@ title: Middleman 블로그 글 쓰기
       <tuv lang="JA">
         <seg>``` html
 &lt;html&gt;
+  &lt;body&gt;
+    &lt;header&gt;ヘッダ&lt;/header&gt;
+    &lt;%= yield %&gt;
+    &lt;footer&gt;フッタ&lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170317Z" creationid="nacyot" creationdate="20140427T170317Z">
+        <seg>``` html
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;header&gt;헤더&lt;/header&gt;
+    &lt;%= yield %&gt;
+    &lt;footer&gt;푸터&lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;html&gt;
 &lt;head&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T161428Z" creationid="hsin" creationdate="20131115T161428Z">
@@ -6664,6 +6810,34 @@ title: Middleman 블로그 글 쓰기
 &lt;/head&gt;
 &lt;body&gt;
   &lt;%= yield %&gt;
+  &lt;%= partial "footer" %&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170414Z" creationid="nacyot" creationdate="20140427T170359Z">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;내 홈페이지&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;%= yield %&gt;
+  &lt;%= partial "footer" %&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;私のサイト&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;%= yield %&gt;
 &lt;/body&gt;
 &lt;/html&gt; 
 ```</seg>
@@ -6702,6 +6876,34 @@ title: Middleman 블로그 글 쓰기
 &lt;/head&gt;
 &lt;body&gt;
   &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;管理エリア&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;%= yield %&gt;
+  &lt;%= partial "footer" %&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170406Z" creationid="nacyot" creationdate="20140427T170406Z">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;관리 영역&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;%= yield %&gt;
+  &lt;%= partial "footer" %&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 ```</seg>
