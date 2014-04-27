@@ -124,6 +124,24 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg># ...何らかの処理を追加...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134125Z" creationid="hsin" creationdate="20140110T134125Z">
+        <seg># ...무언가 처리를 추가...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># =&gt; "&lt;p&gt;hello&lt;br/&gt;world&lt;/p&gt;"
+pluralize(2, '人')</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133357Z" creationid="hsin" creationdate="20140110T133340Z">
+        <seg># =&gt; "&lt;p&gt;hello&lt;br/&gt;world&lt;/p&gt;"
+pluralize(2, 'person')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg># =&gt; "Lorem &lt;strong class="highlight"&gt;dolor&lt;/strong&gt; sit"
 ```</seg>
       </tuv>
@@ -164,6 +182,16 @@ truncate("Once upon a time in a world far far away", :length =&gt; 8)</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg># =&gt; '2 人'
+word_wrap('Once upon a time', :line_width =&gt; 8)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133412Z" creationid="hsin" creationdate="20140110T133348Z">
+        <seg># =&gt; '2 people' @@@
+word_wrap('Once upon a time', :line_width =&gt; 8)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg># =&gt; &lt;img src='/my_image.png'&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
@@ -188,6 +216,15 @@ input_tag :password, :value =&gt; "secret", :class =&gt; "demo"</seg>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg># =&gt; &lt;input type='text' class='demo'&gt;
 input_tag :password, :value =&gt; "secret", :class =&gt; "demo"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># =&gt; &lt;p class='stuff'&gt;こんにちわ&lt;/p&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114622Z" creationid="hsin" creationdate="20140110T114622Z">
+        <seg>&lt;p class="console"&gt;$ gem install middleman&lt;/p&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -212,6 +249,14 @@ input_tag :password, :value =&gt; "secret", :class =&gt; "demo"</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155301Z" creationid="hsin" creationdate="20131115T155301Z">
         <seg># LiveReload</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># Rack ミドルウェア</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152043Z" creationid="hsin" creationdate="20131116T152043Z">
+        <seg># Rack 미들웨어</seg>
       </tuv>
     </tu>
     <tu>
@@ -248,6 +293,15 @@ input_tag :password, :value =&gt; "secret", :class =&gt; "demo"</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg># このページと他のページすべてを含む
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063822Z" creationid="hsin" creationdate="20131201T063822Z">
+        <seg># 이 페이지와 다른 페이지 전체를 포함@@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg># この拡張機能のオプション</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T104742Z" creationid="hsin" creationdate="20131115T104742Z">
@@ -266,8 +320,8 @@ input_tag :password, :value =&gt; "secret", :class =&gt; "demo"</seg>
       <tuv lang="JA">
         <seg># もしくは:</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072529Z" creationid="hsin" creationdate="20131115T072529Z">
-        <seg># 혹은:</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124507Z" creationid="hsin" creationdate="20131115T072529Z">
+        <seg># 또는</seg>
       </tuv>
     </tu>
     <tu>
@@ -296,6 +350,14 @@ page '/foo.html', :layout =&gt; false
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T072624Z" creationid="hsin" creationdate="20131115T072624Z">
         <seg># 커스텀 확장</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># キャッシュ機能の改善</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T123817Z" creationid="hsin" creationdate="20131124T123817Z">
+        <seg># 캐시 기능의 개선</seg>
       </tuv>
     </tu>
     <tu>
@@ -398,6 +460,14 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg># 日本語化メモ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T103041Z" creationid="hsin" creationdate="20131115T103041Z">
+        <seg># 日本語化メモ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg># 設定</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T071749Z" creationid="hsin" creationdate="20131115T071749Z">
@@ -418,6 +488,14 @@ activate :my_feature do |f|</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>## Compass</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## Form ヘルパ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114913Z" creationid="hsin" creationdate="20140110T114913Z">
+        <seg>## Form 헬퍼</seg>
       </tuv>
     </tu>
     <tu>
@@ -448,8 +526,8 @@ activate :my_feature do |f|</seg>
       <tuv lang="JA">
         <seg>## Middleman の設定を知る</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T071753Z" creationid="hsin" creationdate="20131115T071753Z">
-        <seg>## Middleman의 설정</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124044Z" creationid="hsin" creationdate="20131115T071753Z">
+        <seg>## Middleman 설정</seg>
       </tuv>
     </tu>
     <tu>
@@ -502,10 +580,34 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## アセットヘルパ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114645Z" creationid="hsin" creationdate="20140110T114645Z">
+        <seg>## 에셋 헬퍼</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## インストール</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T051407Z" creationid="hsin" creationdate="20131116T051403Z">
         <seg>## 썰치</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## オプトアウト</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140711Z" creationid="hsin" creationdate="20140110T140651Z">
+        <seg>## optout@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## カスタム定義ヘルパ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134032Z" creationid="hsin" creationdate="20140110T134032Z">
+        <seg>## 커스텀 헬퍼</seg>
       </tuv>
     </tu>
     <tu>
@@ -566,10 +668,34 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## サーバの設定</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054042Z" creationid="hsin" creationdate="20131125T054042Z">
+        <seg>## 서버 설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## タグ</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T020542Z" creationid="hsin" creationdate="20131116T020542Z">
         <seg>## 태그</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## タグヘルパ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114443Z" creationid="hsin" creationdate="20140110T114443Z">
+        <seg>## 태그 헬퍼</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## ダミーテキスト &amp; Placehold.it ヘルパ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133426Z" creationid="hsin" creationdate="20140110T133426Z">
+        <seg>## 더미 텍스트 &amp; Placehold.it 헬퍼 @@@</seg>
       </tuv>
     </tu>
     <tu>
@@ -598,10 +724,34 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## デフォルト (ルート) 言語</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151918Z" creationid="hsin" creationdate="20131116T151918Z">
+        <seg>## 기본(루트) 언어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## パスの多言語化</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151628Z" creationid="hsin" creationdate="20131116T151625Z">
+        <seg>## 경로의 다언어화</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## パーシャル</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005650Z" creationid="hsin" creationdate="20131116T005643Z">
         <seg>## 파셜(Partial</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## フォーマットヘルパ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T115004Z" creationid="hsin" creationdate="20140110T115004Z">
+        <seg>## 포맷 헬퍼</seg>
       </tuv>
     </tu>
     <tu>
@@ -618,6 +768,14 @@ activate :my_feature do |f|</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T151839Z" creationid="hsin" creationdate="20131115T151839Z">
         <seg>## 헬퍼 추가</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## ページクラス</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133841Z" creationid="hsin" creationdate="20140110T133841Z">
+        <seg>## 페이지 클래스</seg>
       </tuv>
     </tu>
     <tu>
@@ -646,10 +804,34 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 一意の名前のアセットファイル</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053329Z" creationid="hsin" creationdate="20131125T053329Z">
+        <seg>## 고유한 이름을 가진 에셋 파일</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 例: 構文ハイライト</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152232Z" creationid="hsin" creationdate="20131116T152232Z">
+        <seg>## 예: 신택스 하이라이트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 依存性管理</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T140909Z" creationid="hsin" creationdate="20131116T140909Z">
         <seg>## 의존성 관리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 便利なミドルウェア</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062928Z" creationid="hsin" creationdate="20131201T062928Z">
+        <seg>## 편리한 미들웨어</seg>
       </tuv>
     </tu>
     <tu>
@@ -662,6 +844,14 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 単語訳</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T103042Z" creationid="hsin" creationdate="20131115T103041Z">
+        <seg>## 単語訳## 単語訳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 変数の設定</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T104850Z" creationid="hsin" creationdate="20131115T104850Z">
@@ -670,18 +860,58 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 多言語化された場合のパス</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145822Z" creationid="hsin" creationdate="20131116T145822Z">
+        <seg>## 다언어화를 지원하는 경로</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 多言語化対象のテンプレート</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151836Z" creationid="hsin" creationdate="20131116T151836Z">
+        <seg>## 다언어화 대상과 템플릿</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 多言語化対象の指定</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151901Z" creationid="hsin" creationdate="20131116T151901Z">
+        <seg>## 다언어화 대상의 지정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 完全に多言語化されたテンプレート</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062738Z" creationid="hsin" creationdate="20131201T062553Z">
+        <seg>## 다언어화 템플릿</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 手動インデックス</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T142949Z" creationid="hsin" creationdate="20131116T142949Z">
+        <seg>## 수동 인덱스</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 拡張の基本</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T102748Z" creationid="hsin" creationdate="20131115T102748Z">
-        <seg>## 확장의 기본</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124019Z" creationid="hsin" creationdate="20131115T102748Z">
+        <seg>## 확장기능 기초</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>## 拡張機能の設定</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072238Z" creationid="hsin" creationdate="20131115T072238Z">
-        <seg>## 확장 기능의 설정</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124359Z" creationid="hsin" creationdate="20131115T072238Z">
+        <seg>## 확장기능에 관련된 설정</seg>
       </tuv>
     </tu>
     <tu>
@@ -752,8 +982,8 @@ activate :my_feature do |f|</seg>
       <tuv lang="JA">
         <seg>## 設定変更</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072119Z" creationid="hsin" creationdate="20131115T072119Z">
-        <seg>## 설정변수</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124311Z" creationid="hsin" creationdate="20131115T072119Z">
+        <seg>## 설정 변경하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -762,6 +992,14 @@ activate :my_feature do |f|</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T053125Z" creationid="hsin" creationdate="20131116T053123Z">
         <seg>## 사이트 개발 사이클 (middleman server)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 静的サイトのエクスポート (middleman build)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113605Z" creationid="hsin" creationdate="20140110T113603Z">
+        <seg>## 정적 사이트 빌드(middleman build)</seg>
       </tuv>
     </tu>
     <tu>
@@ -854,6 +1092,14 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>### ビルドサイクル</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152755Z" creationid="hsin" creationdate="20131116T152755Z">
+        <seg>### 빌드 사이클</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>### プロジェクトテンプレート</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T052942Z" creationid="hsin" creationdate="20131116T052942Z">
@@ -866,6 +1112,14 @@ activate :my_feature do |f|</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T013451Z" creationid="hsin" creationdate="20131116T013451Z">
         <seg>### 초고 작성하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>### 他のテンプレート言語</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145430Z" creationid="hsin" creationdate="20131116T145430Z">
+        <seg>### 이외의 템플릿 언어</seg>
       </tuv>
     </tu>
     <tu>
@@ -890,6 +1144,14 @@ activate :my_feature do |f|</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T052959Z" creationid="hsin" creationdate="20131116T052959Z">
         <seg>### 바로 사용가능한 프로젝트 템플릿</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>### 飾りのない middleman コマンド</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113514Z" creationid="hsin" creationdate="20140110T113503Z">
+        <seg>### middleman 명령어</seg>
       </tuv>
     </tu>
     <tu>
@@ -974,10 +1236,34 @@ lorem.image('300x400', :text =&gt; 'blah')</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155032Z" creationid="hsin" creationdate="20131115T155032Z">
+        <seg>'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>(function() {</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155031Z" creationid="hsin" creationdate="20131115T155031Z">
         <seg>(function() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155040Z" creationid="hsin" creationdate="20131115T155040Z">
+        <seg>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155040Z" creationid="hsin" creationdate="20131115T155040Z">
+        <seg>(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),</seg>
       </tuv>
     </tu>
     <tu>
@@ -1028,6 +1314,16 @@ lorem.image('300x400', :text =&gt; 'blah')</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>* /hello_world.html の内容は: "Hello World"
+* /es/hello_world.html の内容は: "Hola World"</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131126T075803Z" creationid="hsin" creationdate="20131126T075803Z">
+        <seg>* /hello_world.html 의 내용은: "Hello World"
+* /es/hello_world.html 의 내용은: "Hola World"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>* /langs/en/index.html
 * /langs/es/index.html
 * /langs/fr/index.html</seg>
@@ -1062,6 +1358,32 @@ lorem.image('300x400', :text =&gt; 'blah')</seg>
 * [Rack::Tidy]
 * [Rack::Validate]
 * [Rack::SpellCheck]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>* build/es/index.html はスペイン語</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151934Z" creationid="hsin" creationdate="20131116T151934Z">
+        <seg>* build/es/index.html 는 스페인어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>* build/index.html は英語</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151930Z" creationid="hsin" creationdate="20131116T151930Z">
+        <seg>* build/index.html 는 영어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>* build/index.html は英語
+* build/es/index.html はスペイン語</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152035Z" creationid="hsin" creationdate="20131116T152030Z">
+        <seg>* build/index.html 는 영어
+* build/es/index.html 는 스페인어</seg>
       </tuv>
     </tu>
     <tu>
@@ -1082,6 +1404,14 @@ lorem.image('300x400', :text =&gt; 'blah')</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>* source/localizable/index.html.erb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>**Note:** 構文ハイライトには, 公式の [middleman-syntax](https://github.com/middleman/middleman-syntax) 拡張の使用をおすすめします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152328Z" creationid="hsin" creationdate="20131116T152313Z">
+        <seg>**Note** 실제로 신택스 하이라이트를 사용하려면 [middleman-syntax](https://github.com/middleman/middleman-syntax) 확장을 사용할 것을 권장합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1148,6 +1478,16 @@ lorem.image('300x400', :text =&gt; 'blah')</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>- Tom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- `all`: すべての, あらゆる
+- `or`: または, もしくは</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T103042Z" creationid="hsin" creationdate="20131115T103042Z">
+        <seg>- `all`: すべての, あらゆる
+- `or`: または, もしくは</seg>
       </tuv>
     </tu>
     <tu>
@@ -1251,6 +1591,18 @@ title: LiveReload
     <tu>
       <tuv lang="JA">
         <seg>---
+title: Rack ミドルウェア
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152040Z" creationid="hsin" creationdate="20131116T152040Z">
+        <seg>---
+title: Rack 미들웨어
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>---
 title: きれいな URL (ディレクトリインデックス)
 ---</seg>
       </tuv>
@@ -1293,6 +1645,18 @@ title: カスタム拡張
       <tuv lang="KO" changeid="hsin" changedate="20131115T072622Z" creationid="hsin" creationdate="20131115T072622Z">
         <seg>---
 title: 커스텀 확장
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>---
+title: キャッシュ機能の改善
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T123804Z" creationid="hsin" creationdate="20131124T123759Z">
+        <seg>---
+title: 캐시 기능의 개선
 ---</seg>
       </tuv>
     </tu>
@@ -1408,6 +1772,14 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>--- title: 設定 --- # 設定 ## Middleman の設定を知る Middleman は驚くほどカスタマイズ可能で, 拡張機能はさらに機能を提供します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T071610Z" creationid="hsin" creationdate="20131115T071610Z">
+        <seg>--- title: 설정 --- # 설정 ## Middleman의 설정을 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>...
 &lt;% end %&gt;
 ```</seg>
@@ -1420,10 +1792,70 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>.sass-cache
+.DS_Store
+.rvmrc
+bin
+.bundle
+build
+Gemfile.lock
+source/mint/config/db.php
+.rbenv-version
+.mm-pid-*
+.ruby-version</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T103034Z" creationid="hsin" creationdate="20131115T103034Z">
+        <seg>.sass-cache
+.DS_Store
+.rvmrc
+bin
+.bundle
+build
+Gemfile.lock
+source/mint/config/db.php
+.rbenv-version
+.mm-pid-*
+.ruby-version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>/** DO NOT EDIT BELOW THIS LINE **/</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155155Z" creationid="hsin" creationdate="20131115T155155Z">
         <seg>/** DO NOT EDIT BELOW THIS LINE **/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>1 度にたくさんのファイルのインデックスを無効化にしたい場合は, `page` には正規表現かファイルのパターンマッチを与えることができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140738Z" creationid="hsin" creationdate="20140110T140738Z">
+        <seg>1번에 다수의 파일 인덱스를 무효로 하고 싶다면 `page`에 정규 표현이나 파일 패턴 매치를 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>2 つの YAML ファイルの例です:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054535Z" creationid="hsin" creationdate="20131125T054226Z">
+        <seg>2개의 YAML 파일 예제입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>2 つの言語が与えられた場合, `:en` で多言語化されるファイルがルートに置かれます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062456Z" creationid="hsin" creationdate="20131201T062456Z">
+        <seg>2개의 언어가 있으면 `:en`이 루트가 됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>250文字以下の要約と続く "&gt;&gt;" が出力されます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063444Z" creationid="hsin" creationdate="20131201T063444Z">
+        <seg>250자 이하의 요약을 사용하며 더 길면 "&gt;&gt;"를 출력합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1540,6 +1972,16 @@ title: 設定
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T022738Z" creationid="hsin" creationdate="20131116T022738Z">
         <seg>:template =&gt; '/category.html'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;!--
+&lt;script&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155028Z" creationid="hsin" creationdate="20131115T155028Z">
+        <seg>&lt;!--
+&lt;script&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1672,6 +2114,14 @@ title: 設定
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>&lt;% field_set_tag(:class =&gt; 'buttons') do %&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;% wrap_layout :layout do %&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155045Z" creationid="hsin" creationdate="20131115T155045Z">
+        <seg>&lt;% wrap_layout :layout do %&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1870,6 +2320,14 @@ title: 設定
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>&lt;%= stylesheet_link_tag 'style' %&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;%= submit_tag "削除" %&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T115000Z" creationid="hsin" creationdate="20140110T115000Z">
+        <seg>&lt;%= submit_tag "삭제" %&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2380,6 +2838,14 @@ title: 設定
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T162204Z" creationid="hsin" creationdate="20131115T162204Z">
         <seg>&lt;head&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;header id="header"&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155046Z" creationid="hsin" creationdate="20131115T155046Z">
+        <seg>&lt;header id="header"&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3490,6 +3956,14 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;p class="console"&gt;$ gem install middleman&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155047Z" creationid="hsin" creationdate="20131115T155047Z">
+        <seg>&lt;p class="console"&gt;$ gem install middleman&lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>&lt;p class="intro sns"&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155215Z" creationid="hsin" creationdate="20131115T155215Z">
@@ -3610,6 +4084,14 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;title&gt;例&lt;/title&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114349Z" creationid="hsin" creationdate="20140110T114349Z">
+        <seg>&lt;title&gt;예&lt;/title&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>&lt;title&gt;私のサイト&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;</seg>
@@ -3725,6 +4207,22 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Expires を "無期限" 指定で配信するようになりますが, アセットファイルを変更した場合には別のファイル名で表示されることを確認してください。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053652Z" creationid="hsin" creationdate="20131125T053652Z">
+        <seg>이제 Expires 헤더를 "never expries"로 설정하더라도, 에셋 파일의 내용이 변경되면 변경된 파일이 정상적으로 나타납니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Form ヘルパは form を作る際に使うであろう "一般的な" form タグのヘルパです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114933Z" creationid="hsin" creationdate="20140110T114933Z">
+        <seg>Form 헬퍼는 form을 생성할 때 사용하는 "일반적인" form  태그 헬퍼입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Frontmatter に JSON を使うこともできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T031816Z" creationid="hsin" creationdate="20131116T031816Z">
@@ -3741,10 +4239,34 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Frontmatter はテンプレートの最上部に記述し, 行頭から行末まで 3 つのハイフン `---` によって, その他の部分から分離されなければなりません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081243Z" creationid="hsin" creationdate="20140109T081243Z">
+        <seg>Frontmatter은 템플릿 맨 위에 기술하며 맨첫줄과 마지막 줄에는 `---`를 입력해 다른 부분과 구분해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Gemfile に `middleman-minify-html` を追加し, `config.rb` を開いて次を追加。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140519Z" creationid="hsin" creationdate="20140110T140519Z">
+        <seg>Gemfile에 `middleman-minify-html`을 추가하고 `config.rb`를 열어서 다음을 추가해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Gemfile に `middleman-minify-html` を追加します:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T154700Z" creationid="hsin" creationdate="20131115T154700Z">
         <seg>Gemfile에 `middleman-minify-html`를 추가합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>HTML 対応の要約の提供には, 要約を使うために `gem 'nokogiri'` を `Gemfile` に追加しなければならないので注意してください。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063611Z" creationid="hsin" creationdate="20131201T063611Z">
+        <seg>HTML에 대응하는 요약을 제공하려면 `gem 'nokogiri'`를 `Gemfile`에 추가해야합니다@@@.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3807,6 +4329,14 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Middleman には Middleman と連携する広大な宇宙を開くライブラリである Rack ミドルウェアへアクセスする仕組みがあります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152223Z" creationid="hsin" creationdate="20131116T152223Z">
+        <seg>Middleman은 Middleman과 연동 가능한 다양한 라이브러리로 구성된 Rack 미들웨어에 접근할 수 있는 구조를 가지고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Middleman にはサイト内のファイルを編集するたびにブラウザを自動的にリロードする拡張がついています。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155443Z" creationid="hsin" creationdate="20131115T155340Z">
@@ -3847,6 +4377,14 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Middleman によって提供されるヘルパに加え, コントローラやビューの中からアクセスできる独自のヘルパやクラスを追加することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134103Z" creationid="hsin" creationdate="20140110T134103Z">
+        <seg>Middleman에 의해 제공되는 헬퍼를 비롯해 컨트롤러나 뷰에서도 사용할 수 있는 커스텀 헬퍼와 헤퍼 클래스를 추가할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Middleman に関する新しい投稿を作るとしましょう。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T011101Z" creationid="hsin" creationdate="20131116T011056Z">
@@ -3857,8 +4395,8 @@ title: 設定
       <tuv lang="JA">
         <seg>Middleman の拡張機能は Middleman のさまざまなポイントにフックし, 新しい機能を追加しコンテンツを操作する Ruby のクラスです。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T090032Z" creationid="hsin" creationdate="20131115T090032Z">
-        <seg>Middleman의 확장 기능은 Middleman이 실행되는 가운데 여러 지점에 후크를 걸어 새로운 기능을 추가하거나 컨텐츠를 조작할 수 있는 Ruby 클래스를 의미합니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T123936Z" creationid="hsin" creationdate="20131115T090032Z">
+        <seg>Middleman 확장은 어플리케이션이 실행되는 가운데 새로운 기능을 추가하거나 컨텐츠를 조작할 수 있는 Ruby 클래스를 의미합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3891,6 +4429,14 @@ title: 設定
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T154639Z" creationid="hsin" creationdate="20131115T154639Z">
         <seg>Middleman은 HTML을 압축해주는 공식적인 확장 기능을 제공하고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Middleman は HTML 出力を圧縮する公式拡張を提供しています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140459Z" creationid="hsin" creationdate="20140110T140459Z">
+        <seg>Middleman은 HTML 출력을 압축하는 공식 확장을 제공합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3935,6 +4481,14 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Middleman はこの問題解決のために 2 つの方法を提供します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T052848Z" creationid="hsin" creationdate="20131125T052848Z">
+        <seg>Middleman은 이 문제를 해결하기 위한 2가지 방법을 제공합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Middleman はコマンドラインを熟知していることを前提としています。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T051240Z" creationid="hsin" creationdate="20131116T051240Z">
@@ -3945,8 +4499,8 @@ title: 設定
       <tuv lang="JA">
         <seg>Middleman はスタート時点から開発コードとプロダクションコードを分離します。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131116T053239Z" creationid="hsin" creationdate="20131116T053232Z">
-        <seg>Middleman을 통해 사이트를 만들 때는 처음부터 개발 코드와 실제 프로덕션 코드가 분리되어 있습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T203746Z" creationid="hsin" creationdate="20131116T053232Z">
+        <seg>Middleman을 통해 사이트를 만들 때는 처음부터 개발 코드와 빌드된 코드가 분리되어 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3983,6 +4537,22 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Middleman は自動的にファイルを読込み, ヘルパーとして受け取ります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140443Z" creationid="hsin" creationdate="20140110T140443Z">
+        <seg>Middleman이 자동적으로 파일을 읽어들이고 헬퍼로서 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Middleman は自動的に前回のビルドに残っているが今回は生成されないファイルを削除します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113911Z" creationid="hsin" creationdate="20140110T113911Z">
+        <seg>Middleman은 자동적으로 이번 빌드에서 남아있기 때문에 이번 빌드에서는 생성되지 않는 파일들은 삭제합니다. @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Middleman は通常のファイルと一緒に gzip バージョンの HTML, CSS や JavaScript を作ることができ,  Web サーバに GZIP ファイルを直接配信するように命じることができます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T154357Z" creationid="hsin" creationdate="20131115T154357Z">
@@ -3993,8 +4563,16 @@ title: 設定
       <tuv lang="JA">
         <seg>Middleman は驚くほどカスタマイズ可能で, 拡張機能はさらに機能を提供します。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T071847Z" creationid="hsin" creationdate="20131115T071847Z">
-        <seg>Middleman은 쉽게 입맛대로 고쳐쓸 수 있고 확장기능을 통해 추가적인 기능을 제공하고 있습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124111Z" creationid="hsin" creationdate="20131115T071847Z">
+        <seg>Middleman은 매우 쉽게 입맛대로 고쳐쓸 수 있으며 확장을 통해 다양한 기능을 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Middleman を使う時間の大半は開発サイクルになります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113232Z" creationid="hsin" creationdate="20140110T113232Z">
+        <seg>Middleman을 통해 작업하는 대부분은 작업 사이클에 해당합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4003,6 +4581,14 @@ title: 設定
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T022507Z" creationid="hsin" creationdate="20131116T022507Z">
         <seg>Middleman 블로그는 [frontmatter](/frontmatter)에 정의된 데이터를 통해 글을 분류할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Middleman 拡張 ([middleman-blog](/blogging/) のような) は同じように独自のテンプレートを使用することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T082252Z" creationid="hsin" creationdate="20140109T082252Z">
+        <seg>Middleman 확장([middleman-blog](/blogging/)에서는 마찬가지로 독자적인 템플릿을 사용할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4055,6 +4641,30 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Rack はオンザフライで内容を変更し, サーバ (Middleman) で処理される前にリクエストを傍受できる仕組みです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152126Z" creationid="hsin" creationdate="20131116T152126Z">
+        <seg>Rack는 처리 과정에서 내용을 변경하고 서버(Middleman)에서 처리되기 전에 리퀘스트를 받는 구조로 되어있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Rack ミドルウェアは, ビルドサイクルの間に行われたリクエストを含むすべてのリクエストに対し実行されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T181409Z" creationid="hsin" creationdate="20131116T181409Z">
+        <seg>Rack 미들웨어는 빌드 사이클 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>RedCarpet を使う場合, Middleman はヘルパを用いて `:relative_links` や `:asset_hash` が行うようにリンクや画像タグを処理します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140920Z" creationid="hsin" creationdate="20140110T140920Z">
+        <seg>RedCarpet을 사용하는 경우 Middleman은 헬퍼를 사용해 `relative_links`나 `:asset_hash`와 마찬가지로 링크나 이미지 태그를 처리합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Resource オブジェクトのプロパティは Middleman の内部レンダリングにとても便利です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T134012Z" creationid="hsin" creationdate="20131116T134012Z">
@@ -4103,6 +4713,14 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Sinatra の影響も受けた静的ツール [Frank プロジェクト][Frank project] は, ランダムなテキストコンテンツとプレースホルダ画像を生成する素晴らしいヘルパセットです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133622Z" creationid="hsin" creationdate="20140110T133622Z">
+        <seg>Sinatra의 영향을 받은 [Frank 프로젝트][Frank project]는 텍스트를 무작위로 생성하거나, Placeholder 이미지를 생성해주는 헬퍼 모음입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Sprockets は .js や .coffee のファイルの中で,  `require` メソッドを使えるようにし, プロジェクトまたは 3rd パーティ製の gem から外部ファイルを取り込むことができます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T141239Z" creationid="hsin" creationdate="20131116T141214Z">
@@ -4127,10 +4745,34 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Tilt 対応のテンプレート言語と RubyGems のリストです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145450Z" creationid="hsin" creationdate="20131116T145450Z">
+        <seg>Tilt를 지원하는 템플릿 언어와 RubyGems 목록입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Web サイトのレンダリングを可能な限り高速化するには, JavaScript, CSS や画像のようなアセットファイルを Web ブラウザに [長時間キャッシュするように](https://code.google.com/speed/page-speed/docs/caching.html) 命令する適切なヘッダとともに配信すべきです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T124210Z" creationid="hsin" creationdate="20131124T124210Z">
+        <seg>Web 사이트 렌더링을 최대한 빠르게 하기 위해서는 Javascript, CSS, 이미지와 같은 에셋 파일을 Web 브라우저에 [장기간 캐시할 수 있도록](https://code.google.com/speed/page-speed/docs/caching.html) 명령하는 적절한 헤더를 설정할 필요가 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Xcode は [Mac App Store](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&amp;mt=12) からインストールできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T051551Z" creationid="hsin" creationdate="20131116T051551Z">
         <seg>Xcode는 [Mac App Store](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&amp;mt=12)에서 설치할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>YAML ファイルはサイトの中で多言語化する必要がある文字列ごとのキーと値のセットです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054418Z" creationid="hsin" creationdate="20131125T054418Z">
+        <seg>YAML 파일은 다언어화를 지원하려하는 문자열마다 키와 값을 모아놓은 파일입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4205,6 +4847,14 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>[`BlogArticle`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle) の [`summary`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle#summary-instance_method) 属性からテンプレートの中で要約を使うことができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063349Z" creationid="hsin" creationdate="20131201T063349Z">
+        <seg>[`BlogArticle`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle)의 [`summary`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle#summary-instance_method) 속성을 통해 템플릿 안에서 요약을 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>[`BlogArticle`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle) の [`tag`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle#tags-instance_method) メソッドを使うことでタグを呼び出すことができます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T020658Z" creationid="hsin" creationdate="20131116T020658Z">
@@ -4215,8 +4865,8 @@ title: 設定
       <tuv lang="JA">
         <seg>[`Middleman::Application`](http://rubydoc.info/gems/middleman-core/Middleman/Application) クラスは拡張機能で使用されるグローバル設定 (`set` コマンドを使用する変数) を変更するために使うことができます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T104951Z" creationid="hsin" creationdate="20131115T104951Z">
-        <seg>[`Middleman::Application`](http://rubydoc.info/gems/middleman-core/Middleman/Application) 클래스는 확장 기능에서 사용하는 전역 변수(`set` 메소드를 사용하는 변수)를 변경하기 위해서 사용합니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125156Z" creationid="hsin" creationdate="20131115T104951Z">
+        <seg>[`Middleman::Application`](http://rubydoc.info/gems/middleman-core/Middleman/Application) 클래스는 확장 기능에서 사용되는 전역 변수(`set` 메소드를 사용하는 변수)를 변경하기 위해서 사용할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4231,8 +4881,8 @@ title: 設定
       <tuv lang="JA">
         <seg>[`register`](http://rubydoc.info/gems/middleman-core/Middleman/Extensions#register-class_method) メソッドには有効化される拡張機能の名前を与えます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T104701Z" creationid="hsin" creationdate="20131115T104241Z">
-        <seg>[`register`](http://rubydoc.info/gems/middleman-core/Middleman/Extensions#register-class_method) 메소드는 활성화되는 메소드의 이름을 리턴하도록 만들어줍니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124939Z" creationid="hsin" creationdate="20131115T104241Z">
+        <seg>[`register`](http://rubydoc.info/gems/middleman-core/Middleman/Extensions#register-class_method) 메소드에는 새로 만들고자 하는 확장기능의 이름을 넘겨줍니다. </seg>
       </tuv>
     </tu>
     <tu>
@@ -4277,6 +4927,14 @@ title: 設定
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>[view the full documentation here]: http://www.padrinorb.com/guides/application-helpers
 [Frank project]: https://github.com/blahed/frank</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[サイトマップ](/advanced/sitemap) からより情報 ([frontmatter](/frontmatter/) から [`data`](http://rubydoc.info/github/middleman/middleman/Middleman/Sitemap/Resource#data-instance_method) のような) が詰まった [`Resource`](http://rubydoc.info/gems/middleman-core/Middleman/CoreExtensions/FrontMatter/ResourceInstanceMethods#data-instance_method) を得ることもできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140105T064330Z" creationid="hsin" creationdate="20140104T105248Z">
+        <seg>[사이트맵](/advanced/sitemap)에서 정보 ([frontmatter](/frontmatter/) から [`data`](http://rubydoc.info/github/middleman/middleman/Middleman/Sitemap/Resource#data-instance_method) のような) が詰まった [`Resource`](http://rubydoc.info/gems/middleman-core/Middleman/CoreExtensions/FrontMatter/ResourceInstanceMethods#data-instance_method) を得ることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4349,6 +5007,22 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>_gaq.push(['_setAccount', 'UA-90027-21']);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155030Z" creationid="hsin" creationdate="20131115T155030Z">
+        <seg>_gaq.push(['_setAccount', 'UA-90027-21']);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>_gaq.push(['_trackPageview']);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155030Z" creationid="hsin" creationdate="20131115T155030Z">
+        <seg>_gaq.push(['_trackPageview']);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`.yml` (people) のファイル名はテンプレートの中では, `data.people` のように, ローカルデータが保存されたオブジェクトの名前になるので注意してください。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T132944Z" creationid="hsin" creationdate="20131116T132944Z">
@@ -4377,6 +5051,22 @@ title: 設定
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T141830Z" creationid="hsin" creationdate="20131116T141830Z">
         <seg>`:js_dir`과 `css_dir` 외에 다른 에셋 디렉토리가 있다면 Sprockets에 임포트 패스를 추가할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`:mount_at_root` を使うことで, この設定を変更したり特定言語のルート指定を無効化できます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152014Z" creationid="hsin" creationdate="20131116T152014Z">
+        <seg>`:mount_at_root` 옵션을 사용해 기본 언어를 지정하거나, 기본 언어를 사용하지 않을 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`:path` オプションで変更できますが, URL は YAML ファイルの名前を含むことを覚えておいてください:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T061535Z" creationid="hsin" creationdate="20131201T061525Z">
+        <seg>`:path` 옵션을 변경할 수는 있지만 URL은 YAML 파일의 이름을 포함합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4421,10 +5111,18 @@ title: 設定
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`Gemfile` に次の gem を追加することで, JavaScript の圧縮(さらには CoffeeScript のビルド) を高速化できます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T123615Z" creationid="hsin" creationdate="20131124T123615Z">
+        <seg>`Gemfile`에 다음 gem을 추가하면 Javascript 압축(나아가 CoffeeScript 빌드)를 빠르게 할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`Middleman::Application` クラスを拡張し `app` として使用できるようにすることで, この環境に単純に "Hello" を出力する `say_hello` メソッドを追加しました。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T151803Z" creationid="hsin" creationdate="20131115T151803Z">
-        <seg>`Middleman::Application` 클래스를 확장해서 `app`으로 사용함으로써 이 환경에서 "Hello"를 출력해주는 `say_hello` 메소드를 추가했습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125555Z" creationid="hsin" creationdate="20131115T151803Z">
+        <seg>`Middleman::Application` 클래스를 확장해서 단지 "Hello"를 출력해주는 `say_hello` 메소드를 추가했습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4433,6 +5131,14 @@ title: 設定
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T104440Z" creationid="hsin" creationdate="20131115T104440Z">
         <seg>`MyFeature` 확장의 `registered` 메소드는 `activate`가 실행되면 곧바로 실행됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`READMORE` (または設定したテキスト) が削除された状態で記事へリンクします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063322Z" creationid="hsin" creationdate="20131201T063308Z">
+        <seg>`READMORE` (혹은 설정한 텍스트)가 삭제된 상태에서 기사에 링크합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5123,9 +5829,23 @@ title: Middleman 블로그 글 쓰기
 ![すごい画像](&lt;%= current_page.url %&gt;some-image.png)
 ```</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131116T142920Z" creationid="hsin" creationdate="20131116T142920Z">
+      <tuv lang="KO" changeid="hsin" changedate="20131116T142931Z" creationid="hsin" creationdate="20131116T142920Z">
         <seg>``` ruby
-![ㅗすごい画像](&lt;%= current_page.url %&gt;some-image.png)
+![놀라운 이미지](&lt;%= current_page.url %&gt;some-image.png)
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+# `source/language_specific` を探す
+activate :i18n, :templates_dir =&gt; "language_specific"
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151855Z" creationid="hsin" creationdate="20131116T151855Z">
+        <seg>``` ruby
+# `source/language_specific`를 검색
+activate :i18n, :templates_dir =&gt; "language_specific"
 ```</seg>
       </tuv>
     </tu>
@@ -5218,6 +5938,34 @@ activate :i18n
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>``` ruby
 activate :i18n
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :i18n, :langs =&gt; [:en] # :en 以外のすべての言語を無視
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151910Z" creationid="hsin" creationdate="20131116T151910Z">
+        <seg>``` ruby
+activate :i18n, :langs =&gt; [:en] # :en 이외의 모든 언어를 무시
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :i18n, :mount_at_root =&gt; :es # スペイン語をルートに設定
+# または
+activate :i18n, :mount_at_root =&gt; false # すべての言語ファイル URL に prefix がつく
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151956Z" creationid="hsin" creationdate="20131116T151956Z">
+        <seg>``` ruby
+activate :i18n, :mount_at_root =&gt; :es # 스페인어를 기본으로 사용
+# または
+activate :i18n, :mount_at_root =&gt; false # 모든 언어에 prefix를 사용
 ```</seg>
       </tuv>
     </tu>
@@ -5401,6 +6149,36 @@ lorem.image('300x400')</seg>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>``` ruby
 lorem.image('300x400')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+lorem.sentence      # 1 文を返す
+lorem.words 5       # 5 つの単語を返す
+lorem.word
+lorem.paragraphs 10 # 10 段落を返す
+lorem.paragraph
+lorem.date          # strftime 形式の引数を受取る
+lorem.name
+lorem.first_name
+lorem.last_name
+lorem.email
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133820Z" creationid="hsin" creationdate="20140110T133811Z">
+        <seg>``` ruby
+lorem.sentence      # 문장 하나를 생성
+lorem.words 5       # 단어를 5개 생성
+lorem.word
+lorem.paragraphs 10 # 10개의 단락을 생성
+lorem.paragraph
+lorem.date  
+lorem.name
+lorem.first_name
+lorem.last_name
+lorem.email
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -5780,6 +6558,20 @@ gem "bootstrap-sass", :require =&gt; false
     <tu>
       <tuv lang="JA">
         <seg>```ruby
+gem 'therubyracer' # 高速な JS コンパイラ
+gem 'oj' # 高速な JS コンパイラ
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T123635Z" creationid="hsin" creationdate="20131124T123635Z">
+        <seg>```ruby
+gem 'therubyracer' # 빠른 JS 컴파일러
+gem 'oj' # 빠른 JS 컴파일러
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```ruby
 set :haml, { :ugly =&gt; true, :format =&gt; :html5 }
 ```</seg>
       </tuv>
@@ -5861,6 +6653,14 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`activate` へオプションを与える方法は,  拡張機能を設定するために `set` を介してグローバル変数を設定する方法が好まれます (次のセクション参照) 。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125044Z" creationid="hsin" creationdate="20131124T123231Z">
+        <seg>`activate`에 옵션을 지정하는 방법으로는 확장기능을 설정할 때 `set`를 사용해 전역 변수를 설정하는 방법이 선호됩니다. (다음 절을 참조해주세요.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`app` 変数は [`Middleman::Application`](http://rubydoc.info/gems/middleman-core/Middleman/Application) クラスです。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T104506Z" creationid="hsin" creationdate="20131115T104506Z">
@@ -5869,10 +6669,34 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`auto_stylesheet_link_tag` や `auto_javascript_include_tag` は現在ページのパスを元にスタイルシートや JS のタグを生成します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114829Z" creationid="hsin" creationdate="20140110T114829Z">
+        <seg>`auto_stylesheet_link_tag`나 `auto_javascript_include_tag`는 현재 페이지의 경로를 기반으로 스타일 시트나 자바스크립트 태그를 생성해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`before` を使ったブロックは true または false を返さなければいけません。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152710Z" creationid="hsin" creationdate="20131115T152710Z">
         <seg>`before`를 사용하는 블록은 true나 false를 리턴해야만 합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`blog.calendar_template` の設定はこれらすべてを設定するショートカットです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081014Z" creationid="hsin" creationdate="20140104T104126Z">
+        <seg>`blog.calendar_template`의 설정은 이러한 것들 전부를 설정하는 단축 메소드입니다.-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`blog.year_link`, `blog.month_link` や `blog.day_link` の設定でこれらのリンクがどう表示されるのかカスタマイズできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140104T104329Z" creationid="hsin" creationdate="20140104T104329Z">
+        <seg>`blog.year_link`, `blog.month_link` 메소드나 `blog.day_link`를 설정함으로써 링크가 어떻게 표시될지 커스터마이즈할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5909,10 +6733,42 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`config.rb` であらゆる記事に使われる特別な [レイアウト](/templates/#toc_3) を設定できます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T064100Z" creationid="hsin" creationdate="20131201T064100Z">
+        <seg>`config.rb`에서 모든 블로그 글에서 사용할 수 있는 특별한 [레이아웃]을 설정할 수 있습니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`config.rb` ですべて指定する代わりに, [Frontmatter] を使ってテンプレートのページ毎にレイアウトを指定することもできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144540Z" creationid="hsin" creationdate="20131116T144540Z">
+        <seg>`config.rb`에서 레이아웃을 일일히 지정해주는 대신 [Frontmatter]을 사용해 템플릿 페이지 별로 레이아웃을 지정할 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`config.rb` での使用方法を示します:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152524Z" creationid="hsin" creationdate="20131116T152524Z">
+        <seg>`config.rb`에 다음 행들을 추가합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`config.rb` でデフォルトのレイアウトを無効化することで対応できます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005612Z" creationid="hsin" creationdate="20131116T005612Z">
         <seg>`config.rb`에 기본 레이아웃을 사용하지 않도록 설정할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`config.rb` で一番好きな Markdown ライブラリを選び, オプションを設定することができます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145319Z" creationid="hsin" creationdate="20131116T145319Z">
+        <seg>`config.rb`에서 사용하고 싶은 Markdown 엔진을 선택해 필요한 옵션을 지정할 수 있습니다:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5967,24 +6823,24 @@ sprockets.import_asset 'jquery-mobile'
       <tuv lang="JA">
         <seg>`config.rb` に直接定義するか, 別の Ruby ファイルに定義し `config.rb` で `require` します。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T104145Z" creationid="hsin" creationdate="20131115T104105Z">
-        <seg>`config.rb`에 직접 정의하거나 별도의 루비 파일을 만들고 `config.rb`에서 `require` 해줘야합니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124653Z" creationid="hsin" creationdate="20131115T104105Z">
+        <seg>따라서 `config.rb` 파일 안에서 직접 정의하거나, 별도의 위치에서 루비 파일을 만들고 `config.rb`에서 `require` 해줘야합니다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>`config.rb` の中で使用できるメソッドは `Middleman::Application` の単なるクラスメソッドです。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T151621Z" creationid="hsin" creationdate="20131115T151621Z">
-        <seg>`config.rb`에서 사용할 수 있는 메소드는 그저 `Middleman::Application`의 클래스 메소드입니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125332Z" creationid="hsin" creationdate="20131115T151621Z">
+        <seg>`config.rb`에서 사용할 수 있는 메소드는 `Middleman::Application`의 클래스 메소드입니다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>`config.rb` の中で新しいメソッドを追加してみましょう:</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T151647Z" creationid="hsin" creationdate="20131115T151647Z">
-        <seg>`config.rb`에서 사용할 수 있는 메소드를 추가해보겠습니다:</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125345Z" creationid="hsin" creationdate="20131115T151647Z">
+        <seg>`config.rb`에 새로운 메소드를 추가해보겠습니다:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6021,6 +6877,22 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`content_for?` にキーを与えることで `content_for` ブロックが存在するか確認することもできます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114434Z" creationid="hsin" creationdate="20140110T114434Z">
+        <seg>`content_for?`에 키를 지정합면 `content_for` 블록이 존재하는지 확인할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`content_for` はコンテンツのキャプチャを行い, レイアウトの中など異なった場所でのレンダリングをサポートします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114302Z" creationid="hsin" creationdate="20140110T114302Z">
+        <seg>`content_for`는 컨텐츠를 캡처해 레이아웃 안에 다른 위치에 렌더링할 수 있도록 해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`current_resource` を使ってカレントページのページオブジェクトを取得することもできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T133819Z" creationid="hsin" creationdate="20131116T133819Z">
@@ -6037,10 +6909,34 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`escape_html` と `js_escape_html` メソッドは html 文字列を取得し, 特定の文字をエスケープするものです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T115120Z" creationid="hsin" creationdate="20140110T115120Z">
+        <seg>`escape_html`과 `js_escape_html` 메소드는 html 문자열을 읽어와 특정한 문자열을 이스케이프 해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`escape_html` は HTML/XML のアンパサンド, 括弧や引用符をエスケープします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T115144Z" creationid="hsin" creationdate="20140110T115144Z">
+        <seg>`escape_html`은 HTML/XML의 앰퍼센드 @@@, 괄호와 인용부호를 이스케이프해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`example.com` の Web サーバのルートディレクトリにプロジェクトを配置すれば, このページは次の URL でアクセスできます: `http://example.com/about-us.html`</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T142306Z" creationid="hsin" creationdate="20131116T142306Z">
         <seg>따라서 `example.com` Web 서버의 루트 디렉토리에 빌드된 사이트를 올려둔다면 다음과 같은 URL로 접근 가능합니다: `http://example.com/about-us.html`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`ignore`, `directory_index` やその他のページプロパティもこの方法で設定することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081423Z" creationid="hsin" creationdate="20140109T081423Z">
+        <seg>`ignore`, `directory_index`나 그 외의 페이지 속성도 이 방법으로 설정할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6053,10 +6949,50 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`image_tag` のようなヘルパを使うことができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053428Z" creationid="hsin" creationdate="20131125T053057Z">
+        <seg>이 때 `image_tag`와 같은 헬퍼를 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`input_tag` はユーザからの入力を受け付けるタグを生成するために使われます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114641Z" creationid="hsin" creationdate="20140110T114641Z">
+        <seg>`input_tag`는 사용자로 부터 입력을 받는 폼 태그를 생성할 때 사용합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`js_escape_html` は JS テンプレートから JavaScript の関数に情報を与える場合に使用されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133220Z" creationid="hsin" creationdate="20140110T133146Z">
+        <seg>`js_escape_html`는 자바스크립트 템플릿에서 자바스크립트 함수에 정보 넘겨줄 때 사용합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`layout` の設定は Middleman に直接渡され, レンダリングに使用されるレイアウトを変更します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081401Z" creationid="hsin" creationdate="20140109T081401Z">
+        <seg>`layout` 설정은 Middleman에 직접 넘겨지며 렌더링에 사용되는 레이아웃을 변경합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`layouts/article_layout.erb` は次のようになります:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005218Z" creationid="hsin" creationdate="20131116T005218Z">
         <seg>이 때 `layouts/article_layout.erb`는 다음과 같습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`lib` ディレクトリにファイルを配置します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134205Z" creationid="hsin" creationdate="20140110T134205Z">
+        <seg>`lib` 디렉토리에 헬퍼 파일을 위치시켜주세요.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6077,6 +7013,14 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`locales/` フォルダのファイルを自動で探し出すより, 対応する言語のリストを指定したい場合, `:langs` オプションを指定できます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T061749Z" creationid="hsin" creationdate="20131201T061749Z">
+        <seg>Middleman에서는 `locales/` 폴더에서 자동적으로 다언어화 대상 언어를 찾지만 이를 명시적으로 지정하고 싶다면 `langs` 옵션을 사용합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`locales/en.yml`:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
@@ -6089,6 +7033,14 @@ sprockets.import_asset 'jquery-mobile'
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>`locales/es.yml`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`login.html.erb` ページ自身にレイアウトを指定する例です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144600Z" creationid="hsin" creationdate="20131116T144600Z">
+        <seg>`login.html.erb` 페이지에 직접 레이아웃을 지정하는 예제입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6117,6 +7069,22 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>`page_classes` はこれらの属性名を生成します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133914Z" creationid="hsin" creationdate="20140110T133914Z">
+        <seg>`page_classes`는 이러한 속성명을 생성해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`paginate` が false で `per_page` がテンプレートの frontmatter に設定されている場合, `page_articles` 変数は `article` の最初の `per_page` 分のアイテムが設定されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T064008Z" creationid="hsin" creationdate="20131201T064008Z">
+        <seg>`pagenate`가 false고 `per_page`가 템플릿의 frontmatter에 설정되어 있다면 `page_articles` 변수는 `article`의 첫 `per_page` 만큼만 글을 가져옵니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>`parent`, `siblings` や `children` メソッドはナビゲーションメニューやパンくずリストを作る場合に特に便利です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T134620Z" creationid="hsin" creationdate="20131116T134620Z">
@@ -6129,6 +7097,14 @@ sprockets.import_asset 'jquery-mobile'
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T023855Z" creationid="hsin" creationdate="20131116T023855Z">
         <seg>`per_page` 인자는 템플릿의 frontmatter에서 템플릿 별로 설정할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`projects/rockets/saturn-v.html` にページがあるとすると, レイアウトには次のように表示されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133945Z" creationid="hsin" creationdate="20140110T133945Z">
+        <seg>`projects/rockets/saturn-v.html`에 페이지가 있을 때 레이아웃에는 다음과 같이 표시됩니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6153,6 +7129,54 @@ sprockets.import_asset 'jquery-mobile'
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T011108Z" creationid="hsin" creationdate="20131116T011100Z">
         <seg>우선 `source/2011-10-18-middleman.html.markdown` 파일을 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`source/localizable/hello.html.erb` があるとします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151722Z" creationid="hsin" creationdate="20131116T151722Z">
+        <seg>`source/localizable/hello.html.erb`가 있다면 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`source` フォルダにファイルを作成編集し, プレビュー Web サーバ上で反映された変更を確認することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113441Z" creationid="hsin" creationdate="20140110T113441Z">
+        <seg>`source` 폴더에 파일을 만들고 편집하면 프리뷰 웹 서버에서 변경사항을 확인할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`source` フォルダの中に "admin" というフォルダがあり "admin" の中のテンプレートは admin レイアウトを使うとしましょう。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144401Z" creationid="hsin" creationdate="20131116T144401Z">
+        <seg>`source` 폴더 안에 "admin" 디렉토리가 있고 "admin" 디렉토리 전체에 admin 레이아웃을 지정한하려면, </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`summary` は要約を切り出す長さやテキストが切り捨てられた際に表示する文字列を与えられるメソッドです:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131219T134103Z" creationid="hsin" creationdate="20131219T134103Z">
+        <seg>`summary`는 요약을 출력하는 메소드로 자르고자 하는 본문의 길이와 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`tag` と `content_tag` はタグ名と指定されたオプションで任意の html タグを生成します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114559Z" creationid="hsin" creationdate="20140110T114555Z">
+        <seg>`tag`와 `content_tag`는 태그 이름과 지정된 옵션으로 html 태그를 생성해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`use` コマンドは Middleman にこのミドルウェアを使うよう命令します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152702Z" creationid="hsin" creationdate="20131116T152702Z">
+        <seg>`use` 메소드는 Middleman에서 미들웨어를 사용하도록 설정하는 메소드입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6347,6 +7371,20 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>blog.paginate = true
+end
+```
+デフォルト設定では 2 ページ目以降は `/2012/page/2.html` のようなリンクになります; これはページあたりの記事数とともに `config.rb` でカスタマイズ可能です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063803Z" creationid="hsin" creationdate="20131201T063803Z">
+        <seg>blog.paginate = true
+end
+```
+기본적으로 2페이지 뒤로는 `2012/page/2.html` 같은 링크가 만들어집니다. 이는 페이지당 글 수와 함께 `config.rb`에서 커스터마이즈할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>blog.per_page = 20
 end
 ```</seg>
@@ -6451,6 +7489,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>config.ru ファイルは Rack 対応の Web サーバによってどのようにサイトが読み込まれるか記述します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081708Z" creationid="hsin" creationdate="20140109T081602Z">
+        <seg>config.ru 파일은 Rack을 지원하는 Web 서버에서 사이트를 인식하는 방법을 정의합니다. @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>configure :build do</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T072609Z" creationid="hsin" creationdate="20131115T072609Z">
@@ -6511,6 +7557,14 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>def some_method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>document.documentElement.firstChild.appendChild(ga);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155034Z" creationid="hsin" creationdate="20131115T155034Z">
+        <seg>document.documentElement.firstChild.appendChild(ga);</seg>
       </tuv>
     </tu>
     <tu>
@@ -6583,6 +7637,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>footer パーシャルを作成し, これらのレイアウトで使ってみましょう。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144811Z" creationid="hsin" creationdate="20131116T144805Z">
+        <seg>이 중복을 없애기 위해 footer 파셜을 만들어 레이아웃에서 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>frontmatter で有効化に加え, ページネーションは `config.rb` の中で有効化できます:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T023538Z" creationid="hsin" creationdate="20131116T023538Z">
@@ -6595,6 +7657,38 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T013515Z" creationid="hsin" creationdate="20131116T013515Z">
         <seg>frontmatter에 초고라는 사실을 명시해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ga('create', 'UA-45384858-1', 'middlemanjp.github.io');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155042Z" creationid="hsin" creationdate="20131115T155042Z">
+        <seg>ga('create', 'UA-45384858-1', 'middlemanjp.github.io');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ga('send', 'pageview');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155042Z" creationid="hsin" creationdate="20131115T155042Z">
+        <seg>ga('send', 'pageview');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ga.setAttribute('async', 'true');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155032Z" creationid="hsin" creationdate="20131115T155032Z">
+        <seg>ga.setAttribute('async', 'true');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ga.src = ('https:' == document.location.protocol ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155031Z" creationid="hsin" creationdate="20131115T155031Z">
+        <seg>ga.src = ('https:' == document.location.protocol ?</seg>
       </tuv>
     </tu>
     <tu>
@@ -6669,10 +7763,34 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>html タグが "中身" を含む場合, `content_tag` が使われます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114613Z" creationid="hsin" creationdate="20140110T114613Z">
+        <seg>html 태그가 "내용"을 포함할 때는 `content_tag`를 사용합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>jQuery ライブラリを含む `jquery.js` ファイルとアプリケーションコードが含まれる `app.js` があるとします。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T141315Z" creationid="hsin" creationdate="20131116T141311Z">
         <seg>jQuery 라이프러리에 포함되어 있는 `jquery.js` 파일과 어플리케이션 코드가 포함되어있는 `app.js`가 있다고 했을 때, </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155041Z" creationid="hsin" creationdate="20131115T155041Z">
+        <seg>m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>middleman の web サーバを再起動します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140529Z" creationid="hsin" creationdate="20140110T140529Z">
+        <seg>middleman 웹 서버를 재시작합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6851,6 +7969,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>s.parentNode.insertBefore(t, s);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155039Z" creationid="hsin" creationdate="20131115T155039Z">
+        <seg>s.parentNode.insertBefore(t, s);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>script.src = "//swiftype.com/embed.js";</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155157Z" creationid="hsin" creationdate="20131115T155157Z">
@@ -6885,6 +8011,14 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>source フォルダ (ファイル拡張子からテンプレート言語拡張子を除いた状態で) のページへの参照を与えると, `link_to` は [`:directory_indexes`](/pretty-urls/) 拡張が有効化されていたとしても, 正しいリンクを生成します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114027Z" creationid="hsin" creationdate="20140110T114027Z">
+        <seg>source 디렉토리(파일 확장자에서 팀플릿 언어를 제외한 상태에서)의 페이지를 가리키는 참조를 지정하면 `link_to`는 [`:directory_indexes`](/pretty-urls/) 확장이 활성화되어있더라도 정상적인 링크를 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>source フォルダは Web サイトを作る場所です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T052416Z" creationid="hsin" creationdate="20131116T052416Z">
@@ -6905,6 +8039,46 @@ end</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T102804Z" creationid="hsin" creationdate="20131115T102804Z">
         <seg>super</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>t.async = true;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155036Z" creationid="hsin" creationdate="20131115T155036Z">
+        <seg>t.async = true;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>t.id    = 'gauges-tracker';</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155036Z" creationid="hsin" creationdate="20131115T155036Z">
+        <seg>t.id    = 'gauges-tracker';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>t.setAttribute('data-site-id', '4ef39d56613f5d017b000004');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155037Z" creationid="hsin" creationdate="20131115T155037Z">
+        <seg>t.setAttribute('data-site-id', '4ef39d56613f5d017b000004');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>t.src = '//secure.gaug.es/track.js';</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155037Z" creationid="hsin" creationdate="20131115T155037Z">
+        <seg>t.src = '//secure.gaug.es/track.js';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>t.type  = 'text/javascript';</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155036Z" creationid="hsin" creationdate="20131115T155036Z">
+        <seg>t.type  = 'text/javascript';</seg>
       </tuv>
     </tu>
     <tu>
@@ -6933,6 +8107,22 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>var _gaq = _gaq || [];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155029Z" creationid="hsin" creationdate="20131115T155029Z">
+        <seg>var _gaq = _gaq || [];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>var _gauges = _gauges || [];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155035Z" creationid="hsin" creationdate="20131115T155035Z">
+        <seg>var _gauges = _gauges || [];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>var entry = document.getElementsByTagName('script')[0];</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155158Z" creationid="hsin" creationdate="20131115T155158Z">
@@ -6941,10 +8131,34 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>var ga = document.createElement('script');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155031Z" creationid="hsin" creationdate="20131115T155031Z">
+        <seg>var ga = document.createElement('script');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>var s = document.getElementsByTagName('script')[0];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155037Z" creationid="hsin" creationdate="20131115T155037Z">
+        <seg>var s = document.getElementsByTagName('script')[0];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155157Z" creationid="hsin" creationdate="20131115T155157Z">
         <seg>var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>var t   = document.createElement('script');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155035Z" creationid="hsin" creationdate="20131115T155035Z">
+        <seg>var t   = document.createElement('script');</seg>
       </tuv>
     </tu>
     <tu>
@@ -7033,6 +8247,40 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>})();
+&lt;/script&gt;
+--&gt;
+&lt;script type="text/javascript"&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155039Z" creationid="hsin" creationdate="20131115T155039Z">
+        <seg>})();
+&lt;/script&gt;
+--&gt;
+&lt;script type="text/javascript"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>})();
+&lt;/script&gt;
+&lt;script&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155034Z" creationid="hsin" creationdate="20131115T155034Z">
+        <seg>})();
+&lt;/script&gt;
+&lt;script&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>})(window,document,'script','//www.google-analytics.com/analytics.js','ga');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131115T155041Z" creationid="hsin" creationdate="20131115T155041Z">
+        <seg>})(window,document,'script','//www.google-analytics.com/analytics.js','ga');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>});
 });
 ```</seg>
@@ -7049,6 +8297,22 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T162114Z" creationid="hsin" creationdate="20131115T162114Z">
         <seg>직접 작성한 다른 레이아웃은 `source/layouts` 디렉토리에 놓여집니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>あなたが使うサーバの設定方法は Google の [page speed docs](https://code.google.com/speed/page-speed/docs/caching.html) を参照し, 設定が正しく行われているか確認するために [Google Page Speed](https://code.google.com/speed/page-speed/docs/extension.html) や [YSlow](https://addons.mozilla.org/en-US/firefox/addon/yslow/) を使ってください。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054205Z" creationid="hsin" creationdate="20131125T054205Z">
+        <seg>여러분이 사용하는 서버 설정 방법에 대해선 Google의 [page speed docs](https://code.google.com/speed/page-speed/docs/caching.html) 을 참조하시고, 설정이 제대로 되었는지 확인히라 때는 [Google Page Speed](https://code.google.com/speed/page-speed/docs/extension.html)이나 [YSlow](https://addons.mozilla.org/en-US/firefox/addon/yslow/)을 사용해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ある意味で, 拡張子を右から左に解釈することは, ファイルが左端の拡張子形式のファイルとしてパース処理されることを知らせます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143757Z" creationid="hsin" creationdate="20131116T143757Z">
+        <seg>확장자를 오른쪽에서 부터 보면, 오른쪽에 있는 확장자에 대응하는 템플릿 엔진을 사용해 왼쪽에 있는 파일을 생성한다고 이해할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7085,6 +8349,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>この 2 つのレイアウトには footer のように重複する内容があります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144748Z" creationid="hsin" creationdate="20131116T144748Z">
+        <seg>이 두가지 레이아웃에는 footer와 같이 중복된 내용이 포함됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>このインストールプロセスはあなたの環境に新しいコマンド 1 つと 3 つの便利な機能を追加します:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T051850Z" creationid="hsin" creationdate="20131116T051850Z">
@@ -7093,10 +8365,18 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>このカテゴリには 3 つの主要メソッドがあります: `tag`, `content_tag` と `input_tag`。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114531Z" creationid="hsin" creationdate="20140110T114531Z">
+        <seg>이 카테고리에는 `tag`, `content_tag`, `input_tag` 3가지 중요한 메소드가 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>このガイドではどのようなことが可能なのか説明しますが, すべてのフックや拡張ポイントを探すには Middleman のソースや middleman-blog のようなプラグインのソースを読むべきです。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T102746Z" creationid="hsin" creationdate="20131115T102642Z">
-        <seg>이 가이드에서는 확장 기능을 통해 어떤 일들이 가능한 지 설명하고 있습니다만, 모든 후크나 확장 포인트를 알기 위해선 Middleman 소스코드나 middleman-blog 플러그인의 소스코드를 읽어야 합니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124602Z" creationid="hsin" creationdate="20131115T102642Z">
+        <seg>이 가이드에서는 확장 기능을 통해 무엇이 가능한 지 설명하고 있습니다만, 모든 확장 가능한 지점이나 Hook에 대한 정보가 필요하다면 Middleman 소스코드나 middleman-blog 플러그인의 소스코드를 참고하시기 바랍니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7117,10 +8397,58 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>このコマンドは `middleman server` とまったく同じ動作をします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113553Z" creationid="hsin" creationdate="20140110T113553Z">
+        <seg>이 명령어는 `middleman server`과 완전히 같습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このコマンドは `source` フォルダにあるファイル毎に静的ファイルを作ります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113726Z" creationid="hsin" creationdate="20140110T113726Z">
+        <seg>이 명령어는 `source` 폴더에 있는 파일들을 통해 정적 파일을 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このコマンドはローカルの Web サーバを起動します: `http://localhost:4567/`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113331Z" creationid="hsin" creationdate="20140110T113331Z">
+        <seg>이 명령어는 로컬 웹 서버를 실행시킵니다: `http://localhost:4567`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このコマンドは私の独自モバイルテンプレートを表示し, 私は以前と同じように新しいプロジェクトを作ることができます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T082622Z" creationid="hsin" creationdate="20140109T082622Z">
+        <seg>이 명령어는 직접 추가한 모바일 템플릿도 함께 출력해주며, 이를 통해 이전 프로젝트와 같은 구조를 가진 새로운 프로젝트를 생성할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>このコールバックはビルドプロセスが完了した後にコードを実行するために使われます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152741Z" creationid="hsin" creationdate="20131115T152741Z">
         <seg>빌드 프로세스가 완료되고 실행되는 콜백입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このサイトは Middleman で書かれており, 構文ハイライトされたたくさんの code ブロックからできています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152408Z" creationid="hsin" creationdate="20131116T152408Z">
+        <seg>이 사이트 역시 Middleman으로 작성되어 있으며 신택스 하이라이트가 적용된 여러 code 블록이 포함되어 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このサイトは `&lt;code&gt;` ブロックをレンダリングし, Rack ミドルウェアはこれらのブロックを引き継ぎ構文ハイライトを追加します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152457Z" creationid="hsin" creationdate="20131116T152457Z">
+        <seg>이 사이트는 `&lt;code&gt;` 블록을 렌더링하고 Rack 미들웨어는 이러한 블록을 인수로 받아 신택스 하이라이트를 처리해줍니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7141,6 +8469,38 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>このファイルは Middleman で作るサイトの開発時に Heroku のような Rack ベースのサーバにホスティングしたいユーザの便宜のために提供されています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081736Z" creationid="hsin" creationdate="20140109T081736Z">
+        <seg>이 파일은 Middleman으로 만든 사이트를 Heroku와 같은 Rack 기반의 서버로 호스팅하고자 하는 유저의 편의를 위해 제공됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このフォルダにあるテンプレートごとに `I18n` ヘルパにアクセスします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131126T000500Z" creationid="hsin" creationdate="20131126T000338Z">
+        <seg>이 폴더에 있는 템플릿마다 `I18n` 헬퍼에서 액세스합니다. @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このフォルダの名前を `:templates_dir` オプションで変更することができます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T061654Z" creationid="hsin" creationdate="20131201T061647Z">
+        <seg>이 폴더의 이름은 `:templates_dir` 옵션을 사용해서 변경할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このブロックの中でテンプレートの中で `current_page.data` ハッシュとして使えるデータを作ることができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081344Z" creationid="hsin" creationdate="20140109T081344Z">
+        <seg>Frontmatter에는 템플릿 안에서 `current_page.data` 해시로 사용할 수 있는 데이터를 지정할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>このプロジェクトがビルドされた時,  `about-us.html.erb` ファイルは `about-us/index.html` として出力されます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T142437Z" creationid="hsin" creationdate="20131116T142437Z">
@@ -7149,10 +8509,18 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>このヘルパを使うと,  YAML ファイルからキーを参照し, 言語固有の値をテンプレートに差し込みます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131126T000514Z" creationid="hsin" creationdate="20131126T000444Z">
+        <seg>이 헬퍼를 사용하면 YAML 파일에서 키를 참조해 언어 고유의 값을 템플릿에 넣습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>このモジュールは `config.rb` からアクセスできなければなりません。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T102832Z" creationid="hsin" creationdate="20131115T102832Z">
-        <seg>이 모듈은  `config.rb`에서 접근 가능해야만 합니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124034Z" creationid="hsin" creationdate="20131115T102832Z">
+        <seg>이 모듈은 `config.rb`에서 접근 가능해야 합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7177,6 +8545,46 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005456Z" creationid="hsin" creationdate="20131116T005444Z">
         <seg>이 예제에서는 다음과 같이 출력됩니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>この処理を行うために `Gemfile` に正しい依存関係を追加してください:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152559Z" creationid="hsin" creationdate="20131116T152559Z">
+        <seg>이 처리를 위해 `Gemfile`에 다음 gem들을 포함시켜야합니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>この出力 ([`directory_indexes`](/pretty-urls/) が有効化された場合) は次のようになります:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T083313Z" creationid="hsin" creationdate="20131201T083313Z">
+        <seg>(([`directory_indexes`](/pretty-urls/)가 활성화 돼있다면) 아래와 같이 빌드됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>この問題に対応するため, Middleman にはテンプレート全体を多言語化する方法があります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062704Z" creationid="hsin" creationdate="20131201T062704Z">
+        <seg>이 문제에 대응하기 위해 Middleman에서는 팀플릿 전체를 다언어화하는 방법을 지원합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>この場合 2 つのファイルとして出力されます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131126T015157Z" creationid="hsin" creationdate="20131126T015157Z">
+        <seg>이 경우엔 2개의 파일을 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>この場合, 古い方法ですが, キャッシュバスターの使用を選択する必要があるかもしれません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053843Z" creationid="hsin" creationdate="20131125T053843Z">
+        <seg>이럴 때는 고전적인 방법이지만 캐시 버스터를 사용하는 게 나을 지도 모릅니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7209,6 +8617,22 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T004944Z" creationid="hsin" creationdate="20131116T004944Z">
         <seg>이 기능을 이해하기 위한 가장 간단한 예제는 `middlemnam-blog` 확장입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>この特別なページに次のようにカスタムレイアウトを指定できます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144446Z" creationid="hsin" creationdate="20131116T144446Z">
+        <seg>이 페이지에만 다음과 같이 특별히 커스텀 레이아웃을 사용할 수 있습니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>これが有効になっていると改ページせずに使用できるテンプレートを作ることができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T064025Z" creationid="hsin" creationdate="20131201T064025Z">
+        <seg>이 설정이 @@@</seg>
       </tuv>
     </tu>
     <tu>
@@ -7277,6 +8701,22 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>これにより簡単にページに project-specific や rocket-specific のスタイルを適用できます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134028Z" creationid="hsin" creationdate="20140110T134028Z">
+        <seg>이를 통해 페이지에 간단히 project-specific나 rocket-specific 스타일을 적용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>これにより開発中にプロダクションでは不要もしくは望ましくないツール群 ([Haml](http://haml-lang.com) や [Sass](http://sass-lang.com) などのような) を開発中に利用することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113150Z" creationid="hsin" creationdate="20140109T203638Z">
+        <seg>이를 통해 빌드된 코드에서는 필요하지 않거나 공개되지 않아야하는 파일들([Haml](http://haml-lang.com)나 [Sass](http://sass-lang.com) 코드)을  개발중에만 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>これに対応するために, アプリケーションの `ready` イベントにコールバックを登録する必要があります。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T140705Z" creationid="hsin" creationdate="20131116T140705Z">
@@ -7293,6 +8733,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>これは Rack ミドルウェアを使う 1 例に過ぎません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152340Z" creationid="hsin" creationdate="20131116T152340Z">
+        <seg>이는 Rack 미들웨어를 사용하는 하나의 예에 지나지 않습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>これは `category_path('html5')` で呼び出すことができ `categories/html5.html` という URL を返します。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T023027Z" creationid="hsin" creationdate="20131116T023027Z">
@@ -7305,6 +8753,14 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054216Z" creationid="hsin" creationdate="20131116T054216Z">
         <seg>이 메소드는 `link_to`와 `form_tag` 처리에 사용됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>これは login ページが admin レイアウトを使うように指定しています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144507Z" creationid="hsin" creationdate="20131116T144507Z">
+        <seg>이를 통해 login 페이지에만 admin 레이아웃을 적용할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7327,8 +8783,26 @@ end
       <tuv lang="JA">
         <seg>これらの書き方は Middleman のほとんどのグローバル設定に使われます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072234Z" creationid="hsin" creationdate="20131115T072234Z">
-        <seg>이러한 방식은 Middleman 어플리케이션에서 거의 전역 변수처럼 취급됩니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124342Z" creationid="hsin" creationdate="20131115T072234Z">
+        <seg>이러한 방식은 Middleman 어플리케이션에서 전역 변수처럼 취급됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>これらは現在ページの記事を取得, 現在ページをブログ記事か判定, タグやカレンダーページへのパスを作成といったことができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T084711Z" creationid="hsin" creationdate="20131201T084711Z">
+        <seg>이 헬퍼를 통해서 현재 페이지의 글을 읽어오거나 현재 페이지가 블로그 글인지 알 수 있으며, 태그나 캘린더 페이지의 URL을 생성할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>こんにちわ
+&lt;% end %&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114619Z" creationid="hsin" creationdate="20140110T114619Z">
+        <seg>안녕하세요.
+&lt;% end %&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7365,10 +8839,34 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>しかし Middleman は「静的」サイト生成のために作られていることを忘れないでください。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081752Z" creationid="hsin" creationdate="20140109T081752Z">
+        <seg>하지만 Middleman은 '정적' 사이트 생성을 위한 프레임워크라는 걸 잊지말아주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>しかし, デフォルトの Markdown エンジンはインストールが簡単なことから Kramdown になっています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145424Z" creationid="hsin" creationdate="20131116T145424Z">
+        <seg>하지만 Middleman에서 사용하는 기본 Markdown 템플릿 엔진은 설치가 간편한 Kramdown입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>しかし, 複数のレイアウトを使い, どのページがその他のレイアウトを使うのか指定したい場合があります。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T162017Z" creationid="hsin" creationdate="20131115T162017Z">
         <seg>하지만 여러 레이아웃을 정의해두고 상황에 따라 서로 다른 레이아웃을 사용할 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>したがって, 例えば `layout.erb` のような形式で拡張子をつける必要があります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143925Z" creationid="hsin" creationdate="20131116T143925Z">
+        <seg>따라서 레이아웃은 `layout.erb`와 같이 만들어야 합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7381,6 +8879,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>すでにプロジェクトの初期化が完了しいて, 後から pow やその他開発サーバと連携させるために config.ru が欲しい場合は, 次の内容を記述してください:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081957Z" creationid="hsin" creationdate="20140109T081925Z">
+        <seg>이미 프로젝트가 초기화 되어있고 이후에 `pow`나 다른 개발 서버와 연동시키기 위해 `config.ru`가 필요할 때는 직접 파일을 생성하고 다음 내용을 추가해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>すべての blog 記事が デフォルトの `layout` に代わり `article_layout` を使うように指定します。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005152Z" creationid="hsin" creationdate="20131116T005130Z">
@@ -7389,10 +8895,34 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>すべてのアセットファイル (HTML, CSS, JavaScript など) は通常のファイル名の代わりに一意に生成されたファイル名を参照するように変更されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053542Z" creationid="hsin" creationdate="20131125T053321Z">
+        <seg>모든 에셋 파일(HTML, CSS, Javascript 등)은 원래의 이름 대신에 새로 부여받은 고유한 이름으로 참조됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>すべてのヘルパは Padrino フレームワークによって組み込まれています。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T053506Z" creationid="hsin" creationdate="20131116T053506Z">
         <seg>모든 헬퍼 메소드는 Padrino 프레임워크에 의해 내장되었습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>すると, `_footer.erb` への変更はこのパーシャルを使うそれぞれのレイアウトやレイアウトを使うページに表示されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145000Z" creationid="hsin" creationdate="20131116T145000Z">
+        <seg>이제 `footer.erb`를 수정하면 이 파셜을 사용하는 레이아웃과 이 레이아웃을 사용하는 모든 페이지가 변경됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>すると, パーシャルの中で次のようにテキストを設定することができます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145243Z" creationid="hsin" creationdate="20131116T145209Z">
+        <seg>파셜에서는 넘어온 값들을 다음과 같이 사용합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7423,8 +8953,8 @@ end
       <tuv lang="JA">
         <seg>そして, モジュールが読み込まれてから `config.rb` で有効化しなければなりません:</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T104207Z" creationid="hsin" creationdate="20131115T104207Z">
-        <seg>그리고 모듈을 require하고 `config.rb`에서 활성화시켜줘야합니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124709Z" creationid="hsin" creationdate="20131115T104207Z">
+        <seg>모듈을 require한 다음에는 `config.rb`에서 `activate`로 활성화시켜줘야합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7433,6 +8963,14 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T140854Z" creationid="hsin" creationdate="20131116T140854Z">
         <seg>그리고 가져온 카테고리 별로 카테고리 페이지를 만들기 위해 `category`와 `pages` 변수를 사용하는 `category.html.erb`를 작성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>その 1 つの例はテンプレートからレイアウトに assets を含めるものです:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114319Z" creationid="hsin" creationdate="20140110T114319Z">
+        <seg>예를 들어 이를 통해 템플릿에서 레이아웃에 assets를 추가할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7461,10 +8999,34 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>それぞれ個別の言語表示にはその言語の名前空間のパスでアクセスできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T061412Z" creationid="hsin" creationdate="20131127T061009Z">
+        <seg>언어마다 고유한 네임스페이스 패스를 각 언어로 만들어진 페이지에 접근할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ただし, この拡張機能は名前を変えたアセットファイルを参照するようにファイルを書き換えて動作するので, 参照を失敗したり, コードの中で実行したくない処理をするかも知れません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053812Z" creationid="hsin" creationdate="20131125T053812Z">
+        <seg>하지만 이 확은 이름을 바꾸거나 파일 참조를 변경하는 방식을 사용하기 때문에 참조를 잘못 바꾸거나, 의도하지 않은 동작을 할 지도 모릅니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>ただし, サイトマップは `config.rb` が読み込まれた *後* まで用意されないので少し注意が必要です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T140637Z" creationid="hsin" creationdate="20131116T140637Z">
         <seg>단 사이트 맵은 `config.rb`을 읽어온 *후*에 접근할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ただし, プロジェクトがビルドされると静的なサイトになることに注意してください。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062838Z" creationid="hsin" creationdate="20131201T062838Z">
+        <seg>빌드가 되면 사이트는 정적 페이지가 된다는 점에 주의가 필요합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7487,8 +9049,8 @@ end
       <tuv lang="JA">
         <seg>ほとんどの拡張では, `activate` する際にハッシュのオプションを渡すか, オプションを設定するためにブロックを使います:</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072401Z" creationid="hsin" creationdate="20131115T072401Z">
-        <seg>대부분의 확장은 `activate`할 때 옵션 해쉬를 지정하거나, 옵션을 지정하기 위한 블록을 넘겨줍니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124500Z" creationid="hsin" creationdate="20131115T072401Z">
+        <seg>대부분의 확장에서는 `activate`로 활성화할 때 옵션 해시나 옵션을 포함한 블록을 넘겨 설정하는 방법을 지원합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7497,6 +9059,14 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T072138Z" creationid="hsin" creationdate="20131115T072138Z">
         <seg>대부분의 설정은 `config.rb` 파일에서 `set` 메소드를 통해 지정할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>まず `config.rb` で拡張機能を有効化します:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053021Z" creationid="hsin" creationdate="20131125T053021Z">
+        <seg>우선 `config.rb`에서 확장기능을 활성화해주세요:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7513,6 +9083,14 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T160655Z" creationid="hsin" creationdate="20131115T160655Z">
         <seg>이 파일은 기본적으로 HTML으로 작성되어있습니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>また, 外部の Ruby モジュール含むヘルパを作成し, 読み込むこともできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134157Z" creationid="hsin" creationdate="20140110T134157Z">
+        <seg>또한 외부의 Ruby 모듈을 포함하는 헬퍼를 작성하고자 할 때는 헬퍼 클래스를 읽어오는 것도 가능합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7549,10 +9127,26 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>もし要約を生成する独自のメソッドがある場合, `blog.summary_generator` に `Proc` をセットできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063636Z" creationid="hsin" creationdate="20131201T063636Z">
+        <seg>요약을 생성하는 독자적인 메소드가 있다면 `blog.summary_generator`에 `Proc`을 지정해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>もちろん `Gemfile` の `:git` オプションを使用して Github から最新版の Middleman を使用することもできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T052817Z" creationid="hsin" creationdate="20131116T052817Z">
         <seg>물론 `Gemfile`의 `:git` 옵션을 사용하면 Github에서 최신 개발버전의 Middleman을 사용할 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>より簡単な方法として, `helpers` ディレクトリにヘルパを配置し, モジュールファイルの名前をつける方法です (例: `CustomHelpers` は `helpers/custom_helpers.rb` として配置)。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140429Z" creationid="hsin" creationdate="20140110T140429Z">
+        <seg>더 간단한 방법으로는 `helpers` 디렉토리에 헬퍼를 위치시키고 모듈 파일의 이름을 붙일 수도 있습니다. @@@</seg>
       </tuv>
     </tu>
     <tu>
@@ -7569,6 +9163,64 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T141727Z" creationid="hsin" creationdate="20131116T141727Z">
         <seg>에셋 파일로 추가하지 않고 HTML에서 직접 gem의 스타일시트나 JS 파일을 참조하는 경우엔 `config.rb`에서 명시적으로 읽어올 필요가 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>アセットヘルパはハイパーリンク, mail_to リンク, 画像, スタイルシートや JavaScript のような html をビューテンプレートに挿入する手助けをします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114724Z" creationid="hsin" creationdate="20140110T114724Z">
+        <seg>에셋 헬퍼는 하이퍼링크, mail_to 링크, 이미지, 스타일 시트, 자바스크립트와 같은 html을 뷰 템플릿에 추가할 수 있도록 도와줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>エンジン                | ファイル拡張子         | 必要なライブラリ
+------------------------|------------------------|----------------------------
+Slim                    | .slim                  | slim
+Erubis                  | .erb, .rhtml, .erubis  | erubis
+Less CSS                | .less                  | less
+Builder                 | .builder               | builder
+Liquid                  | .liquid                | liquid
+RDiscount               | .markdown, .mkd, .md   | rdiscount
+Redcarpet               | .markdown, .mkd, .md   | redcarpet
+BlueCloth               | .markdown, .mkd, .md   | bluecloth
+Kramdown                | .markdown, .mkd, .md   | kramdown
+Maruku                  | .markdown, .mkd, .md   | maruku
+RedCloth                | .textile               | redcloth
+RDoc                    | .rdoc                  | rdoc
+Radius                  | .radius                | radius
+Markaby                 | .mab                   | markaby
+Nokogiri                | .nokogiri              | nokogiri
+CoffeeScript            | .coffee                | coffee-script
+Creole (Wiki markup)    | .wiki, .creole         | creole
+WikiCloth (Wiki markup) | .wiki, .mediawiki, .mw | wikicloth
+Yajl                    | .yajl                  | yajl-ruby
+Stylus                  | .styl                  | stylus</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145647Z" creationid="hsin" creationdate="20131116T145647Z">
+        <seg>엔진                | 확장자         | 필요한 라이브러리
+------------------------|------------------------|----------------------------
+Slim                    | .slim                  | slim
+Erubis                  | .erb, .rhtml, .erubis  | erubis
+Less CSS                | .less                  | less
+Builder                 | .builder               | builder
+Liquid                  | .liquid                | liquid
+RDiscount               | .markdown, .mkd, .md   | rdiscount
+Redcarpet               | .markdown, .mkd, .md   | redcarpet
+BlueCloth               | .markdown, .mkd, .md   | bluecloth
+Kramdown                | .markdown, .mkd, .md   | kramdown
+Maruku                  | .markdown, .mkd, .md   | maruku
+RedCloth                | .textile               | redcloth
+RDoc                    | .rdoc                  | rdoc
+Radius                  | .radius                | radius
+Markaby                 | .mab                   | markaby
+Nokogiri                | .nokogiri              | nokogiri
+CoffeeScript            | .coffee                | coffee-script
+Creole (Wiki markup)    | .wiki, .creole         | creole
+WikiCloth (Wiki markup) | .wiki, .mediawiki, .mw | wikicloth
+Yajl                    | .yajl                  | yajl-ruby
+Stylus                  | .styl                  | stylus</seg>
       </tuv>
     </tu>
     <tu>
@@ -7597,6 +9249,38 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>コマンドラインから `CTRL-C` を使ってプレビューサーバを停止できます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113459Z" creationid="hsin" creationdate="20140110T113459Z">
+        <seg>명령행에서 `CTRL-C`를 입력하면 프리뷰 서버가 종료됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>コマンドラインから, プロジェクトフォルダの中でプレビューサーバを起動してください:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113308Z" creationid="hsin" creationdate="20140110T113308Z">
+        <seg>명령행에서 프로젝트 폴더에 프리뷰 서버를 실행시켜주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>コマンドラインを使い, プロジェクトフォルダの中から `middleman build` を実行してください。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113653Z" creationid="hsin" creationdate="20140110T113653Z">
+        <seg>명령행에서 프로젝트 폴더로 이동 후 `middleman build`을 실행시켜주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>コマンド指定なしの `middleman` の使用はサーバの起動と同じです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113542Z" creationid="hsin" creationdate="20140110T113542Z">
+        <seg>추가적인 명령어 없이 `middleman`을 사용해서 서버를 실행시켜도 마찬가지입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>コードを実行するために `config.rb` が読み込まれるまで待ちたい場合があります。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152431Z" creationid="hsin" creationdate="20131115T152431Z">
@@ -7605,10 +9289,42 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>サイトがビルドされると, Cookie, セッションや変数を期待したリクエストを処理する Rack ミドルウェアは動作しなくなります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062924Z" creationid="hsin" creationdate="20131201T062924Z">
+        <seg>사이트가 빌드되면 Cookie, 세션, 리퀘스트를 처리하는 미들웨어는 더 이상 작동하지 않습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>サイトがビルドされると, 次のように出力されます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062750Z" creationid="hsin" creationdate="20131201T062750Z">
+        <seg>다음과 같이 빌드됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>サイトのビルド時にそれぞれのアセットファイルは, そのファイルの内容で通常のファイル名に余分なテキストを少し追加した名前で生成されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053522Z" creationid="hsin" creationdate="20131125T053204Z">
+        <seg>단 사이트 빌드 시 각각의 에셋파일은 원래의 파일명에 파일 내용에 따른 해시값을 더한 고유한 이름을 자동적으로 부여받습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>サイトマップからページリストを取得できれば, 個々のページオブジェクトを使って, 各種プロパティをフィルタリングできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T133850Z" creationid="hsin" creationdate="20131116T133850Z">
         <seg>사이트 맵에서 페이지 리스트를 가져와 페이지 객체의 속성들을 필터링할 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>サイトマップの動作は順序に依存する傾向があるので, [`ディレクトリインデックス`](/pretty-urls/) を使う場合, ブログ拡張を有効化した *後* にディレクトリインデックスを有効化するべきです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063100Z" creationid="hsin" creationdate="20131201T063100Z">
+        <seg>사이트맵은 순서에 의존합니다. 따라서 [`디렉토리 인덱스`](/pretty-urls)를 사용하는 경우 블로그 확장을 활성화하고 디렉토리 인덱스를 활성화해야합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7637,10 +9353,26 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>サイトマップオブジェクトから, ページごとに [`resources`](http://rubydoc.info/gems/middleman-core/Middleman/Sitemap/Store#resources-instance_method) メソッドを使うか [`find_resource_by_path`](http://rubydoc.info/gems/middleman-core/Middleman/Sitemap/Store#find_resource_by_path-instance_method) を使って個別のリソースを取得できます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063003Z" creationid="hsin" creationdate="20131201T063003Z">
+        <seg>사이트맵 객체로부터 페이지마다 [`resources`](http://rubydoc.info/gems/middleman-core/Middleman/Sitemap/Store#resources-instance_method) 메소드를 사용하거나  [`find_resource_by_path`](http://rubydoc.info/gems/middleman-core/Middleman/Sitemap/Store#find_resource_by_path-instance_method) 를 사용해 개별 리소스를 가져올 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>サイトマップ拡張を作ることで [サイトマップ](/advanced/sitemap/) でページを変更したり追加したりできます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T152054Z" creationid="hsin" creationdate="20131115T152054Z">
-        <seg>사이트 맵 확장을 만들어 (/advanced/sitemap/) 페이지를 변경하거나 추가할 수 있습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125654Z" creationid="hsin" creationdate="20131115T152054Z">
+        <seg>사이트 맵 확장을 만들어 [사이트맵](/advanced/sitemap/) 페이지를 변경하거나 추가할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>サイト階層に対応する `body` タグの class 属性が生成されると便利です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133905Z" creationid="hsin" creationdate="20140110T133905Z">
+        <seg>사이트 계층에 대응하는 `body` 태그의 class 속성이 생성되면 편리합니다. @@@</seg>
       </tuv>
     </tu>
     <tu>
@@ -7649,6 +9381,14 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T133000Z" creationid="hsin" creationdate="20131116T133000Z">
         <seg>서브 디렉토리도 같은 규칙을 따릅니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ショートカットとして, `middleman article TITLE` を実行することで Middleman は新しい投稿を正しい場所, 正しいファイル名で作ります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063250Z" creationid="hsin" creationdate="20131201T063250Z">
+        <seg>`middleman article TITLE` 명령어를 통해 Middleman은 새로운 글을 올바른 장소에 올바른 파일명으로 생성해줍니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7669,10 +9409,34 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>スペイン語の場合に限りファイル名を `hola.html` に書き換えたい場合, `locales/es.yml` の中で `paths` キーを使うことができます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151814Z" creationid="hsin" creationdate="20131116T151814Z">
+        <seg>스페인어일 때 파일명을 `hola.html`로 만들고 싶다면 `locales/es.yml`에 다음과 같이 추가합니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>セクション毎の異なるテンプレートを集めるような場合, ファイル拡張子は重要です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143604Z" creationid="hsin" creationdate="20131116T143604Z">
+        <seg>페이지를 구성하는 부분별로 서로 다른 템플릿 엔진을 사용하기 때문입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>ソースを確認すると HTML が圧縮されていることがわかります。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T154734Z" creationid="hsin" creationdate="20131115T154734Z">
         <seg>소스를 확인해보면 HTML이 압축되어있는 것을 알 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ソースを確認すると, HTML が圧縮されていることが確認できるはずです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140640Z" creationid="hsin" creationdate="20140110T140640Z">
+        <seg>소스를 확인하면 HTML이 압축되었는지 확인할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7685,10 +9449,82 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>タグアーカイブ用のタグデータへのアクセスを得ることもできます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T083200Z" creationid="hsin" creationdate="20131201T083200Z">
+        <seg>태그 목록 생성을 위한 태그 데이터도 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>タグテンプレートはローカル変数を持ちます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T021043Z" creationid="hsin" creationdate="20131116T021043Z">
         <seg>태그 템플릿은 지역 변수를 가지고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>タグヘルパはビューテンプレート内の html "タグ" を生成するために使われる基本的なメソッドです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114503Z" creationid="hsin" creationdate="20140110T114503Z">
+        <seg>태그 헬퍼는 뷰 템플릿에서 html "태그"를 생성해주는 기본적인 메소드들입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>タグページを作るために frontmatter に `tags` リストを含めることもできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063213Z" creationid="hsin" creationdate="20131201T063213Z">
+        <seg>태그 페이지를 만드려면 frontmatter에 `tags` 변수에 태그 리스트를 지정하면 됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレートで `I18n.t` のショートカットとして `t` を使うこともできます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131126T075822Z" creationid="hsin" creationdate="20131126T075822Z">
+        <seg>템플릿에서 `I18n.t`를 `t`로 줄여서 사용할 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレートで文字列を表示するため参照される キーは, その値は言語ごとに異なるでしょうが, ロケールごとに同じ内容を書かなければなりません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054532Z" creationid="hsin" creationdate="20131125T054532Z">
+        <seg>실제로 언어마다 템플릿에서 나타나는 값이 다르더라도, 이 값을 가리키는 키는 어떤 언어에서나 같아야 합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレートとは異なり, レイアウトは html にレンダリングされるべきではありません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143837Z" creationid="hsin" creationdate="20131116T143837Z">
+        <seg>템플릿과 달리 레이아웃은 html로 렌더링 되어서는 안 됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレートに表示する前にユーザコンテンツをエスケープするのに便利です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T115156Z" creationid="hsin" creationdate="20140110T115156Z">
+        <seg>템플릿에에 표시하기 전에 사용자 컨텐츠를 이스케이프할 때 편리합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレートに追加することで, ブロックに含まれる部分をキャプチャしレイアウトで yield を用いて出力します:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114346Z" creationid="hsin" creationdate="20140110T114346Z">
+        <seg>템플릿에 추가하면 브록에 포함된 부분을 캡쳐하고 레이아웃에서 yield를 사용해 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレートのファイル名がすでに `index.html` の場合, Middleman は手をつけません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143012Z" creationid="hsin" creationdate="20131116T143012Z">
+        <seg>템플릿 이름이 이미 `index.html`이라면 Middlaman은 아무런 작업도 하지 않습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7709,6 +9545,22 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>テンプレートを簡単に作るために使用できる [いくつかのヘルパ](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/Helpers) があります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T084017Z" creationid="hsin" creationdate="20131201T084017Z">
+        <seg>팀플릿를 쉽게 만들게 도와주는 [몇 가지 헬퍼](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/Helpers)가 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレートファイルがコンパイルされ, その静的ファイルがコピーされ, 有効化されたビルド時の機能 (圧縮のような) が実行されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113816Z" creationid="hsin" creationdate="20140110T113816Z">
+        <seg>템플릿 파일을 컴파일하고 생성된 파일이 복사됩니다. 또한 파일 압축을 비롯한 활성화되어있는 확장들이 실행됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>テンプレートファイルの中ならどこからでも, このローカルデータにアクセスできます:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T132834Z" creationid="hsin" creationdate="20131116T132834Z">
@@ -7721,6 +9573,30 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T053401Z" creationid="hsin" creationdate="20131116T053401Z">
         <seg>템플릿 헬퍼는 자주 소용하는 HTML 작성을 간편하기 하기 위해 템플릿 안에서 동적으로 사용할 수 있는 메소드입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレート内で, カレンダーページへのリンクを作るために, [`blog_year_path`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/Helpers#blog_year_path-instance_method), [`blog_month_path`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/Helpers#blog_month_path-instance_method) や [`blog_day_path`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/Helpers#blog_day_path-instance_method) ヘルパを使うことができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140104T104226Z" creationid="hsin" creationdate="20140104T104226Z">
+        <seg>템플릿에서 캘린더 페이지 링크를 만들면 [`blog_year_path`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/Helpers#blog_year_path-instance_method), [`blog_month_path`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/Helpers#blog_month_path-instance_method) 나 [`blog_day_path`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/Helpers#blog_day_path-instance_method) 헬퍼를 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレート内で簡単に使うために `h` という `escape_html` のエイリアスもあります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133302Z" creationid="hsin" creationdate="20140110T133241Z">
+        <seg>템플릿에서 간단히 사용하고 할 때는 `escape_html` 대신에 `h` 메소드를 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>テンプレート変更は `-T` や `--template` コマンドラインフラグを使用してアクセスできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T082311Z" creationid="hsin" creationdate="20140109T082311Z">
+        <seg>템플릿을 변경하고나 할 때는 `-T`나 `--template` 명령어를 사용합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7757,6 +9633,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>デフォルトでは, カレンダーページは年月日ごとに `/2012.html`, `/2012/03.html` や `/2012/03/15.html` のように表示されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140104T104436Z" creationid="hsin" creationdate="20140104T104436Z">
+        <seg>기본설정에서 캘린더는 연도는 `/2012.html`, 월은 `/2013/03.html`, 일은 `/2012/03/15.html`로 표시됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>デフォルトのテンプレートでは `tag/TAGNAME.html` 形式でタグごとに [`tag.html`](https://github.com/middleman/middleman-blog/blob/master/lib/middleman-blog/template/source/tag.html.erb) ページを作ります。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T021454Z" creationid="hsin" creationdate="20131116T021454Z">
@@ -7781,10 +9665,34 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>デフォルトのパス設定ではパスの中で単純に言語名 ( YAML ファイル名) を使用します:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T061450Z" creationid="hsin" creationdate="20131201T061450Z">
+        <seg>네임스페이스 패스는 기본적으로 각 언어를 나타내는 YAML파일의 이름을 사용합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>デフォルトのパーマリンクのパスは `:year/:month/:day/:title.html` です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T012715Z" creationid="hsin" creationdate="20131116T012715Z">
         <seg>고유 주소의 기본 설정값은 `:year/:month/:day/:title.html`입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>デフォルトのレイアウトは `source` フォルダの中で "layout" と名付けられ, 使用するテンプレート言語の拡張子を持ちます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144244Z" creationid="hsin" creationdate="20131116T144244Z">
+        <seg>템플릿 레이아웃은 `source` 폴더에서 "layout"이라고 이름붙여지면 사용하는 템플릿 엔진을 확장자로 가집니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>デフォルトの基本スケルトンに加え, Middleman は [HTML5 Boilerplate], [SMACSS], や [Mobile Boilerplate](http://html5boilerplate.com/mobile/) ベースのオプションテンプレートが付属します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T082212Z" creationid="hsin" creationdate="20140109T082212Z">
+        <seg>프로젝트 생성시 기본적으로 사용되는 템플릿 이외에도 Middleman은 [HTML5 Boilerplate], [SMACSS], [Mobile Boilerplate](http://html5boilerplate.com/mobile/)를 기반으로 한 템플릿을 지원합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7797,10 +9705,58 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>デフォルト設定では, `source/localization` の中身が複数の言語でビルドされ, その他のテンプレートはそのままビルドされます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T061633Z" creationid="hsin" creationdate="20131201T061633Z">
+        <seg>기본적으로 `source/localization`의 컨텐츠가 여러 언어로 빌드되며 그 외의 템플릿은 그대로 빌드됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>デフォルト設定では, この拡張機能は対応したい言語のロケール名を表す名前の YAML ファイルをプロジェクトルートの `locales` フォルダから探します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054336Z" creationid="hsin" creationdate="20131125T054336Z">
+        <seg>이 확장기능은 사이트에서 지원하고자 하는 언어의 로케일을 나타내는 이름을 가진 YAML 파일을 프로젝트 루트 디렉토리의 `locales` 폴더에서 찾습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>デフォルト設定では, 次のように出力されます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151738Z" creationid="hsin" creationdate="20131116T151738Z">
+        <seg>기본 설정을 따르면 다음과 같이 빌드됩니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>デフォルト設定では, 第一言語 ( `:langs` で指定されるか, `locales/` フォルダにあるもの) が "標準の" 言語になり, サイトのルートに置かれます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062545Z" creationid="hsin" creationdate="20131201T062545Z">
+        <seg>기본적으로 제 1언어(`:langs`에 지정했거나 `locales'/ 폴더에 있는 것)이 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>デフォルト設定では, 第一言語はサイトのルートに置かれます (このオプションの変更方法はページ下部で) 。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T061422Z" creationid="hsin" creationdate="20131201T061346Z">
+        <seg>기본적으로 가장 우선 순위가 높은 언어가 사이트의 루트가 됩니다. 이는 옵션을 통해 변경할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>データを保存するために YAML の代わりに JSON を使うこともできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T133039Z" creationid="hsin" creationdate="20131116T133039Z">
         <seg>데이터를 저장하기 위해 YAML은 물론 JSON 포맷도 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>パスの一部に YAML ファイル名 を使いたくない場合, 違う値で書き換えることができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151631Z" creationid="hsin" creationdate="20131116T151614Z">
+        <seg>경로에 YAML 파일의 이름을 사용하고 싶지 않다면 다음과 같이 변경할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7813,10 +9769,42 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>パスは次のようになります:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151534Z" creationid="hsin" creationdate="20131116T151534Z">
+        <seg>경로는 다음과 같습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>パーシャルのファイル名は prefix にアンダースコアが付き, 使用するテンプレート言語の拡張子を含みます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144846Z" creationid="hsin" creationdate="20131116T144846Z">
+        <seg>파셜 파일에는 맨 앞에 _를 붙여줘야 하며, 사용하는 템플릿 엔진을 확장자로 지정해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>パーシャルはコンテンツの重複を避けるためにページ全体にわたってそのコンテンツを共有する方法です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005722Z" creationid="hsin" creationdate="20131116T005646Z">
         <seg>파셜은 컨텐츠의 중복을 막기 위해 여러 페이지에서 페이지의 일부분을 공유하는 방법입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>パーシャルはページテンプレートとレイアウトで使うことができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144818Z" creationid="hsin" creationdate="20131116T144657Z">
+        <seg>파셜은 페이지 템플릿과 레이아웃에서 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>パーシャルを使い始めたら, 変数を渡すことで異なった呼び出しを行いたいかもしれません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145155Z" creationid="hsin" creationdate="20131116T145120Z">
+        <seg>파셜을 사용하다보면 인자를 지정해 다른 방식으로 불러올 필요가 있을 수도 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7863,8 +9851,8 @@ end
       <tuv lang="JA">
         <seg>ビルド時または develop 環境でのみ適用したい設定がある場合, ブロックの中で設定することができます:</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072606Z" creationid="hsin" creationdate="20131115T072606Z">
-        <seg>빌드를 할 때는 develop 환경에서만 적용하고 싶은 설정이 있으면 블록을 통해서 설정해 줄 수 있습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124523Z" creationid="hsin" creationdate="20131115T072606Z">
+        <seg>빌드 시에 develop 환경에서만 적용하고 싶은 설정이 있으면 블록을 통해서 설정해 줄 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7881,6 +9869,38 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T153728Z" creationid="hsin" creationdate="20131115T153728Z">
         <seg>파일명에 `.min`이 붙어있는 이미 압축된 파일을 사용하고 있다면 Middleman은 그 파일을 압축하지 않습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ファイル拡張子とパーサに関しては, レイアウト機能はビルドプロセスの中でテンプレートと異なる機能をもっているので, 正しい拡張子を与えるよう注意する必要があります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143521Z" creationid="hsin" creationdate="20131116T143521Z">
+        <seg>레이아웃은 빌드가 일어날 때 템플릿과는 서로는 다른 기능을 가지고 있습니다. 따라서 정확한 확장자를 지정해줄 필요가 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>フォーマットヘルパの代表的なものは `escape_html`, `distance_of_time_in_words`, `time_ago_in_words` と `js_escape_html` の 4 つです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T115058Z" creationid="hsin" creationdate="20140110T115058Z">
+        <seg>대표적인 포멧 헬퍼로는 `escape_html`, `distance_of_time_in_words`, `time_ago_in_words`, `js_escape_html`이 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>フォーマットヘルパは `simple_format`, `pluralize`, `word_wrap` や `truncate` のようなテキストの加工に便利な機能も含みます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133329Z" creationid="hsin" creationdate="20140110T133329Z">
+        <seg>포맷 헬퍼는 `simple_format`, `pluralize`, `word_wrap`, `truncate`와 같은 텍스트 처리를 위한 헬퍼들을 포함합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>フォーマットヘルパはテキストを目的に合わせて加工するための便利なメソッドです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T115019Z" creationid="hsin" creationdate="20140110T115019Z">
+        <seg>포맷 헬퍼는 텍스트를 목적에 맞춰서 가공하기 위한 편리한 메소드입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7917,10 +9937,74 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>ブログ構造に依存し, 記事の中で相対リンクの使用を可能にしますが, 記事の内容がサイトの他の部分, 例えばカレンダーやタグページ, で使われる場合には注意が必要です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T083944Z" creationid="hsin" creationdate="20131201T083944Z">
+        <seg>이 경우 블로그 구조에 의존하며 블로그 글 안에서 상대주소로 사용할 수 있지만, 글과 상관없이 사이트 내에서 이 자료를 사용하는 경우엔 주의가 필요합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ブログ記事に紐付いた拡張子なしのサブディレクトリは, ビルド時に正しい場所へ複製されたファイルが入っています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T083403Z" creationid="hsin" creationdate="20131201T083349Z">
+        <seg>블로그 기사와 같은 이름을 가진 확장자가 없는 디렉토리는 빌드 과정에서 적당한 위치로 복사됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ブログ記事の一覧はテンプレートから [`BlogArticle`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle) のリストを返す [`blog.articles`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogData#articles-instance_method) でアクセスできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140104T104535Z" creationid="hsin" creationdate="20140104T104535Z">
+        <seg>블로그 글 목록은 템플릿에서 [`BlogArticle`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle) 의 리스트를 반한하는 [`blog.articles`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogData#articles-instance_method) 메소드로 읽어올 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ブログ記事はサイト全体のコンテンツの部分集合です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144613Z" creationid="hsin" creationdate="20131116T144613Z">
+        <seg>블로그 글은 사이트 전체 컨텐츠의 부분 집합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ブロック引数にも対応します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114439Z" creationid="hsin" creationdate="20140110T114439Z">
+        <seg>블록 인수도 지원합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>プレビューサーバを立ち上げ, `http://localhost:4567/__middleman/config/` にアクセスすると, あらゆる設定や使用可能な拡張機能を確認できます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072043Z" creationid="hsin" creationdate="20131115T072009Z">
-        <seg>프리뷰 서버를 실행하고 `http://localhost:4567/__middleman/config`에 접속하면 거의 모든  설정들과 사용가능한 확장기능을 확인하실 수 있습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124220Z" creationid="hsin" creationdate="20131115T072009Z">
+        <seg>참고로 프리뷰 서버를 실행하고 `http://localhost:4567/__middleman/config`에 접속하면 거의 모든 설정들과 사용가능한 확장기능을 확인할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>プレビュー中に表れる Rack ミドルウェアの効果は, ビルドしたファイルにも現れるます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062819Z" creationid="hsin" creationdate="20131201T062819Z">
+        <seg>프리뷰 서버에서 적용되는 Rack 미들웨어는 빌드된 파일에도 그대로 적용됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>プレースホルダテキストの使用方法:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133728Z" creationid="hsin" creationdate="20140110T133728Z">
+        <seg>무작위 텍스트를 생성하는 방법:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>プレースホルダ画像の使用方法:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133831Z" creationid="hsin" creationdate="20140110T133831Z">
+        <seg>Placeholder 이미지 사용법:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7941,6 +10025,22 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>プロジェクト内に `config.ru` ファイルの雛形を含めるには, init コマンドに `--rack` フラグを追加してください:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081855Z" creationid="hsin" creationdate="20140109T081855Z">
+        <seg>프로젝트 생성 시에 `config.ru`를 포함하고자 할 때는 init 명령어에 `--rack` 옵션을 사용합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ヘッダによってユーザがサイトを再度訪問する時 (またサイトのその他のページを訪問する時) これらのアセットファイルを再ダウンロードしません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T124422Z" creationid="hsin" creationdate="20131124T124422Z">
+        <seg>이 헤더 설정을 통해 사용자가 사이트에 다시 방문하거나 사이트 내의 다른 페이지에 방문할 때 에셋 파일을 다시 다운로드하지 않습니다.  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>ヘルパはテンプレートの中で使用できるメソッドです。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T151848Z" creationid="hsin" creationdate="20131115T151848Z">
@@ -7949,10 +10049,26 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>ヘルパメソッドを定義するには, `config.rb` の中で `helpers` ブロックを使います:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134116Z" creationid="hsin" creationdate="20140110T134116Z">
+        <seg>헬퍼 메소드를 정의하려면 `config.rb`에 `helpers` 블록을 사용해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>ヘルパメソッドを追加するには, 次のようにします:</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T151903Z" creationid="hsin" creationdate="20131115T151903Z">
-        <seg>헬퍼 메소드 추가는 아래와 같이 이루어집니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125608Z" creationid="hsin" creationdate="20131115T151903Z">
+        <seg>헬퍼 메소드를 추가하는 방법은 아래와 같습니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ページが "contact.html" の場合, "contact.css" や "contact.js" の参照になります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114910Z" creationid="hsin" creationdate="20140110T114910Z">
+        <seg>페이지가 "contact.html"이면, "contact.css"나 "contact.js"를 가리킵니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7981,6 +10097,30 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>ページの内容に加えファイル名も多言語化したい場合があります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151649Z" creationid="hsin" creationdate="20131116T151649Z">
+        <seg>페이지 내용은 물론 파일 이름도 다언어화가 필요한 경우가 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ページの大きなグループにこのレイアウトを適用したい場合, `config.rb` に "page" コマンドを使うことができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144335Z" creationid="hsin" creationdate="20131116T144335Z">
+        <seg>페이지를 큰 그룹으로 나눠 `config.rb`에 "page" 메소드로 지정할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ページテンプレートの例として次を使います。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144424Z" creationid="hsin" creationdate="20131116T144424Z">
+        <seg>페이지 템플릿의 예는 다음과 같습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>ページネーション対応のテンプレートでは次の変数を使うことができます:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T023931Z" creationid="hsin" creationdate="20131116T023907Z">
@@ -7997,10 +10137,34 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>ページ毎に [YAML 形式の Frontmatter](/frontmatter/) に `directory_index: false` を追加することもできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140805Z" creationid="hsin" creationdate="20140110T140805Z">
+        <seg>페이지 마다 [YAML 形式の Frontmatter](/frontmat)에 `directory index:false`를 추가해주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>ホームページ上のようにリンクをともなった記事の要約を表示したい場合, Middleman は記事の切り取りに対応します。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T015303Z" creationid="hsin" creationdate="20131116T015303Z">
         <seg>홈페이지 위에 링크와 함께 간략한 요약 정보를 나타내고 싶을 땐, 글의 일부분을 가져올 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ユーザによる古いファイル使用防止に最も効果的な方法は, アセットファイルの内容を変更する度にファイル名を変更するものです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T052925Z" creationid="hsin" creationdate="20131125T052925Z">
+        <seg>사용자가 지난 파일을 사용하지 않도록 하는 가장 효과적인 방법은 에셋 파일이 변경될 때마다 이름을 바꿔주는 방법입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>リンクのクエリパラメータやURLフラグメントを次のように含めることができます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114118Z" creationid="hsin" creationdate="20140110T114118Z">
+        <seg>링크의 쿼리 인자나 URL @@@를 다음과 같이 포함할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8021,10 +10185,42 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>レイアウトに挿入する前に記事ごとにちょっとした構造で囲みたい場合, 記事レイアウトを構成してからメインのレイアウトで囲むために, Middleman の [入れ子レイアウト](/templates/#toc_4) 機能を使うことができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T083015Z" creationid="hsin" creationdate="20131201T083015Z">
+        <seg>레이아웃에 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>レイアウトのファイル名の左端の拡張子に `.html` を与えた場合, ビルド時のエラーの原因になります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143900Z" creationid="hsin" creationdate="20131116T143900Z">
+        <seg>레이아웃 파일 왼쪽 확장자에 `.html`을 지정하면 빌드할 때 에러를 유발할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>レイアウト機能はテンプレート間で共有する, 個別ページを囲むための共通 HTML の使用を可能にします。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T160901Z" creationid="hsin" creationdate="20131115T160901Z">
-        <seg>레이아웃 기능은 페이지들에서 공유할 수 있는 공통된 부분을 담음 HTTML입니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143255Z" creationid="hsin" creationdate="20131115T160901Z">
+        <seg>레이아웃 기능은 페이지들에서 공유할 수 있는 공통된 부분을 담은 HTML입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>レンダリングされたブログの記事、切り取りたい長さ、および省略文字列を受け取り、要約を生成します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140102T065054Z" creationid="hsin" creationdate="20140102T065054Z">
+        <seg>렌더링하려는 블로그 글과 자르고자 하는 길이, 요약 생성시 사용할 문자열을 넘겨받아 요약을 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ロケールごとの YAML ファイルに大きなテキストブロックを書くのは非効率です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062651Z" creationid="hsin" creationdate="20131201T062651Z">
+        <seg>로케일마다 YAML 파일에 큰 텍스트 블럭을 사용하는 건 비효율적입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8049,6 +10245,38 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T141633Z" creationid="hsin" creationdate="20131116T141633Z">
         <seg>이러한 gem들에 대해 의존관계를 한 번만 추가해주면 gem에서 이미지나 폰트를 자동적으로 읽어옵니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>一部のファイルをミニファイ処理から除外したい場合, これらの拡張を有効化する際に `:ignore` オプションを渡し, 無視するファイルを識別する 1 つ以上のパターンマッチ, 正規表現や Proc を与えます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T123531Z" creationid="hsin" creationdate="20131124T123531Z">
+        <seg>일부 파일을 최소화(minify) 처리에서 제외시키고 싶으면 확장을 활성화할 때 `:ignore` 옵션을 지정해 제외시키려고자 하는 파일을 알려주기 위해 패턴 매치, 정규 표현이나 Proc 객체를 하나 이상 지정합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>一部ファイルを名前変更から除外したい場合, `:asset_hash` を有効化する時に `:ignore` オプションを渡し, 無視したいファイルを指す 1 つ以上のパターンマッチ, 正規表現や Proc を与えてください。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054040Z" creationid="hsin" creationdate="20131125T054013Z">
+        <seg>이름을 변경하고 싶지 않은 파일이 있다면 `:asset_hash`를 활성화할 때 `:ignore` 옵션을 넘겨 제외하고자 하는 파일을 알려주기 위해 패턴 매치, 정규 표현식, Proc 객체를 하나 이상 지정합니다.@@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>上記 2 つのレイアウトをもつ例を続けましょう: 通常のページと admin ページです。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144735Z" creationid="hsin" creationdate="20131116T144735Z">
+        <seg>위에서 "public"과 "admin" 두 개의 레이아웃을 가지는 예를 통해 계속 설명하겠습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>上記のブロックには `rack/codehighlighter` と `pygments.rb` ライブラリが必要です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152636Z" creationid="hsin" creationdate="20131116T152636Z">
+        <seg>이를 위해 `rack/codehighlighter`과 `pygments.rb` 라이브러리가 필요합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8109,6 +10337,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>作者によって事前に配慮された圧縮をおこなう jQuery のようなライブラリにはとても良い方法です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T123340Z" creationid="hsin" creationdate="20131124T123340Z">
+        <seg>제작자에 따라 사전에 자체적인 방법을 사용해 압축을 하는 jQuery 같은 라이브러리를 사용할 때는 매우 유용합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>例:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152613Z" creationid="hsin" creationdate="20131115T152613Z">
@@ -8141,10 +10377,50 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>例えば, HTML5 Boilerplate ベースのプロジェクトを始める場合, 次のコマンドを使用します:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T082332Z" creationid="hsin" creationdate="20140109T082332Z">
+        <seg>예를 들어 HTML5 Boilerplate를 기반으로 프로젝트를 시작하고자할 때는 다음 명령어를 사용합니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>例えば, `:css_dir` 変数に依存する場合, 設定されるまで待つべきです。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152452Z" creationid="hsin" creationdate="20131115T152452Z">
         <seg>예를 들어 `:css_dir` 변수를 사용하고 싶을 때가 그렇습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例えば, `index.html` を作りたいとして, `index.en.html.erb` と `index.es.html.erb` 2 つのテンプレートを作ることができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T062730Z" creationid="hsin" creationdate="20131201T062726Z">
+        <seg>예를 들어 `index.html`를 만들고 싶다면 `index.en.html.erb`와 `index.es.html.erb` 2개의 템플릿을 만들 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例えば, `lib/custom_helpers.rb` という名前のファイルに上記のヘルパを抽出する場合には, モジュールを作ることができます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134437Z" creationid="hsin" creationdate="20140110T134437Z">
+        <seg>예를 들어 `lib/custom_helpers.rb`라는 이름을 가진 파일에 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例えば, `my-page/index.html.erb` はあなたの予想どおり `my-page/index.html` としてビルドされます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143031Z" creationid="hsin" creationdate="20131116T143031Z">
+        <seg>예를 들어, `my-page/index.html.erb`는 그대로 `my-page/index.html`로 빌드됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例えば, `source/about.html` ファイルがあり `:directory_indexes` が有効化されている場合, 次のようにリンクします:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114054Z" creationid="hsin" creationdate="20140110T114054Z">
+        <seg>예를 들어 `source/about.html` 파일이 있을 때 `:directory_indexes`가 활성화되어있다면 다음과 같이 링크할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8165,10 +10441,50 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>例えば, それぞれ独自のレイアウトをもつ "public" サイトと "admin" サイトがあるような場合です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144001Z" creationid="hsin" creationdate="20131116T144001Z">
+        <seg>예를 들어 서로 다른 레이아웃을 가진 "public" 사이트와 "admin" 사이트가 있다면 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例えば, レイアウトファイルを `layout.html.erb` と名付けることで, 言語パーサにこのファイルは erb として扱えと命じることになり, html に変換されます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143657Z" creationid="hsin" creationdate="20131116T143651Z">
+        <seg>예를 들어 레이어웃 파일이 `layout.html.erb`라고 하면 이 파일은 erb 엔진으로 빌드되어 html 파일이 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>例えば, 次のように危険な最適化やトップレベル変数名のシンボル化を有効化できます:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T154045Z" creationid="hsin" creationdate="20131115T154045Z">
         <seg>예를 들어 아래와 같은 위험한 최적화나 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例えば, 次のディレクトリ構造です:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T083228Z" creationid="hsin" creationdate="20131201T083228Z">
+        <seg>예를 들어 아래와 같은 구조로 되어있다면,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例えば, 次のブロックは最新 5 記事とそれらの要約を示します:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081202Z" creationid="hsin" creationdate="20140109T081134Z">
+        <seg>예를 들어 다음 블록은 최근에 올라온 3개의 글의 요약을 보여줍니다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例えば, 私は `~/.middleman/mobile` フォルダを作り, モバイルプロジェクトで利用するファイルをフォルダ用意することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T082541Z" creationid="hsin" creationdate="20140109T082541Z">
+        <seg>예를 들어 `~/.middleman/mobile` 폴더를 만들어 모바일 프로젝트 용 템플릿을 만들 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8189,10 +10505,26 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>例として `source` フォルダに置かれる `_footer.erb` と名付けられた footer パーシャルを示します:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T144912Z" creationid="hsin" creationdate="20131116T144912Z">
+        <seg>`source/_footer.erb` 파일 예제입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>例として, ページの [frontmatter] に "category" が追加されているものとして, カテゴリーごとに動的にカテゴリーページを作ります。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T140744Z" creationid="hsin" creationdate="20131116T140744Z">
         <seg>예를 들어 페이지의 [frontmatter]에 "category"가 추가되어있다면 카테고리 별로 동적인 카테고리 페이지를 만들 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>例の場合, ファイルが与えられた時に erb から html に変換し, ファイルをビルドします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143817Z" creationid="hsin" creationdate="20131116T143817Z">
+        <seg>예에서는 erb에서 html로 빌드됩니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8213,6 +10545,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>出力ヘルパは様々な方法で出力を管理, キャプチャ, 表示する重要なメソッドの集合で, より高いレベルのヘルパ機能をサポートするために使われます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114154Z" creationid="hsin" creationdate="20140110T114154Z">
+        <seg>출력 헬퍼는 다양한 방법으로 출력을 관리, 캡쳐, 표시하는 중요한 메소드들로 보다 높은 레벨의 헬퍼 기능을 지원하기 위해 사용됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>別のソースからデータを返したり, 早い段階で処理を中止したい場合に便利です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152611Z" creationid="hsin" creationdate="20131115T152611Z">
@@ -8229,6 +10569,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>動作させるにはインストール (`config.rb` で読み込む) しなければなりません。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145627Z" creationid="hsin" creationdate="20131116T145627Z">
+        <seg>사용하기 위해서는 `config.rb`에서 읽어와야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>単に記事の [frontmatter](/frontmatter/) に `tag` を追加するだけです。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T020634Z" creationid="hsin" creationdate="20131116T020634Z">
@@ -8237,10 +10585,50 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>単一のブログ記事に属しているファイル (例えば画像) は source 内で一緒に保管し出力することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T083721Z" creationid="hsin" creationdate="20131201T083721Z">
+        <seg>하나의 블로그 글에서 사용하는 이미지 파일 같은 것들은 source 폴더 내에 같이 저장해놓고 빌드할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>各 [`BlogArticle`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle) は有益なメソッドを持ちます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140104T105244Z" creationid="hsin" creationdate="20140104T104552Z">
+        <seg>각 [`BlogArticle`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle)은 편리한 메소드들을 가지고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>同じく, 拡張が Compass が用意する変数や設定に依存する場合, `compass_config` コールバックが使用できます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152947Z" creationid="hsin" creationdate="20131115T152947Z">
         <seg>마찬가지로 확장 기능이 Compass에서 정의되는 변수나 설정에 의존하고 있으면 `compass_config` 콜백을 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>同じように, ファイル拡張子をリネームし変更するために `:exts` オプションを渡すこともできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131124T123549Z" creationid="hsin" creationdate="20131124T123549Z">
+        <seg>마찬가지라 파일 확장자를 변경하려면 `:exts` 옵션을 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>同様にファイル拡張子を変更するために `:exts` オプションを渡すことができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054028Z" creationid="hsin" creationdate="20131125T054028Z">
+        <seg>마찬가지라 파일 확장자를 변경하려면 `:exts` 옵션을 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>呼び出されたミドルウェアは [`Rack::Codehighlighter`](https://github.com/wbzyl/rack-codehighlighter) です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152508Z" creationid="hsin" creationdate="20131116T152508Z">
+        <seg>사용하는 미들웨어는 [`Rack::Codehighlighter`](https://github.com/wbzyl/rack-codehighlighter)입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8263,8 +10651,8 @@ end
       <tuv lang="JA">
         <seg>基本的な拡張機能は次のようになります:</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T102801Z" creationid="hsin" creationdate="20131115T102801Z">
-        <seg>기본적으로 확장 기능은 다음과 같이 정의합니다:</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124023Z" creationid="hsin" creationdate="20131115T102801Z">
+        <seg>확장 기능은 다음과 같이 정의합니다:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8281,6 +10669,14 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T022258Z" creationid="hsin" creationdate="20131116T022258Z">
         <seg>여러 블로그 엔진에서는 년원일을 기준으로 해당하는 모든 기사를 포함하는  페이지를 만듭니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>多言語化するテンプレートは, デフォルト設定では `source/Localizable` フォルダの中に置きます (このオプションの変更方法はページ下部で) 。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131126T000302Z" creationid="hsin" creationdate="20131126T000302Z">
+        <seg>다언어화를 위한 템플릿은 기본적으로 `source/Localizable` 디렉토리에 있습니다 (이 옵션을 변경하는 방법은 아래에서 다룹니다.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -8310,10 +10706,26 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>必要な場合, 同日の複数投稿に対応するために, frontmatter に `date` として日付と時刻を指定することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131201T063146Z" creationid="hsin" creationdate="20131201T063146Z">
+        <seg>같은 날에 여러개의 글을 쓰는 경우 frontmatter에 `date` 변수를 통해 날자와 시간을 지정할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>思いつきでループを追加することができます:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T160713Z" creationid="hsin" creationdate="20131115T160713Z">
         <seg>이 안에서 루프를 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>手作業で行うには大変なので, Middleman にはこの処理に対応する `:asset_hash` 拡張が付属しています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053010Z" creationid="hsin" creationdate="20131125T053010Z">
+        <seg>손수 이러한 작업을 하는 것은 매우 비효율적입니다. Middleman에서는 이러한 처리를 `:asset_hash`라는 확장기능을 통해 지원합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8328,32 +10740,32 @@ end
       <tuv lang="JA">
         <seg>拡張機能からアクセスできる新しい設定を作ることもできます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T105028Z" creationid="hsin" creationdate="20131115T105028Z">
-        <seg>확장 기능에서 접근 가능한 새로운 변수를 지정하는 것도 가능합니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125141Z" creationid="hsin" creationdate="20131115T105028Z">
+        <seg>확장기능에서 접근 가능한 새로운 변수를 지정하는 것도 가능합니다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>拡張機能に特定の値を必要とするだけの場合には, グローバル設定の代わりに `activate` のオプションを使うことを検討した方がよいでしょう。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T105219Z" creationid="hsin" creationdate="20131115T105219Z">
-        <seg>확장 기능에서만 특정한 값을 필요로하는 경우에는 경우 전역 변수를 사용하는 대신 `activate`의 옵션을 사용하는 방법을 권장합니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T125318Z" creationid="hsin" creationdate="20131115T105219Z">
+        <seg>확장기능에 특정한 값만 필요로한다면 경우 전역 변수를 사용하는 대신 `activate`의 옵션을 사용하는 방법을 권장합니다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>拡張機能は有効化されたタイミングで設定されます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072319Z" creationid="hsin" creationdate="20131115T072319Z">
-        <seg>확장기능은 활성화되는 시점에 설정을 적용할 수 있습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124421Z" creationid="hsin" creationdate="20131115T072319Z">
+        <seg>확장기능은 활성화되는 시점부터 확장기능에 관련된 설정들을 적용할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>拡張機能を有効化するときに限りブロックを与えることもできます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T104347Z" creationid="hsin" creationdate="20131115T104347Z">
-        <seg>확장 기능을 활성화할 때에 한해서 블록을 넘겨줄 수 있습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124752Z" creationid="hsin" creationdate="20131115T104347Z">
+        <seg>확장기능을 활성화할 때에 한해서 블록을 넘겨줄 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8398,10 +10810,50 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>最後に, `~/.middleman/` フォルダの中に独自のカスタムテンプレートのスケルトンを入れたフォルダを作ることができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T082516Z" creationid="hsin" creationdate="20140109T082516Z">
+        <seg>또한 `~/.middleman/` 폴더에 직접 커스터마이징한 템플릿 폴더를 만들 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>最後に, 静的サイトのコードを出力する準備ができているか "ブログモード" で静的ブログをホストするような場合, サイトをビルドします。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113707Z" creationid="hsin" creationdate="20140110T113707Z">
+        <seg>@@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>未来の日付の記事も未発表とみなされます; 定期的に `cron` ジョブを使ってサイトを生成する場合, 自動的に指定された時間に記事を公開するためにこの機能を使うことができます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T015121Z" creationid="hsin" creationdate="20131116T015121Z">
         <seg>날짜가 미래로 되어있는 글도 출력되지 않습니다. `cron`을 사용해 정기적으로 사이트를 생성하면 지정된 시간에 자동적으로 글이 공개되도록 할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>構文ハイライトは Middleman の外で行われます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152424Z" creationid="hsin" creationdate="20131116T152424Z">
+        <seg>신택스 하이라이트는 Middleman 밖에서 이루어집니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>次がその理由です:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T143549Z" creationid="hsin" creationdate="20131116T143537Z">
+        <seg>이는  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>次に `config.rb` に追加:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T134921Z" creationid="hsin" creationdate="20140110T134921Z">
+        <seg>다음으로 `config.rb`에 추가</seg>
       </tuv>
     </tu>
     <tu>
@@ -8426,6 +10878,14 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T020407Z" creationid="hsin" creationdate="20131116T020407Z">
         <seg>아래 행을 추가해 글 페이지 링크와 함께 요약을 보여줄 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>次に, 通常のファイル名でアセットファイルを参照します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T053424Z" creationid="hsin" creationdate="20131125T053424Z">
+        <seg>이렇게 설정하고 에셋 파일을 사용할 때는 원래의 파일을 참조하도록 합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8462,6 +10922,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>次のように出力されます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151828Z" creationid="hsin" creationdate="20131116T151828Z">
+        <seg>이제 다음과 같이 빌드됩니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>次のように完全な抽象パスを使って呼び出す必要があります:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T142804Z" creationid="hsin" creationdate="20131116T142751Z">
@@ -8494,6 +10962,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>次の方法で対応出来ます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145153Z" creationid="hsin" creationdate="20131116T145130Z">
+        <seg>다음 예제는 파셜에 인자를 지정하는 방법을 보여줍니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>次の設定例を参照してください:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T022736Z" creationid="hsin" creationdate="20131116T022736Z">
@@ -8514,6 +10990,22 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T025349Z" creationid="hsin" creationdate="20131116T025349Z">
         <seg>전체 파일 경로나 파일 이름에 대한 패턴매치, 혹은 정규 표현을 ignore의 인수로 사용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>残りの部分は標準的な Rack ミドルウェアのセットアップで, 構文ハイライトを作るミドルウェアに対し構文解析の処理方法や code ブロックの配置方法を変数で渡しています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T152747Z" creationid="hsin" creationdate="20131116T152747Z">
+        <seg>나머지 부분은 표준적인 Rack 미들웨어 설정이며, 신택스 하이라이트 처리 방법과 code 블록의 위치와 같은 옵션들을 지정해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>特定形式のカレンダーページにしたい場合 (例えば年別で日別は不要) やカレンダーページの種類ごとに異なるテンプレートを使いたい場合, `blog.year_template`, `blog.month_template` や `blog.day_template` を個別に設定できます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140109T081125Z" creationid="hsin" creationdate="20140109T081125Z">
+        <seg>특정 형식을 가진 캘린더 페이지를 만들거나(예를 들어 년별로만 나누는 경우) 캘린더 페이지 종류 별로 다른 템플릿을 사용하고자 할 때는 `blog.year_template`, `blog.month_template`나 `blog.day_template`를 각각 설정해줄 수 있습니다. </seg>
       </tuv>
     </tu>
     <tu>
@@ -8550,10 +11042,34 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>私たちはこのコードを Middleman に適合させました (MIT ライセンスを祝福します)。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T133711Z" creationid="hsin" creationdate="20140110T133711Z">
+        <seg>(MIT 라이센스를 차용하고 있는) Frank 프로젝트는 Middleman에 포함되어있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>簡単な ERb テンプレートに, 固有のページのレイアウトを変更する Frontmatter を追加します。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T025557Z" creationid="hsin" creationdate="20131116T025557Z">
         <seg>간단한 ERb 템플릿에 해당 페이지의 레이아웃을 변경하기 위한 Frontmatter을 추가하는 예제입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>簡単な `source/localizable/hello_world.html.erb` テンプレートの例です:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131126T000539Z" creationid="hsin" creationdate="20131126T000539Z">
+        <seg>간단히 `source/localizable/hello_world.html.erb` 템플릿을 예로 들어보겠습니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>簡単なビューテンプレートでの使用方法は次のようになります:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114742Z" creationid="hsin" creationdate="20140110T114742Z">
+        <seg>아래는 뷰 템플릿을 사용하는 간단한 예제입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8592,6 +11108,38 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>自動的にブロックの内容 (この場合はスタイルシートが含まれる) をレイアウト内で yield された場所に挿入します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114415Z" creationid="hsin" creationdate="20140110T114415Z">
+        <seg>자동적으로 블록의 내용(이 예제에서는 스타일시트를 포함합니다)를 레이아웃의 yield된 위치에 출력합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>自動的に名前を変更したくないページがある場合, 除外できます:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140706Z" creationid="hsin" creationdate="20140110T140653Z">
+        <seg>자동적으로 이름을 변경하고 싶지 않다면 제외할 수 있습니다. 2@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>複数のページやレイアウトに Copy&amp;Paste する内容を見つけた場合, パーシャルに内容を抽出するのは良い方法です。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T145043Z" creationid="hsin" creationdate="20131116T145043Z">
+        <seg>여러 페이지에 비슷한 내용을 복사 붙여넣기 하기보다는 별도의 파일로 만드는 게 더 편리합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>言語固有の URL 書き換えを行う場合 YAML ファイルの中で `paths` キーを使うことで対応できます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131116T151716Z" creationid="hsin" creationdate="20131116T151716Z">
+        <seg>언어 고유의 URL로 변경하고 싶다면 YAML 파일에 `paths` 키를 사용해 지정할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>記事のデフォルトのファイル名構造は `:year-:month-:day-:title.html` です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T010857Z" creationid="hsin" creationdate="20131116T010857Z">
@@ -8610,16 +11158,16 @@ end
       <tuv lang="JA">
         <seg>設定ごとに完璧なドキュメントを用意するより, 私たちは Middleman にどのような設定ができるか示す機能を与えました。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T071925Z" creationid="hsin" creationdate="20131115T071925Z">
-        <seg>각 설정 별로 완벽한 문서를 만들기보다는 Middleman을 어떻게 설정할 수 있는 기능들을 모아두었습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124153Z" creationid="hsin" creationdate="20131115T071925Z">
+        <seg>이 문서에는 각각의 설정을 완벽한 소개를 하기보다, 어플리케이션을 어떻게 설정할 수 있는지에 대해서 소개합니다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>設定名, 簡単な説明, デフォルト値やあなたのサイトでどう設定されているのかを含みます。</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20131115T072116Z" creationid="hsin" creationdate="20131115T072116Z">
-        <seg>설정의 이름과 간단한 설명, 그리고 기본 설정값과 사이트에 어떻게 적용가능한 지 알 수 있습니다.</seg>
+      <tuv lang="KO" changeid="hsin" changedate="20140202T124304Z" creationid="hsin" creationdate="20131115T072116Z">
+        <seg>여기에서 설정의 이름, 간단한 설명, 기본값, 설정 방법을 확인할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8648,6 +11196,22 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>説明すべき出力ヘルパが 3 つあります: `content_for`, `capture_html` や `concat_content`。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114227Z" creationid="hsin" creationdate="20140110T114227Z">
+        <seg>설명이 필요한 출력 헬퍼는 `content_for`, `capture_html`, `concat_content` 3가지 입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>追加された内容と構造を含みますが, 最終的にサイト全体の構造によって囲まれる必要があります (header, footer など) 。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T140839Z" creationid="hsin" creationdate="20140110T140839Z">
+        <seg>추가된 내용과 구조를 포합하지만 최종적으로 사이트 전체 구조에 의해 둘러쌓일 필요가 있습니다.(header, footer 등)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>通常のレイアウトと同じように, `yield` はテンプレートの出力内容が配置される場所です。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005427Z" creationid="hsin" creationdate="20131116T005427Z">
@@ -8664,10 +11228,42 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>長期間の `Expires` と `Cache-Control` ヘッダを使うサーバ設定は使うサーバによって異なります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T054122Z" creationid="hsin" creationdate="20131125T054122Z">
+        <seg>파일이 장시간 유지되도록 `Expire`나 `Cache-Control` 헤더를 지정하는 방식을 서버에 따라 다릅니다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>長期間の `Expires` や `Cache-Control` ヘッダの設定は, アセットファイルを変更した時にユーザがまだキャッシュされたバージョンを使っていると問題を引き起こ可能性があります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20131125T052837Z" creationid="hsin" creationdate="20131125T052837Z">
+        <seg>장시간 유지되도록 `Expires`나 `Cache-Contrl` 헤더를 설정할 경우 에셋 파일이 변경되어도 캐시된 자료를 그대로 사용하는 문제가 생길 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>開発を始めるに Middleman が動作するプロジェクトフォルダを作る必要があります。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T052033Z" creationid="hsin" creationdate="20131116T051933Z">
         <seg>새로운 사이트를 만들기 위해서는 프로젝트 디렉토리를 만들어야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>開発サイクルや静的サイトをこれらの環境に依存することができます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T113251Z" creationid="hsin" creationdate="20140110T113251Z">
+        <seg>개발 사이클이나 정적 사이트는 이러한 환경에 의존해 개발할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>非オブジェクトの form が作られる場合の簡単な例は次のように:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140110T114955Z" creationid="hsin" creationdate="20140110T114955Z">
+        <seg>객체가 없이 form을 생성할 때는 아래와 같이 사용할 수 있습니다.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->

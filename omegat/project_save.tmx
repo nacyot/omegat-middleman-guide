@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.4_2" segtype="sentence" srclang="JA"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="JA"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -456,6 +456,26 @@ activate :my_feature do |f|</seg>
         <seg># 확장 기능에 옵션을 지정하는 두 가지 방법
 activate :my_feature, :foo =&gt; 'whatever'
 activate :my_feature do |f|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># 拡張機能を設定する 2 つの方法
+activate :my_feature, :foo =&gt; 'whatever'
+activate :my_feature do |f|
+  f.foo = 'whatever'
+  f.bar = 'something else'
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163908Z" creationid="nacyot" creationdate="20140427T163908Z">
+        <seg># 확장 기능을 설정하는 2가지 방법
+activate :my_feature, :foo =&gt; 'whatever'
+activate :my_feature do |f|
+  f.foo = 'whatever'
+  f.bar = 'something else'
+end
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -972,6 +992,14 @@ activate :my_feature do |f|</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 記事の生成</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164435Z" creationid="nacyot" creationdate="20140427T164431Z">
+        <seg>## 기사 생성</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 記事データ</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T024315Z" creationid="hsin" creationdate="20131116T024315Z">
@@ -1236,6 +1264,26 @@ lorem.image('300x400', :text =&gt; 'blah')</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>$(document).ready(function() {
+  $(".item").pluginCode({
+    param1: true,
+    param2: "maybe"
+  });
+});
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164312Z" creationid="nacyot" creationdate="20140427T164312Z">
+        <seg>$(document).ready(function() {
+  $(".item").pluginCode({
+    param1: true,
+    param2: "maybe"
+  });
+});
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155032Z" creationid="hsin" creationdate="20131115T155032Z">
@@ -1404,6 +1452,18 @@ lorem.image('300x400', :text =&gt; 'blah')</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>* source/localizable/index.html.erb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>* source/localizable/index.html.erb
+  * build/index.html は英語
+  * build/es/index.html はスペイン語</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164301Z" creationid="nacyot" creationdate="20140427T164301Z">
+        <seg>* source/localizable/index.html.erb
+  * build/index.html は英語
+  * build/es/index.html はスペイン語</seg>
       </tuv>
     </tu>
     <tu>
@@ -2102,6 +2162,16 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;% end %&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164743Z" creationid="nacyot" creationdate="20140427T164743Z">
+        <seg>&lt;% end %&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>&lt;% field_set_tag do %&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
@@ -2260,6 +2330,18 @@ source/mint/config/db.php
 &lt;/body&gt;
 &lt;/html&gt;
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;%= partial "layouts/support" %&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163019Z" creationid="nacyot" creationdate="20140427T163019Z">
+        <seg>&lt;%= partial "layouts/support" %&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2600,6 +2682,24 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;div class="container"&gt;
+    &lt;p class="intro"&gt;&lt;%= t("index.description") %&gt;&lt;%= link_to t("index.getting_started"), "#{locale_prefix}/basics/getting-started/" %&gt;.&lt;/p&gt;
+    &lt;p class="intro sns"&gt;
+      &lt;span&gt;&lt;i class="icon-github"&gt; &lt;%= link_to 'Watch', 'https://github.com/middleman/middleman' %&gt;&lt;/i&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;i class="icon-twitter"&gt; &lt;%= link_to 'Follow @middlemanapp', 'http://twitter.com/middlemanapp' %&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163013Z" creationid="nacyot" creationdate="20140427T163013Z">
+        <seg>&lt;div class="container"&gt;
+    &lt;p class="intro"&gt;&lt;%= t("index.description") %&gt;&lt;%= link_to t("index.getting_started"), "#{locale_prefix}/basics/getting-started/" %&gt;.&lt;/p&gt;
+    &lt;p class="intro sns"&gt;
+      &lt;span&gt;&lt;i class="icon-github"&gt; &lt;%= link_to 'Watch', 'https://github.com/middleman/middleman' %&gt;&lt;/i&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;i class="icon-twitter"&gt; &lt;%= link_to 'Follow @middlemanapp', 'http://twitter.com/middlemanapp' %&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>&lt;div class="donate"&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T103129Z" creationid="hsin" creationdate="20131115T103129Z">
@@ -2644,6 +2744,38 @@ source/mint/config/db.php
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155048Z" creationid="hsin" creationdate="20131115T155048Z">
         <seg>&lt;div id="search"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;div id="search"&gt;
+      &lt;form&gt;
+        &lt;input type="text" id="st-search-input" class="st-search-input" placeholder="Search the documentation" /&gt;
+      &lt;/form&gt;
+      &lt;div id="st-results-container"&gt;&lt;/div&gt;
+      &lt;script type="text/javascript"&gt;
+        var Swiftype = window.Swiftype || {};
+        (function() {
+          Swiftype.key = 'q3qjGN5LmX2oq6w1V47y';
+          Swiftype.inputElement = '#st-search-input';
+          Swiftype.resultContainingElement = '#st-results-container';
+          Swiftype.attachElement = '#st-search-input';
+          Swiftype.renderStyle = "overlay";</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163011Z" creationid="nacyot" creationdate="20140427T163011Z">
+        <seg>&lt;div id="search"&gt;
+      &lt;form&gt;
+        &lt;input type="text" id="st-search-input" class="st-search-input" placeholder="Search the documentation" /&gt;
+      &lt;/form&gt;
+      &lt;div id="st-results-container"&gt;&lt;/div&gt;
+      &lt;script type="text/javascript"&gt;
+        var Swiftype = window.Swiftype || {};
+        (function() {
+          Swiftype.key = 'q3qjGN5LmX2oq6w1V47y';
+          Swiftype.inputElement = '#st-search-input';
+          Swiftype.resultContainingElement = '#st-results-container';
+          Swiftype.attachElement = '#st-search-input';
+          Swiftype.renderStyle = "overlay";</seg>
       </tuv>
     </tu>
     <tu>
@@ -2854,6 +2986,20 @@ source/mint/config/db.php
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155135Z" creationid="hsin" creationdate="20131115T155135Z">
         <seg>&lt;header id="hero"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;header id="hero"&gt;
+  &lt;h1&gt;&lt;%= link_to image_tag("mm-blue-w-text.svg", :width =&gt; 225, :height =&gt; 225, :alt =&gt; "Middleman"), "#{locale_prefix}/", { :class =&gt; 'logo' } %&gt;&lt;/h1&gt;
+  &lt;h2&gt;&lt;%= t("index.headline") %&gt;&lt;/h2&gt;
+&lt;/header&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163008Z" creationid="nacyot" creationdate="20140427T163008Z">
+        <seg>&lt;header id="hero"&gt;
+  &lt;h1&gt;&lt;%= link_to image_tag("mm-blue-w-text.svg", :width =&gt; 225, :height =&gt; 225, :alt =&gt; "Middleman"), "#{locale_prefix}/", { :class =&gt; 'logo' } %&gt;&lt;/h1&gt;
+  &lt;h2&gt;&lt;%= t("index.headline") %&gt;&lt;/h2&gt;
+&lt;/header&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3956,6 +4102,18 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;nav class="grid"&gt;
+      &lt;%= partial 'layouts/nav' %&gt;
+    &lt;/nav&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163016Z" creationid="nacyot" creationdate="20140427T163016Z">
+        <seg>&lt;nav class="grid"&gt;
+      &lt;%= partial 'layouts/nav' %&gt;
+    &lt;/nav&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>&lt;p class="console"&gt;$ gem install middleman&lt;/p&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155047Z" creationid="hsin" creationdate="20131115T155047Z">
@@ -4048,6 +4206,18 @@ source/mint/config/db.php
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155150Z" creationid="hsin" creationdate="20131115T155150Z">
         <seg>&lt;section role="main"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;section role="main"&gt;
+  &lt;div id="install"&gt;
+    &lt;p&gt;&lt;b class="console"&gt;$ gem install middleman&lt;/b&gt;&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163010Z" creationid="nacyot" creationdate="20140427T163010Z">
+        <seg>&lt;section role="main"&gt;
+  &lt;div id="install"&gt;
+    &lt;p&gt;&lt;b class="console"&gt;$ gem install middleman&lt;/b&gt;&lt;/p&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4721,6 +4891,14 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Sprockets supports Bower, so you can add your Bower components path directly:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164342Z" creationid="nacyot" creationdate="20140427T164318Z">
+        <seg>Sprockets는 Bower를 지원하며 Bower 컴포넌트 경로를 직접 추가할 수도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Sprockets は .js や .coffee のファイルの中で,  `require` メソッドを使えるようにし, プロジェクトまたは 3rd パーティ製の gem から外部ファイルを取り込むことができます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T141239Z" creationid="hsin" creationdate="20131116T141214Z">
@@ -4943,6 +5121,14 @@ source/mint/config/db.php
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T133401Z" creationid="hsin" creationdate="20131116T133401Z">
         <seg>[사이트맵](http://rubydoc.info/gems/middleman-core/Middleman/Sitemap)은 페이지 별로 HTML, CSS, JavaScript를 비릇한 이미지 정보를 담은 파일입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[ディレクトリインデックス](/jp/basics/pretty-urls/) 拡張はページをディレクトリインデックス版に再ルーティングするためにこの機能を使い, [ブログ拡張](/jp/basics/blogging/) はタグやカレンダーページを作成するためにいくつかのプラグインを使っています。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164112Z" creationid="nacyot" creationdate="20140427T164112Z">
+        <seg>[디렉토리 인덱스](/pretty-urls) 확장은 페이지를 디렉토리 인덱스에 다시 라우트하기 위한 기능을 사용해 [블로그 확장](/blogging)와 태그나 캘린더 페이지를 @@@</seg>
       </tuv>
     </tu>
     <tu>
@@ -5389,6 +5575,34 @@ middleman server
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>``` css
+/*
+ *= require base
+ */</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164313Z" creationid="nacyot" creationdate="20140427T164313Z">
+        <seg>``` css
+/*
+ *= require base
+ */</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` erb
+&lt;%= article.summary %&gt;
+&lt;%= link_to 'Read more…', article %&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164800Z" creationid="nacyot" creationdate="20140427T164800Z">
+        <seg>``` erb
+&lt;%= article.summary %&gt;
+&lt;%= link_to 'Read more…', article %&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>``` erb
 &lt;%= article.summary =&gt;
 &lt;%= link_to 'Read more…', article &gt;
@@ -5407,6 +5621,30 @@ middleman server
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T162203Z" creationid="hsin" creationdate="20131115T162203Z">
         <seg>``` html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+    &lt;%= I18n.t(:hello) %&gt; World
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164240Z" creationid="nacyot" creationdate="20140427T164240Z">
+        <seg>``` html
+    &lt;%= I18n.t(:hello) %&gt; World
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+    &lt;%= t(:hello) %&gt; World
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164241Z" creationid="nacyot" creationdate="20140427T164241Z">
+        <seg>``` html
+    &lt;%= t(:hello) %&gt; World
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -5451,6 +5689,54 @@ pageable: true
 pageable: true
 ---
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+---
+title: Middleman のブログ投稿
+date: 2011/10/18
+tags: blogging, middleman, hello, world
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164747Z" creationid="nacyot" creationdate="20140427T164747Z">
+        <seg>``` html
+---
+title: Middleman のブログ投稿
+date: 2011/10/18
+tags: blogging, middleman, hello, world
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+---
+title: Middleman ブログの投稿
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164422Z" creationid="nacyot" creationdate="20140427T164422Z">
+        <seg>``` html
+--- 
+title: Middleman 블로그 글 쓰기
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+---
+title: Work In Progress
+published: false
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164815Z" creationid="nacyot" creationdate="20140427T164815Z">
+        <seg>``` html
+---
+title: Work In Progress
+published: false
+---</seg>
       </tuv>
     </tu>
     <tu>
@@ -5523,6 +5809,26 @@ title: Middleman 블로그 글 쓰기
       <tuv lang="KO" changeid="hsin" changedate="20131116T024320Z" creationid="hsin" creationdate="20131116T024320Z">
         <seg>``` html
 &lt;% blog.articles[0...5].each do |article| %&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;% blog.articles[0...5].each do |article| %&gt;
+  &lt;article&gt;
+    &lt;h1&gt;
+      &lt;a href="&lt;%= article.url %&gt;"&gt;&lt;%= article.title %&gt;&lt;/a&gt;
+      &lt;time&gt;&lt;%= article.date.strftime('%b %e %Y') %&gt;&lt;/time&gt;
+    &lt;/h1&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164739Z" creationid="nacyot" creationdate="20140427T164739Z">
+        <seg>``` html
+&lt;% blog.articles[0...5].each do |article| %&gt;
+  &lt;article&gt;
+    &lt;h1&gt;
+      &lt;a href="&lt;%= article.url %&gt;"&gt;&lt;%= article.title %&gt;&lt;/a&gt;
+      &lt;time&gt;&lt;%= article.date.strftime('%b %e %Y') %&gt;&lt;/time&gt;
+    &lt;/h1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5752,6 +6058,50 @@ title: Middleman 블로그 글 쓰기
     <tu>
       <tuv lang="JA">
         <seg>``` html
+&lt;h1&gt;友だち一覧&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;% data.people.friends.each do |f| %&gt;
+  &lt;li&gt;&lt;%= f %&gt;&lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ol&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164155Z" creationid="nacyot" creationdate="20140427T164155Z">
+        <seg>``` html
+&lt;h1&gt;친구 목록&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;% data.people.friends.each do |f| %&gt;
+  &lt;li&gt;&lt;%= f %&gt;&lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ol&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;h1&gt;友だち一覧&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;Tom&lt;/li&gt;
+  &lt;li&gt;Dick&lt;/li&gt;
+  &lt;li&gt;Harry&lt;/li&gt;
+&lt;/ol&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164208Z" creationid="nacyot" creationdate="20140427T164208Z">
+        <seg>``` html
+&lt;h1&gt;친구 목록&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;Tom&lt;/li&gt;
+  &lt;li&gt;Dick&lt;/li&gt;
+  &lt;li&gt;Harry&lt;/li&gt;
+&lt;/ol&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
 &lt;head&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
@@ -5793,6 +6143,72 @@ title: Middleman 블로그 글 쓰기
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>``` html
+&lt;ul&gt;
+  &lt;% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %&gt;
+    &lt;li&gt;
+      &lt;h5&gt;&lt;%= year %&gt;&lt;/h5&gt;
+      &lt;ul&gt;
+        &lt;% articles.each do |article| %&gt;
+          &lt;li&gt;&lt;a href="&lt;%= article.url %&gt;"&gt;&lt;%= article.title %&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;% end %&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164742Z" creationid="nacyot" creationdate="20140427T164742Z">
+        <seg>``` html
+&lt;ul&gt;
+  &lt;% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %&gt;
+    &lt;li&gt;
+      &lt;h5&gt;&lt;%= year %&gt;&lt;/h5&gt;
+      &lt;ul&gt;
+        &lt;% articles.each do |article| %&gt;
+          &lt;li&gt;&lt;a href="&lt;%= article.url %&gt;"&gt;&lt;%= article.title %&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;% end %&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;ul&gt;
+  &lt;% blog.tags.each do |tag, articles| %&gt;
+    &lt;li&gt;
+      &lt;h5&gt;&lt;%= tag %&gt;&lt;/h5&gt;
+      &lt;ul&gt;
+        &lt;% articles.each do |article| %&gt;
+          &lt;li&gt;&lt;a href="&lt;%= article.url %&gt;"&gt;&lt;%= article.title %&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;% end %&gt;
+      &lt;/ul&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164741Z" creationid="nacyot" creationdate="20140427T164741Z">
+        <seg>``` html
+&lt;ul&gt;
+  &lt;% blog.tags.each do |tag, articles| %&gt;
+    &lt;li&gt;
+      &lt;h5&gt;&lt;%= tag %&gt;&lt;/h5&gt;
+      &lt;ul&gt;
+        &lt;% articles.each do |article| %&gt;
+          &lt;li&gt;&lt;a href="&lt;%= article.url %&gt;"&gt;&lt;%= article.title %&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;% end %&gt;
+      &lt;/ul&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>``` javascript
 //= require "jquery"</seg>
       </tuv>
@@ -5809,6 +6225,30 @@ title: Middleman 블로그 글 쓰기
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>``` json
 {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` json
+{
+  "friends": [
+    "Tom",
+    "Dick",
+    "Harry"
+  ]
+}
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164209Z" creationid="nacyot" creationdate="20140427T164209Z">
+        <seg>``` json
+{
+  "friends": [
+    "Tom",
+    "Dick",
+    "Harry"
+  ]
+}
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -5908,6 +6348,136 @@ activate :blog do |blog|</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+activate :blog do |blog|
+  # ブログ機能のオプションを設定
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164402Z" creationid="nacyot" creationdate="20140427T164402Z">
+        <seg>``` ruby
+activate :blog do |blog|
+  # 블로그 기능의 옵션을 설정
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.layout = "blog_layout"
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164735Z" creationid="nacyot" creationdate="20140427T164735Z">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.layout = "blog_layout"
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.permalink = "blog/{category}/{title}.html"
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164730Z" creationid="nacyot" creationdate="20140427T164730Z">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.permalink = "blog/{category}/{title}.html"
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.permalink = "blog/{year}/{title}.html"
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164724Z" creationid="nacyot" creationdate="20140427T164724Z">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.permalink = "blog/{year}/{title}.html"
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.prefix = "blog"
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164723Z" creationid="nacyot" creationdate="20140427T164723Z">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.prefix = "blog"
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.sources = "{category}/{year}-{month}-{day}-{title}.html"
+  blog.permalink = "{category}/{year}/{month}/{day}/{title}.html"
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164732Z" creationid="nacyot" creationdate="20140427T164732Z">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.sources = "{category}/{year}-{month}-{day}-{title}.html"
+  blog.permalink = "{category}/{year}/{month}/{day}/{title}.html"
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.summary_separator = /SPLIT_SUMMARY_BEFORE_THIS/
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164756Z" creationid="nacyot" creationdate="20140427T164756Z">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.summary_separator = /SPLIT_SUMMARY_BEFORE_THIS/
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.taglink = "categories/{tag}.html"
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164753Z" creationid="nacyot" creationdate="20140427T164753Z">
+        <seg>``` ruby
+activate :blog do |blog|
+  blog.taglink = "categories/{tag}.html"
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 activate :directory_indexes
 ```</seg>
       </tuv>
@@ -5994,6 +6564,20 @@ activate :i18n, :path =&gt; "/langs/:locale/",</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+activate :i18n, :path =&gt; "/langs/:locale/",
+  :lang_map =&gt; { :en =&gt; :english, :es =&gt; :spanish, :fr =&gt; :french }
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164243Z" creationid="nacyot" creationdate="20140427T164243Z">
+        <seg>``` ruby
+activate :i18n, :path =&gt; "/langs/:locale/",
+  :lang_map =&gt; { :en =&gt; :english, :es =&gt; :spanish, :fr =&gt; :french }
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 activate :livereload
 ```</seg>
       </tuv>
@@ -6040,11 +6624,165 @@ class MyFeature &lt; Middleman::Extension</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  # この拡張機能のオプション
+  option :foo, false, 'Controls whether we foo'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163857Z" creationid="nacyot" creationdate="20140427T163857Z">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  # 이 확장 기능의 옵션
+  option :foo, false, 'Controls whether we foo'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164017Z" creationid="nacyot" creationdate="20140427T164017Z">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+    app.after_build do |builder|
+      builder.run './my_deploy_script.sh'
+    end
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164121Z" creationid="nacyot" creationdate="20140427T164121Z">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+    app.after_build do |builder|
+      builder.run './my_deploy_script.sh'
+    end
+  end
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+    app.before do
+      app.set :currently_requested_path, request.path_info
+      true
+    end
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164118Z" creationid="nacyot" creationdate="20140427T164118Z">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+    app.before do
+      app.set :currently_requested_path, request.path_info
+      true
+    end
+  end
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+    app.extend ClassMethods
+  end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164023Z" creationid="nacyot" creationdate="20140427T164023Z">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+    app.extend ClassMethods
+  end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+  end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164037Z" creationid="nacyot" creationdate="20140427T164037Z">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+  end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+  end
+  alias :included :registered
+end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163838Z" creationid="nacyot" creationdate="20140427T163838Z">
+        <seg>``` ruby
+class MyFeature &lt; Middleman::Extension
+  def initialize(app, options_hash={}, &amp;block)
+    super
+  end
+  alias :included :registered
+end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 configure :build do</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T153639Z" creationid="hsin" creationdate="20131115T153639Z">
         <seg>``` ruby
 configure :build do</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164126Z" creationid="nacyot" creationdate="20140427T164126Z">
+        <seg>``` ruby
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -6264,6 +7002,28 @@ ready do</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+ready do
+  sitemap.resources.group_by {|p| p.data["category"] }.each do |category, pages|
+    proxy "/categories/#{category}.html", "category.html",
+      :locals =&gt; { :category =&gt; category, :pages =&gt; pages }
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164307Z" creationid="nacyot" creationdate="20140427T164307Z">
+        <seg>``` ruby
+ready do
+  sitemap.resources.group_by {|p| p.data["category"] }.each do |category, pages|
+    proxy "/categories/#{category}.html", "category.html",
+      :locals =&gt; { :category =&gt; category, :pages =&gt; pages }
+  end
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 require "lib/custom_helpers"
 helpers CustomHelpers
 ```</seg>
@@ -6292,6 +7052,30 @@ use Rack::Codehighlighter,</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+require 'rack/codehighlighter'
+require "pygments"
+use Rack::Codehighlighter,
+  :pygments,
+  :element =&gt; "pre&gt;code",
+  :pattern =&gt; /\A:::([-_+\w]+)\s*\n/,
+  :markdown =&gt; true
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164306Z" creationid="nacyot" creationdate="20140427T164306Z">
+        <seg>``` ruby
+require 'rack/codehighlighter'
+require "pygments"
+use Rack::Codehighlighter,
+  :pygments,
+  :element =&gt; "pre&gt;code",
+  :pattern =&gt; /\A:::([-_+\w]+)\s*\n/,
+  :markdown =&gt; true
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 set :index_file, "default.html"
 ```</seg>
       </tuv>
@@ -6310,6 +7094,18 @@ set :index_file, "index.php"
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>``` ruby
 set :index_file, "index.php"
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+set :js_compressor, Uglifier.new(:mangle =&gt; false)
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164131Z" creationid="nacyot" creationdate="20140427T164131Z">
+        <seg>``` ruby
+set :js_compressor, Uglifier.new(:mangle =&gt; false)
 ```</seg>
       </tuv>
     </tu>
@@ -6387,6 +7183,22 @@ en:</seg>
       <tuv lang="JA">
         <seg>``` yaml
 ---
+en:
+  hello: "Hello"
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164211Z" creationid="nacyot" creationdate="20140427T164211Z">
+        <seg>``` yaml
+---
+en:
+  hello: "Hello"
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` yaml
+---
 es:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
@@ -6398,11 +7210,65 @@ es:</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` yaml
+---
+es:
+  hello: "Hola"
+  paths:
+    hello: "hola"
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164245Z" creationid="nacyot" creationdate="20140427T164245Z">
+        <seg>``` yaml
+---
+es:
+  hello: "Hola"
+  paths:
+    hello: "hola"
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` yaml
+---
+es:
+  hello: "Hola"
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164213Z" creationid="nacyot" creationdate="20140427T164213Z">
+        <seg>``` yaml
+---
+es:
+  hello: "Hola"
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` yaml
 friends:</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>``` yaml
 friends:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` yaml
+friends:
+  - Tom
+  - Dick
+  - Harry
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164144Z" creationid="nacyot" creationdate="20140427T164144Z">
+        <seg>``` yaml
+friends:
+  - Tom
+  - Dick
+  - Harry
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -6426,6 +7292,22 @@ friends:</seg>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>```erb
 &lt;body class="&lt;%= page_classes %&gt;"&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```html
+---
+pageable: true
+---
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164805Z" creationid="nacyot" creationdate="20140427T164805Z">
+        <seg>```html
+---
+pageable: true
+---
 ```</seg>
       </tuv>
     </tu>
@@ -6460,6 +7342,24 @@ category: HTML5
         <seg>```html
 ---
 title: Middleman ブログ投稿
+date: 2013/10/13
+category: HTML5
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```html
+---
+title: My Middleman Blog Post
+date: 2013/10/13
+category: HTML5
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164728Z" creationid="nacyot" creationdate="20140427T164728Z">
+        <seg>```html
+---
+title: My Middleman Blog Post
 date: 2013/10/13
 category: HTML5
 ---</seg>
@@ -6524,6 +7424,26 @@ activate :blog do |blog|</seg>
     <tu>
       <tuv lang="JA">
         <seg>```ruby
+activate :blog do |blog|
+  blog.paginate = true
+  blog.page_link = "p{num}"
+  blog.per_page = 20
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164809Z" creationid="nacyot" creationdate="20140427T164809Z">
+        <seg>```ruby
+activate :blog do |blog|
+  blog.paginate = true
+  blog.page_link = "p{num}"
+  blog.per_page = 20
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```ruby
 config[:js_dir] = 'js'
 ```</seg>
       </tuv>
@@ -6566,6 +7486,54 @@ gem 'oj' # 高速な JS コンパイラ
         <seg>```ruby
 gem 'therubyracer' # 빠른 JS 컴파일러
 gem 'oj' # 빠른 JS 컴파일러
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```ruby
+ready do
+  sprockets.append_path '/my/shared/assets/'
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164318Z" creationid="nacyot" creationdate="20140427T164318Z">
+        <seg>```ruby
+ready do
+  sprockets.append_path '/my/shared/assets/'
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```ruby
+ready do
+  sprockets.append_path 'bower_components'
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164319Z" creationid="nacyot" creationdate="20140427T164319Z">
+        <seg>```ruby
+ready do
+  sprockets.append_path 'bower_components'
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```ruby
+ready do
+  sprockets.import_asset 'jquery-mobile'
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164317Z" creationid="nacyot" creationdate="20140427T164317Z">
+        <seg>```ruby
+ready do
+  sprockets.import_asset 'jquery-mobile'
+end
 ```</seg>
       </tuv>
     </tu>
@@ -6839,7 +7807,7 @@ sprockets.import_asset 'jquery-mobile'
       <tuv lang="JA">
         <seg>`config.rb` の中で新しいメソッドを追加してみましょう:</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20140202T125345Z" creationid="hsin" creationdate="20131115T151647Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164032Z" creationid="hsin" creationdate="20131115T151647Z">
         <seg>`config.rb`에 새로운 메소드를 추가해보겠습니다:</seg>
       </tuv>
     </tu>
@@ -7049,6 +8017,14 @@ sprockets.import_asset 'jquery-mobile'
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T052126Z" creationid="hsin" creationdate="20131116T051936Z">
         <seg>`middleman init` 명령어를 사용해서 이미 존재하는 디렉토리를 사용하거나 Middleman 명령어가 새로운 폴더를 만들도록 할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`middleman-blog` は拡張機能の 1 つで, 使うにはインストールする必要があります。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164352Z" creationid="nacyot" creationdate="20140427T164352Z">
+        <seg>`middleman-blog`는 확장 기능의 하나로 먼저 설치를 해야합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7279,6 +8255,26 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>app.compass_config do |config|
+      # config は Compass.configuration オブジェクト
+      config.output_style = :compact
+    end
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164123Z" creationid="nacyot" creationdate="20140427T164123Z">
+        <seg>app.compass_config do |config|
+      # config は Compass.configuration オブジェクト
+      config.output_style = :compact
+    end
+  end
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>app.extend ClassMethods</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T151650Z" creationid="hsin" creationdate="20131115T151650Z">
@@ -7295,6 +8291,20 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>app.set :css_dir, "lib/my/css"
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164017Z" creationid="nacyot" creationdate="20140427T164017Z">
+        <seg>app.set :css_dir, "lib/my/css"
+  end
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>app.set :currently_requested_path, request.path_info</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152615Z" creationid="hsin" creationdate="20131115T152615Z">
@@ -7307,6 +8317,16 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T105032Z" creationid="hsin" creationdate="20131115T105032Z">
         <seg>app.set :my_feature_setting, %w(one two three)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>app.set :my_feature_setting, %w(one two three)
+  end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164018Z" creationid="nacyot" creationdate="20140427T164018Z">
+        <seg>app.set :my_feature_setting, %w(one two three)
+  end</seg>
       </tuv>
     </tu>
     <tu>
@@ -7465,6 +8485,18 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>body {
+  font-weight: bold;
+}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164313Z" creationid="nacyot" creationdate="20140427T164313Z">
+        <seg>body {
+  font-weight: bold;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>builder.run './my_deploy_script.sh'</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152837Z" creationid="hsin" creationdate="20131115T152837Z">
@@ -7513,10 +8545,38 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>def after_configuration
+    the_users_setting = app.settings.css_dir
+    app.set :my_setting, "#{the_users_setting}_with_my_suffix"
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164117Z" creationid="nacyot" creationdate="20140427T164117Z">
+        <seg>def after_configuration
+    the_users_setting = app.settings.css_dir
+    app.set :my_setting, "#{the_users_setting}_with_my_suffix"
+  end
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>def initialize(app, options_hash={}, &amp;block)</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T102803Z" creationid="hsin" creationdate="20131115T102803Z">
         <seg>def initialize(app, options_hash={}, &amp;block)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>def initialize(app, options_hash={}, &amp;block)
+    super</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163858Z" creationid="nacyot" creationdate="20140427T163858Z">
+        <seg>def initialize(app, options_hash={}, &amp;block)
+    super</seg>
       </tuv>
     </tu>
     <tu>
@@ -7533,6 +8593,26 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152313Z" creationid="hsin" creationdate="20131115T152313Z">
         <seg>def manipulate_resource_list(resources)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>def manipulate_resource_list(resources)
+    resources.each do |resource|
+      resource.destination_path.gsub!("original", "new")
+    end
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164114Z" creationid="nacyot" creationdate="20140427T164114Z">
+        <seg>def manipulate_resource_list(resources)
+    resources.each do |resource|
+      resource.destination_path.gsub!("original", "new")
+    end
+  end
+end
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -7763,6 +8843,46 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>helpers do
+    def make_a_link(url, text)
+      "&lt;a href='#{url}'&gt;#{text}&lt;/a&gt;"
+    end
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164037Z" creationid="nacyot" creationdate="20140427T164037Z">
+        <seg>helpers do
+    def make_a_link(url, text)
+      "&lt;a href='#{url}'&gt;#{text}&lt;/a&gt;"
+    end
+  end
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>helpers do
+    def my_helper
+      my_feature_setting.to_sentence
+    end
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164019Z" creationid="nacyot" creationdate="20140427T164019Z">
+        <seg>helpers do
+    def my_helper
+      my_feature_setting.to_sentence
+    end
+  end
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>html タグが "中身" を含む場合, `content_tag` が使われます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140110T114613Z" creationid="hsin" creationdate="20140110T114613Z">
@@ -7799,6 +8919,26 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T151651Z" creationid="hsin" creationdate="20131115T151651Z">
         <seg>module ClassMethods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>module ClassMethods
+    def say_hello
+      puts "Hello"
+    end
+  end
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164034Z" creationid="nacyot" creationdate="20140427T164034Z">
+        <seg>module ClassMethods
+    def say_hello
+      puts "Hello"
+    end
+  end
+end
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -7939,6 +9079,18 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T104746Z" creationid="hsin" creationdate="20131115T104746Z">
         <seg>puts options.foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>puts options.foo
+  end
+end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163858Z" creationid="nacyot" creationdate="20140427T163858Z">
+        <seg>puts options.foo
+  end
+end</seg>
       </tuv>
     </tu>
     <tu>
@@ -8143,6 +9295,32 @@ end</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155037Z" creationid="hsin" creationdate="20131115T155037Z">
         <seg>var s = document.getElementsByTagName('script')[0];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.async = true;
+          script.src = "//swiftype.com/embed.js";
+          var entry = document.getElementsByTagName('script')[0];
+          entry.parentNode.insertBefore(script, entry);
+        }());
+      &lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T163012Z" creationid="nacyot" creationdate="20140427T163012Z">
+        <seg>var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.async = true;
+          script.src = "//swiftype.com/embed.js";
+          var entry = document.getElementsByTagName('script')[0];
+          entry.parentNode.insertBefore(script, entry);
+        }());
+      &lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9087,6 +10265,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>また, `middleman-blog` を一度インストールすればブログ機能がセットアップされた新しいプロジェクトを作れるようになります:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164417Z" creationid="nacyot" creationdate="20140427T164417Z">
+        <seg>나아가 블로그 확장이 이미 설정되어 있는 프로젝트로 초기화할 수도 있습니다:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>また, 外部の Ruby モジュール含むヘルパを作成し, 読み込むこともできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140110T134157Z" creationid="hsin" creationdate="20140110T134157Z">
@@ -9364,6 +10550,14 @@ Stylus                  | .styl                  | stylus</seg>
         <seg>サイトマップ拡張を作ることで [サイトマップ](/advanced/sitemap/) でページを変更したり追加したりできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140202T125654Z" creationid="hsin" creationdate="20131115T152054Z">
+        <seg>사이트 맵 확장을 만들어 [사이트맵](/advanced/sitemap/) 페이지를 변경하거나 추가할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>サイトマップ拡張を作ることで [サイトマップ](/jp/advanced/sitemap/) でページを変更したり追加したりできます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164105Z" creationid="nacyot" creationdate="20140427T164105Z">
         <seg>사이트 맵 확장을 만들어 [사이트맵](/advanced/sitemap/) 페이지를 변경하거나 추가할 수 있습니다.</seg>
       </tuv>
     </tu>
@@ -9701,6 +10895,14 @@ Stylus                  | .styl                  | stylus</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T142200Z" creationid="hsin" creationdate="20131116T142200Z">
         <seg>기본적으로 Middleman은 프로젝트에서 만든 파일에 대응하는 HTML 파일을 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>デフォルト設定では, `source/localizable` の中身が複数の言語でビルドされ, その他のテンプレートはそのままビルドされます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164257Z" creationid="nacyot" creationdate="20140427T164257Z">
+        <seg>기본적으로 `source/localization`의 컨텐츠가 여러 언어로 빌드되며 그 외의 템플릿은 그대로 빌드됩니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10681,6 +11883,14 @@ Stylus                  | .styl                  | stylus</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>多言語化するテンプレートは, デフォルト設定では `source/localizable` フォルダの中に置きます (このオプションの変更方法はページ下部で) 。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164238Z" creationid="nacyot" creationdate="20140427T164238Z">
+        <seg>다언어화를 위한 템플릿은 기본적으로 `source/localizable` 디렉토리에 있습니다 (이 옵션을 변경하는 방법은 아래에서 다룹니다.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>完了していない下書き
 ```</seg>
       </tuv>
@@ -10750,6 +11960,14 @@ Stylus                  | .styl                  | stylus</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140202T125318Z" creationid="hsin" creationdate="20131115T105219Z">
         <seg>확장기능에 특정한 값만 필요로한다면 경우 전역 변수를 사용하는 대신 `activate`의 옵션을 사용하는 방법을 권장합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>拡張機能の設定については `set` を使ってグローバル変数を設定するという方法もありますが (次のセクション参照), 通常は `activate` へオプションを与える方が好まれます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T164016Z" creationid="nacyot" creationdate="20140427T164016Z">
+        <seg>확장기능을 설정할 때 `set`를 사용해 전역 변수를 설정할 수도 있지만, `activate`에 옵션을 지정하는 방법이 권장됩니다. (다음 절을 참조해주세요.)</seg>
       </tuv>
     </tu>
     <tu>
