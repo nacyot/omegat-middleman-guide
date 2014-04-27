@@ -2312,6 +2312,22 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;%= content_tag :p, :class =&gt; "stuff" do %&gt;
+  こんにちわ
+&lt;% end %&gt;
+  # =&gt; &lt;p class='stuff'&gt;こんにちわ&lt;/p&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170132Z" creationid="nacyot" creationdate="20140427T170123Z">
+        <seg>&lt;%= content_tag :p, :class =&gt; "stuff" do %&gt;
+  안녕하세요
+&lt;% end %&gt;
+  # =&gt; &lt;p class='stuff'&gt;안녕하세요&lt;/p&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>&lt;%= favicon_tag 'images/favicon.png' %&gt;
 &lt;/head&gt;
 &lt;body&gt;</seg>
@@ -4488,6 +4504,28 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;ul&gt;
+  &lt;% sitemap.resources.select{|resource| resource.data.title}.each do |resource| %&gt;
+    &lt;li&gt;
+      &lt;%= link_to resource.data.title, resource, :relative =&gt; true %&gt; &lt;%# 第 2 引数の `resource` に注目 %&gt;
+    &lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170106Z" creationid="nacyot" creationdate="20140427T170106Z">
+        <seg>&lt;ul&gt;
+  &lt;% sitemap.resources.select{|resource| resource.data.title}.each do |resource| %&gt;
+    &lt;li&gt;
+      &lt;%= link_to resource.data.title, resource, :relative =&gt; true %&gt; &lt;%# 第 2 引数の `resource` に注目 %&gt;
+    &lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Apache の場合, 少しトリッキーなことをしなければなりません - 例として [Gist](https://gist.github.com/2200790) を確認してください。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T154541Z" creationid="hsin" creationdate="20131115T154541Z">
@@ -4832,6 +4870,14 @@ source/mint/config/db.php
         <seg>Middleman は `link_to` に [サイトマップ](/advanced/sitemap/) を把握させることで強化します。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T053800Z" creationid="hsin" creationdate="20131116T053746Z">
+        <seg>Middleman은 `link_to`에 [사이트맵](/advanced/sitemap)을 파악하기 위한 기능이 추가되어있습니다. @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Middleman は `link_to` に [サイトマップ](/jp/advanced/sitemap/) を把握させることで強化します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170030Z" creationid="nacyot" creationdate="20140427T170030Z">
         <seg>Middleman은 `link_to`에 [사이트맵](/advanced/sitemap)을 파악하기 위한 기능이 추가되어있습니다. @@@</seg>
       </tuv>
     </tu>
@@ -5321,6 +5367,20 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>[view the full documentation here]: http://www.padrinorb.com/guides/application-helpers
+[Frank project]: https://github.com/blahed/frank
+[`url` method]: http://rdoc.info/github/middleman/middleman/Middleman/Sitemap/Resource#url-instance_method
+[`path` attribute]: http://rdoc.info/github/middleman/middleman/Middleman/Sitemap/Resource#path-instance_method</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170214Z" creationid="nacyot" creationdate="20140427T170214Z">
+        <seg>[view the full documentation here]: http://www.padrinorb.com/guides/application-helpers
+[Frank project]: https://github.com/blahed/frank
+[`url` method]: http://rdoc.info/github/middleman/middleman/Middleman/Sitemap/Resource#url-instance_method
+[`path` attribute]: http://rdoc.info/github/middleman/middleman/Middleman/Sitemap/Resource#path-instance_method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>[サイトマップ](/advanced/sitemap) からより情報 ([frontmatter](/frontmatter/) から [`data`](http://rubydoc.info/github/middleman/middleman/Middleman/Sitemap/Resource#data-instance_method) のような) が詰まった [`Resource`](http://rubydoc.info/gems/middleman-core/Middleman/CoreExtensions/FrontMatter/ResourceInstanceMethods#data-instance_method) を得ることもできます。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140105T064330Z" creationid="hsin" creationdate="20140104T105248Z">
@@ -5497,6 +5557,14 @@ source/mint/config/db.php
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T031839Z" creationid="hsin" creationdate="20131116T031839Z">
         <seg>`;;;`으로 구분되며 다음과 같이 사용합니다.:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`&lt;%= lorem.sentences 5 %&gt;`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170145Z" creationid="nacyot" creationdate="20140427T170145Z">
+        <seg>`&lt;%= lorem.sentences 5 %&gt;`</seg>
       </tuv>
     </tu>
     <tu>
@@ -6104,11 +6172,83 @@ title: Middleman 블로그 글 쓰기
     <tu>
       <tuv lang="JA">
         <seg>``` html
+&lt;% content_for :assets do %&gt;
+  &lt;%= stylesheet_link_tag 'index', 'custom' %&gt;
+&lt;% end %&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170111Z" creationid="nacyot" creationdate="20140427T170111Z">
+        <seg>``` html
+&lt;% content_for :assets do %&gt;
+  &lt;%= stylesheet_link_tag 'index', 'custom' %&gt;
+&lt;% end %&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
 &lt;% form_tag '/destroy', :class =&gt; 'destroy-form', :method =&gt; 'delete' do %&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>``` html
 &lt;% form_tag '/destroy', :class =&gt; 'destroy-form', :method =&gt; 'delete' do %&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;% form_tag '/destroy', :class =&gt; 'destroy-form', :method =&gt; 'delete' do %&gt;
+  &lt;% field_set_tag do %&gt;
+    &lt;p&gt;
+      &lt;%= label_tag :username, :class =&gt; 'first' %&gt;
+      &lt;%= text_field_tag :username, :value =&gt; params[:username] %&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;%= label_tag :password, :class =&gt; 'first' %&gt;
+      &lt;%= password_field_tag :password, :value =&gt; params[:password] %&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;%= label_tag :strategy %&gt;
+      &lt;%= select_tag :strategy, :options =&gt; ['delete', 'destroy'],
+          :selected =&gt; 'delete' %&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;%= check_box_tag :confirm_delete %&gt;
+    &lt;/p&gt;
+  &lt;% end %&gt;
+  &lt;% field_set_tag(:class =&gt; 'buttons') do %&gt;
+    &lt;%= submit_tag "削除" %&gt;
+  &lt;% end %&gt;
+&lt;% end %&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170138Z" creationid="nacyot" creationdate="20140427T170138Z">
+        <seg>``` html
+&lt;% form_tag '/destroy', :class =&gt; 'destroy-form', :method =&gt; 'delete' do %&gt;
+  &lt;% field_set_tag do %&gt;
+    &lt;p&gt;
+      &lt;%= label_tag :username, :class =&gt; 'first' %&gt;
+      &lt;%= text_field_tag :username, :value =&gt; params[:username] %&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;%= label_tag :password, :class =&gt; 'first' %&gt;
+      &lt;%= password_field_tag :password, :value =&gt; params[:password] %&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;%= label_tag :strategy %&gt;
+      &lt;%= select_tag :strategy, :options =&gt; ['delete', 'destroy'],
+          :selected =&gt; 'delete' %&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;%= check_box_tag :confirm_delete %&gt;
+    &lt;/p&gt;
+  &lt;% end %&gt;
+  &lt;% field_set_tag(:class =&gt; 'buttons') do %&gt;
+    &lt;%= submit_tag "削除" %&gt;
+  &lt;% end %&gt;
+&lt;% end %&gt;
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -6124,11 +6264,43 @@ title: Middleman 블로그 글 쓰기
     <tu>
       <tuv lang="JA">
         <seg>``` html
+&lt;% if content_for?(:assets) %&gt;
+  &lt;div&gt;&lt;%= yield_content :assets %&gt;&lt;/div&gt;
+&lt;% end %&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170118Z" creationid="nacyot" creationdate="20140427T170118Z">
+        <seg>``` html
+&lt;% if content_for?(:assets) %&gt;
+  &lt;div&gt;&lt;%= yield_content :assets %&gt;&lt;/div&gt;
+&lt;% end %&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
 &lt;% link_to 'http://mysite.com' do %&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T053701Z" creationid="hsin" creationdate="20131116T053701Z">
         <seg>``` html
 &lt;% link_to 'http://mysite.com' do %&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;% link_to 'http://mysite.com' do %&gt;
+  &lt;%= image_tag 'mylogo.png' %&gt;
+&lt;% end %&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170022Z" creationid="nacyot" creationdate="20140427T170022Z">
+        <seg>``` html
+&lt;% link_to 'http://mysite.com' do %&gt;
+  &lt;%= image_tag 'mylogo.png' %&gt;
+&lt;% end %&gt;
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -6197,6 +6369,18 @@ title: Middleman 블로그 글 쓰기
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>``` html
 &lt;%= tag :img, :src =&gt; "/my_image.png" %&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;%= tag :img, :src =&gt; "/my_image.png" %&gt;
+  # =&gt; &lt;img src='/my_image.png'&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170123Z" creationid="nacyot" creationdate="20140427T170123Z">
+        <seg>``` html
+&lt;%= tag :img, :src =&gt; "/my_image.png" %&gt;
+  # =&gt; &lt;img src='/my_image.png'&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6277,6 +6461,28 @@ title: Middleman 블로그 글 쓰기
         <seg>``` html
 &lt;h1&gt;어서오세요&lt;/h1&gt;
 &lt;ul&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;h1&gt;ようこそ&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;% 5.times do |num| %&gt;
+    &lt;li&gt;カウント &lt;%= num %&gt;&lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170236Z" creationid="nacyot" creationdate="20140427T170231Z">
+        <seg>``` html
+&lt;h1&gt;어서오세요&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;% 5.times do |num| %&gt;
+    &lt;li&gt;카운트 &lt;%= num %&gt;&lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -6372,6 +6578,26 @@ title: Middleman 블로그 글 쓰기
     <tu>
       <tuv lang="JA">
         <seg>``` html
+&lt;head&gt;
+  &lt;title&gt;例&lt;/title&gt;
+  &lt;%= stylesheet_link_tag 'style' %&gt;
+  &lt;%= yield_content :assets %&gt;
+&lt;/head&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170117Z" creationid="nacyot" creationdate="20140427T170117Z">
+        <seg>``` html
+&lt;head&gt;
+  &lt;title&gt;예&lt;/title&gt;
+  &lt;%= stylesheet_link_tag 'style' %&gt;
+  &lt;%= yield_content :assets %&gt;
+&lt;/head&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
 &lt;html&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T004852Z" creationid="hsin" creationdate="20131116T004852Z">
@@ -6394,11 +6620,123 @@ title: Middleman 블로그 글 쓰기
     <tu>
       <tuv lang="JA">
         <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;%= stylesheet_link_tag 'layout' %&gt;
+  &lt;%= javascript_include_tag 'application' %&gt;
+  &lt;%= favicon_tag 'images/favicon.png' %&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;&lt;%= link_to 'Blog', '/blog', :class =&gt; 'example' %&gt;&lt;/p&gt;
+  &lt;p&gt;Mail me at &lt;%= mail_to 'fake@faker.com', "Fake Email Link",
+                      :cc =&gt; "test@demo.com" %&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;%= image_tag 'padrino.png', :width =&gt; '35',
+           :class =&gt; 'logo' %&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170135Z" creationid="nacyot" creationdate="20140427T170135Z">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;%= stylesheet_link_tag 'layout' %&gt;
+  &lt;%= javascript_include_tag 'application' %&gt;
+  &lt;%= favicon_tag 'images/favicon.png' %&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;&lt;%= link_to 'Blog', '/blog', :class =&gt; 'example' %&gt;&lt;/p&gt;
+  &lt;p&gt;Mail me at &lt;%= mail_to 'fake@faker.com', "Fake Email Link",
+                      :cc =&gt; "test@demo.com" %&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;%= image_tag 'padrino.png', :width =&gt; '35',
+           :class =&gt; 'logo' %&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;私のサイト&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;%= yield %&gt;
+&lt;/body&gt;
+&lt;/html&gt; 
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170242Z" creationid="nacyot" creationdate="20140427T170242Z">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;내 홈페이지&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;%= yield %&gt;
+&lt;/body&gt;
+&lt;/html&gt; 
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;私のサイト&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170251Z" creationid="nacyot" creationdate="20140427T170251Z">
+        <seg>``` html
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;내 홈페이지&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
 &lt;ul&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T024323Z" creationid="hsin" creationdate="20131116T024323Z">
         <seg>``` html
 &lt;ul&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+&lt;ul&gt;
+  &lt;% blog.articles.each do |article| %&gt;
+    &lt;li&gt;
+      &lt;%= link_to article.title, article.path, :relative =&gt; true %&gt; &lt;%# 第 2 引数の `article.path` に注目 %&gt;
+    &lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170106Z" creationid="nacyot" creationdate="20140427T170106Z">
+        <seg>``` html
+&lt;ul&gt;
+  &lt;% blog.articles.each do |article| %&gt;
+    &lt;li&gt;
+      &lt;%= link_to article.title, article.path, :relative =&gt; true %&gt; &lt;%# 第 2 引数の `article.path` に注目 %&gt;
+    &lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7142,6 +7480,20 @@ helpers do</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+helpers do
+  def some_method
+    # ...何らかの処理を追加...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170205Z" creationid="nacyot" creationdate="20140427T170205Z">
+        <seg>``` ruby
+helpers do
+  def some_method
+    # ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 http://example.com/about-us
 ```</seg>
       </tuv>
@@ -7176,11 +7528,55 @@ input_tag :text, :class =&gt; "demo"</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+input_tag :text, :class =&gt; "demo"
+  # =&gt; &lt;input type='text' class='demo'&gt;
+input_tag :password, :value =&gt; "secret", :class =&gt; "demo"
+  # =&gt; &lt;input type='password' value='secret' class='demo'&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170133Z" creationid="nacyot" creationdate="20140427T170133Z">
+        <seg>``` ruby
+input_tag :text, :class =&gt; "demo"
+  # =&gt; &lt;input type='text' class='demo'&gt;
+input_tag :password, :value =&gt; "secret", :class =&gt; "demo"
+  # =&gt; &lt;input type='password' value='secret' class='demo'&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 lorem.image('300x400')</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>``` ruby
 lorem.image('300x400')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+lorem.image('300x400')
+  #=&gt; http://placehold.it/300x400
+lorem.image('300x400', :background_color =&gt; '333', :color =&gt; 'fff')
+  #=&gt; http://placehold.it/300x400/333/fff
+lorem.image('300x400', :random_color =&gt; true)
+  #=&gt; http://placehold.it/300x400/f47av7/9fbc34d
+lorem.image('300x400', :text =&gt; 'blah')
+  #=&gt; http://placehold.it/300x400&amp;text=blah
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170154Z" creationid="nacyot" creationdate="20140427T170154Z">
+        <seg>``` ruby
+lorem.image('300x400')
+  #=&gt; http://placehold.it/300x400
+lorem.image('300x400', :background_color =&gt; '333', :color =&gt; 'fff')
+  #=&gt; http://placehold.it/300x400/333/fff
+lorem.image('300x400', :random_color =&gt; true)
+  #=&gt; http://placehold.it/300x400/f47av7/9fbc34d
+lorem.image('300x400', :text =&gt; 'blah')
+  #=&gt; http://placehold.it/300x400&amp;text=blah
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -7221,6 +7617,20 @@ module CustomHelpers</seg>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>``` ruby
 module CustomHelpers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+module CustomHelpers
+  def some_method
+    # ...do something here...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170206Z" creationid="nacyot" creationdate="20140427T170206Z">
+        <seg>``` ruby
+module CustomHelpers
+  def some_method
+    # ...do something here...</seg>
       </tuv>
     </tu>
     <tu>
@@ -7489,6 +7899,52 @@ simple_format("hello\nworld")</seg>
       <tuv lang="KO" changeid="hsin" changedate="20131116T054538Z" creationid="hsin" creationdate="20131116T054538Z">
         <seg>``` ruby
 simple_format("hello\nworld")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+simple_format("hello\nworld")
+  # =&gt; "&lt;p&gt;hello&lt;br/&gt;world&lt;/p&gt;"
+pluralize(2, '人')
+  # =&gt; '2 人'
+word_wrap('Once upon a time', :line_width =&gt; 8)
+  # =&gt; "Once upon\na time"
+truncate("Once upon a time in a world far far away", :length =&gt; 8)
+  # =&gt; "Once upon..."
+truncate_words("Once upon a time in a world far far away", :length =&gt; 4)
+  # =&gt; "Once upon a time..."
+highlight('Lorem dolor sit', 'dolor')
+  # =&gt; "Lorem &lt;strong class="highlight"&gt;dolor&lt;/strong&gt; sit"
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170141Z" creationid="nacyot" creationdate="20140427T170141Z">
+        <seg>``` ruby
+simple_format("hello\nworld")
+  # =&gt; "&lt;p&gt;hello&lt;br/&gt;world&lt;/p&gt;"
+pluralize(2, '人')
+  # =&gt; '2 人'
+word_wrap('Once upon a time', :line_width =&gt; 8)
+  # =&gt; "Once upon\na time"
+truncate("Once upon a time in a world far far away", :length =&gt; 8)
+  # =&gt; "Once upon..."
+truncate_words("Once upon a time in a world far far away", :length =&gt; 4)
+  # =&gt; "Once upon a time..."
+highlight('Lorem dolor sit', 'dolor')
+  # =&gt; "Lorem &lt;strong class="highlight"&gt;dolor&lt;/strong&gt; sit"
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+yield_content :head, param1, param2
+content_for(:head) { |param1, param2| ...content...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170119Z" creationid="nacyot" creationdate="20140427T170119Z">
+        <seg>``` ruby
+yield_content :head, param1, param2
+content_for(:head) { |param1, param2| ...content...</seg>
       </tuv>
     </tu>
     <tu>
@@ -9543,6 +9999,14 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>source フォルダ (ファイル拡張子からテンプレート言語拡張子を除いた状態で) のページへの参照を与えると, `link_to` は [`:directory_indexes`](/jp/basics/pretty-urls/) 拡張が有効化されていたとしても, 正しいリンクを生成します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170050Z" creationid="nacyot" creationdate="20140427T170050Z">
+        <seg>source 디렉토리(파일 확장자에서 팀플릿 언어를 제외한 상태에서)의 페이지를 가리키는 참조를 지정하면 `link_to`는 [`:directory_indexes`](/pretty-urls/) 확장이 활성화되어있더라도 정상적인 링크를 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>source フォルダ (ファイル拡張子からテンプレート言語拡張子を除いた状態で) のページへの参照を与えると, `link_to` は [`:directory_indexes`](/pretty-urls/) 拡張が有効化されていたとしても, 正しいリンクを生成します。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140110T114027Z" creationid="hsin" creationdate="20140110T114027Z">
@@ -9781,6 +10245,16 @@ end</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T022738Z" creationid="hsin" creationdate="20131116T022738Z">
         <seg>}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>}
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T170122Z" creationid="nacyot" creationdate="20140427T170122Z">
+        <seg>}
+```</seg>
       </tuv>
     </tu>
     <tu>
