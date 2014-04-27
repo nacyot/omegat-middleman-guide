@@ -386,6 +386,14 @@ page '/foo.html', :layout =&gt; false
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg># ディレクトリ構造</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165724Z" creationid="nacyot" creationdate="20140427T165724Z">
+        <seg># 디렉토리 구조</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg># ファイルサイズ最適化</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T153020Z" creationid="hsin" creationdate="20131115T153020Z">
@@ -832,6 +840,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 主要なディレクトリ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165752Z" creationid="nacyot" creationdate="20140427T165749Z">
+        <seg>## 주요 디렉토리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 例: 構文ハイライト</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T152232Z" creationid="hsin" creationdate="20131116T152232Z">
@@ -968,6 +984,14 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 複数ブログ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165644Z" creationid="nacyot" creationdate="20140427T165644Z">
+        <seg>## 다중 블로그</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 要約</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T015230Z" creationid="hsin" creationdate="20131116T015222Z">
@@ -1056,10 +1080,42 @@ end
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>### build ディレクトリ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165846Z" creationid="nacyot" creationdate="20140427T165846Z">
+        <seg>### build 디렉토리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>### compass_config</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T152912Z" creationid="hsin" creationdate="20131115T152912Z">
         <seg>### compass_config</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>### data ディレクトリ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165849Z" creationid="nacyot" creationdate="20140427T165849Z">
+        <seg>### data 디렉토리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>### lib ディレクトリ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165855Z" creationid="nacyot" creationdate="20140427T165855Z">
+        <seg>### lib 디렉토리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>### source ディレクトリ</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165838Z" creationid="nacyot" creationdate="20140427T165838Z">
+        <seg>### source 디렉토리</seg>
       </tuv>
     </tu>
     <tu>
@@ -1663,6 +1719,20 @@ title: Rack 미들웨어
     <tu>
       <tuv lang="JA">
         <seg>---
+title: Sites Built Using Middleman
+published: true
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165459Z" creationid="nacyot" creationdate="20140427T165446Z">
+        <seg>---
+title: 미들맨(Middleman)으로 만들어진 사이트
+published: true
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>---
 title: きれいな URL (ディレクトリインデックス)
 ---</seg>
       </tuv>
@@ -1753,6 +1823,18 @@ title: テンプレートヘルパ
       <tuv lang="KO" changeid="hsin" changedate="20131116T053331Z" creationid="hsin" creationdate="20131116T053331Z">
         <seg>---
 title: 템플릿 헬퍼
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>---
+title: ディレクトリ構造
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165721Z" creationid="nacyot" creationdate="20140427T165721Z">
+        <seg>---
+title: 디렉토리 구조
 ---</seg>
       </tuv>
     </tu>
@@ -2816,6 +2898,18 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;footer&gt;
+  &lt;%= link_to t("built.fork"), "https://github.com/middleman/middleman-guides/blob/master/source/localizable/community/built-using-middleman.html.erb" %&gt;
+&lt;/footer&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165502Z" creationid="nacyot" creationdate="20140427T165502Z">
+        <seg>&lt;footer&gt;
+  &lt;%= link_to t("built.fork"), "https://github.com/middleman/middleman-guides/blob/master/source/localizable/community/built-using-middleman.html.erb" %&gt;
+&lt;/footer&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>&lt;footer&gt;フッタ&lt;/footer&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T005046Z" creationid="hsin" creationdate="20131116T005046Z">
@@ -2844,6 +2938,30 @@ source/mint/config/db.php
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T155047Z" creationid="hsin" creationdate="20131115T155047Z">
         <seg>&lt;h1&gt;&lt;%= link_to image_tag("mm-blue-w-text.svg", :width =&gt; 225, :height =&gt; 225, :alt =&gt; "Middleman"), "/", { :class =&gt; 'logo' } %&gt;&lt;/h1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;h1&gt;&lt;%= t("built.blog") %&gt;&lt;/h1&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165501Z" creationid="nacyot" creationdate="20140427T165501Z">
+        <seg>&lt;h1&gt;&lt;%= t("built.blog") %&gt;&lt;/h1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;h1&gt;&lt;%= t("built.mobile") %&gt;&lt;/h1&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165500Z" creationid="nacyot" creationdate="20140427T165500Z">
+        <seg>&lt;h1&gt;&lt;%= t("built.mobile") %&gt;&lt;/h1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;h1&gt;&lt;%= t("built.title") %&gt;&lt;/h1&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165500Z" creationid="nacyot" creationdate="20140427T165500Z">
+        <seg>&lt;h1&gt;&lt;%= t("built.title") %&gt;&lt;/h1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2904,6 +3022,26 @@ source/mint/config/db.php
       <tuv lang="KO" changeid="hsin" changedate="20131116T025602Z" creationid="hsin" creationdate="20131116T025602Z">
         <seg>&lt;h1&gt;리스트&lt;/h1&gt;
 &lt;ol&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;h1&gt;リスト&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;% current_page.data.my_list.each do |f| %&gt;
+  &lt;li&gt;&lt;%= f %&gt;&lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ol&gt;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165907Z" creationid="nacyot" creationdate="20140427T165907Z">
+        <seg>&lt;h1&gt;리스트&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;% current_page.data.my_list.each do |f| %&gt;
+  &lt;li&gt;&lt;%= f %&gt;&lt;/li&gt;
+  &lt;% end %&gt;
+&lt;/ol&gt;
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -4302,6 +4440,54 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>&lt;ul&gt;
+  &lt;% for site in data.sites.blogs do %&gt;
+    &lt;%= partial "layouts/site", locals: { site: site } %&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165501Z" creationid="nacyot" creationdate="20140427T165501Z">
+        <seg>&lt;ul&gt;
+  &lt;% for site in data.sites.blogs do %&gt;
+    &lt;%= partial "layouts/site", locals: { site: site } %&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;ul&gt;
+  &lt;% for site in data.sites.built.each do %&gt;
+    &lt;%= partial "layouts/site", locals: { site: site } %&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165500Z" creationid="nacyot" creationdate="20140427T165500Z">
+        <seg>&lt;ul&gt;
+  &lt;% for site in data.sites.built.each do %&gt;
+    &lt;%= partial "layouts/site", locals: { site: site } %&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;ul&gt;
+  &lt;% for site in data.sites.mobile do %&gt;
+    &lt;%= partial "layouts/site", locals: { site: site } %&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165501Z" creationid="nacyot" creationdate="20140427T165501Z">
+        <seg>&lt;ul&gt;
+  &lt;% for site in data.sites.mobile do %&gt;
+    &lt;%= partial "layouts/site", locals: { site: site } %&gt;
+  &lt;% end %&gt;
+&lt;/ul&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Apache の場合, 少しトリッキーなことをしなければなりません - 例として [Gist](https://gist.github.com/2200790) を確認してください。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T154541Z" creationid="hsin" creationdate="20131115T154541Z">
@@ -4571,6 +4757,14 @@ source/mint/config/db.php
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Middleman は 1 つのサイトの中で複数のブログを用意できます。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165700Z" creationid="nacyot" creationdate="20140427T165700Z">
+        <seg>미들맨은 하나의 사이트에서 다수의 블로그를 운영하는 기능을 지원합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>Middleman は CSS のミニファイや JavaScript の圧縮処理を行うので, ファイル最適化について心配する必要はありません。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T153433Z" creationid="hsin" creationdate="20131115T153307Z">
@@ -4703,6 +4897,14 @@ source/mint/config/db.php
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T141859Z" creationid="hsin" creationdate="20131116T141859Z">
         <seg>Middleman은 [Compass]를 유연하게 지원하고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Middleman は特定の目的のために `source`, `build`, `data` と `lib` ディレクトリを利用します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165824Z" creationid="nacyot" creationdate="20140427T165824Z">
+        <seg>Middleman의 `source`, `build`, `data`, `lib` 디렉토리는 특별한 용도로 사용됩니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5071,6 +5273,16 @@ source/mint/config/db.php
       <tuv lang="KO" changeid="hsin" changedate="20131116T054537Z" creationid="hsin" creationdate="20131116T054537Z">
         <seg>[dynamic pages]: /dynamic-pages/
 [frontmatter]: /frontmatter/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[dynamic pages]: /jp/basics/dynamic-pages/
+[frontmatter]: /jp/basics/frontmatter/</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165554Z" creationid="nacyot" creationdate="20140427T165554Z">
+        <seg>[dynamic pages]: /basics/dynamic-pages/
+[frontmatter]: /basics/frontmatter/</seg>
       </tuv>
     </tu>
     <tu>
@@ -5665,6 +5877,28 @@ my_list:</seg>
       <tuv lang="JA">
         <seg>``` html
 ---
+layout: "custom"
+my_list:
+  - one
+  - two
+  - three
+---</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165903Z" creationid="nacyot" creationdate="20140427T165903Z">
+        <seg>``` html
+---
+layout: "custom"
+my_list:
+  - one
+  - two
+  - three
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+---
 layout: admin
 ---</seg>
       </tuv>
@@ -5799,6 +6033,32 @@ title: Middleman 블로그 글 쓰기
 ;;;
 "layout": "custom",
 "my_list": [</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` html
+;;;
+"layout": "custom",
+"my_list": [
+  "one",
+  "two",
+  "three"
+]
+;;;
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165909Z" creationid="nacyot" creationdate="20140427T165909Z">
+        <seg>``` html
+;;;
+"layout": "custom",
+"my_list": [
+  "one",
+  "two",
+  "three"
+]
+;;;
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -6304,6 +6564,24 @@ activate :i18n, :templates_dir =&gt; "language_specific"
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+# source/about/template.html.erb が存在することを想定
+["tom", "dick", "harry"].each do |name|
+  proxy "/about/#{name}.html", "/about/template.html", :locals =&gt; { :person_name =&gt; name }
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165859Z" creationid="nacyot" creationdate="20140427T165859Z">
+        <seg>``` ruby
+# source/about/template.html.erb が存在することを想定
+["tom", "dick", "harry"].each do |name|
+  proxy "/about/#{name}.html", "/about/template.html", :locals =&gt; { :person_name =&gt; name }
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 Time.zone = "Tokyo"
 ```</seg>
       </tuv>
@@ -6321,6 +6599,22 @@ Time.zone = "Seoul"
       <tuv lang="KO" changeid="hsin" changedate="20131116T025129Z" creationid="hsin" creationdate="20131116T025129Z">
         <seg>``` ruby
 ["tom", "dick", "harry"].each do |name|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
+["tom", "dick", "harry"].each do |name|
+  proxy "/about/#{name}.html", "/about/template.html", :locals =&gt; { :person_name =&gt; name }, :ignore =&gt; true
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165900Z" creationid="nacyot" creationdate="20140427T165900Z">
+        <seg>``` ruby
+["tom", "dick", "harry"].each do |name|
+  proxy "/about/#{name}.html", "/about/template.html", :locals =&gt; { :person_name =&gt; name }, :ignore =&gt; true
+end
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -6932,6 +7226,50 @@ module CustomHelpers</seg>
     <tu>
       <tuv lang="JA">
         <seg>``` ruby
+mymiddlemansite/
++-- Gemfile
++-- Gemfile.lock
++-- config.rb
++-- source
+    |   .gitignore
+    +-- images
+    ¦   +-- background.png
+    ¦   +-- middleman.png
+    +-- index.html.erb
+    +-- javascripts
+    ¦   +-- all.js
+    +-- layouts
+    ¦   +-- layout.erb
+    +-- stylesheets
+        +-- all.css
+        +-- normalize.css
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165708Z" creationid="nacyot" creationdate="20140427T165708Z">
+        <seg>``` ruby
+mymiddlemansite/
++-- Gemfile
++-- Gemfile.lock
++-- config.rb
++-- source
+    |   .gitignore
+    +-- images
+    ¦   +-- background.png
+    ¦   +-- middleman.png
+    +-- index.html.erb
+    +-- javascripts
+    ¦   +-- all.js
+    +-- layouts
+    ¦   +-- layout.erb
+    +-- stylesheets
+        +-- all.css
+        +-- normalize.css
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby
 page "/admin/*", :layout =&gt; "admin"
 ```</seg>
       </tuv>
@@ -7461,6 +7799,20 @@ configure :development do</seg>
       <tuv lang="KO" changeid="hsin" changedate="20131115T072608Z" creationid="hsin" creationdate="20131115T072608Z">
         <seg>```ruby
 configure :development do</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```ruby
+configure :development do
+  set :debug_assets, true
+end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165513Z" creationid="nacyot" creationdate="20140427T165513Z">
+        <seg>```ruby
+configure :development do
+  set :debug_assets, true
+end</seg>
       </tuv>
     </tu>
     <tu>
@@ -8165,6 +8517,20 @@ sprockets.import_asset 'jquery-mobile'
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>activate :asset_hash do |opts|
+  opts.exts += $(.ico)
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165512Z" creationid="nacyot" creationdate="20140427T165512Z">
+        <seg>activate :asset_hash do |opts|
+  opts.exts += $(.ico)
+end
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>activate :directory_indexes
 ```</seg>
       </tuv>
@@ -8533,6 +8899,20 @@ end
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131115T072609Z" creationid="hsin" creationdate="20131115T072609Z">
         <seg>configure :build do</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>configure :build do
+  activate :minify_css
+end
+```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165513Z" creationid="nacyot" creationdate="20140427T165513Z">
+        <seg>configure :build do
+  activate :minify_css
+end
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -10835,6 +11215,14 @@ Stylus                  | .styl                  | stylus</seg>
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>デフォルトの Middleman インストールではディレクトリ構造は次のようになります:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165745Z" creationid="nacyot" creationdate="20140427T165745Z">
+        <seg>미들맨을 초기화하면 디렉토리는 아래와 같이 구성됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>デフォルトのテンプレートでは `tag/TAGNAME.html` 形式でタグごとに [`tag.html`](https://github.com/middleman/middleman-blog/blob/master/lib/middleman-blog/template/source/tag.html.erb) ページを作ります。</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20131116T021454Z" creationid="hsin" creationdate="20131116T021454Z">
@@ -11799,6 +12187,14 @@ Stylus                  | .styl                  | stylus</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140104T105244Z" creationid="hsin" creationdate="20140104T104552Z">
         <seg>각 [`BlogArticle`](http://rubydoc.info/github/middleman/middleman-blog/master/Middleman/Blog/BlogArticle)은 편리한 메소드들을 가지고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>各ディレクトリは Middleman のルートディレクトリに存在します。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140427T165834Z" creationid="nacyot" creationdate="20140427T165834Z">
+        <seg>각 디렉토리는 Middleman의 루트 디렉토리 아래에 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
